@@ -59,7 +59,7 @@
         <div class="mobile_header visible-phone top_nav row-fluid" >        
             <li class="dropdown custom_dropdown">
                 <button type="button" data-toggle="dropdown" class="pull-right menu_btn" style="background-color:none;padding:10px 0 0; border:none">
-                    <img alt="dropdown menu" src="/system/site_images/photos/000/000/028/original/btn_menu_red.png?1365032457" />
+                    <img alt="dropdown menu" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494532597000/btn_menu_red.png" />
                 </button>
                 <ul class="dropdown-menu bottom pull-right" style="width:100%;left:0%;margin-top:55px">                
                     <div class="arrow" style="left:93%"></div>
