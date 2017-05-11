@@ -24,12 +24,12 @@
         loadMallData(renderAll); 
     })
     
-            function renderAll(){
-            var banners = getBanners();
-            renderBanner('#banner_template','#home_banner',banners);
-            show_content();
-            $('.flexslider').flexslider({
+    function renderAll(){
+        var banners = getBanners();
+        renderBanner('#banner_template','#home_banner',banners);
+        show_content();
+        $('.flexslider').flexslider({
                 animation: "slide",
-            });
-        }
+        });
+    }
 </script>
