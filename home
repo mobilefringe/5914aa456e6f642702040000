@@ -1,79 +1,18 @@
 
 <div class="container-fluid trim_screen" style="padding-top:25px;">    
     <div class="row-fluid home_banner" >
-    <div class="flexslider trim_screen" style="margin-bottom:0px;">
-      <ul class="slides">            
-            
-                <li>
-                    
-                    <a href="">
-                        <img alt="Banner" src="https://www.mallmaverick.com/system/site_images/photos/000/028/921/original/SOC_MothersDay_Webslider.jpg?1494355707" />
-                    </a>
-                    
-                </li>                
-            
-                <li>
-                    
-                    <a href="">
-                        <img alt="Banner" src="https://www.mallmaverick.com/system/site_images/photos/000/028/154/original/logo__980_x_460.png?1492734225" />
-                    </a>
-                    
-                </li>                
-            
-                <li>
-                    
-                    <a href="">
-                        <img alt="Banner" src="https://www.mallmaverick.com/system/site_images/photos/000/017/949/original/SO16_CommunityRoom_Webslider.jpg?1492635041" />
-                    </a>
-                    
-                </li>                
-            
-                <li>
-                    
-                    <a href="">
-                        <img alt="Banner" src="https://www.mallmaverick.com/system/site_images/photos/000/017/775/original/WINNERS_449_SouthOakville_WebBanner2.png?1492635041" />
-                    </a>
-                    
-                </li>                
-            
-                <li>
-                    
-                        <img alt="Banner" src="https://www.mallmaverick.com/system/site_images/photos/000/007/654/original/Buck_or_Two_logo.png?1460056104" />
-                    
-                </li>                
-            
-                <li>
-                    
-                        <img alt="Banner" src="https://www.mallmaverick.com/system/site_images/photos/000/000/865/original/Tavolo_(resized)_2.jpg?1398692701" />
-                    
-                </li>                
-            
-                <li>
-                    
-                        <img alt="Banner" src="https://www.mallmaverick.com/system/site_images/photos/000/000/864/original/banner_brand2.jpg?1382630285" />
-                    
-                </li>                
-            
-                <li>
-                    
-                        <img alt="Banner" src="https://www.mallmaverick.com/system/site_images/photos/000/000/761/original/banner_food2.jpg?1380820536" />
-                    
-                </li>                
-            
-                <li>
-                    
-                        <img alt="Banner" src="https://www.mallmaverick.com/system/site_images/photos/000/000/760/original/banner_food1.jpg?1380820526" />
-                    
-                </li>                
-            
-                <li>
-                    
-                        <img alt="Banner" src="https://www.mallmaverick.com/system/site_images/photos/000/000/759/original/banner_brand3.jpg?1380820514" />
-                    
-                </li>                
-            
-      </ul>
-    </div> 
+        <div class="flexslider">
+            <ul class="slides" id="home_banner">
+                <script id="banner_template" type="x-tmpl-mustache/text">
+                    <li>
+                        <a href="{{url}}" {{css}} onclick="{{noLink}}">
+                            <img alt="banner" src="{{image_url}}" />
+                        </a>
+                    </li>
+                </script>
+            </ul>
+        </div> 
+    </div>
     <div class="welcome_message">
         <span>Welcome to South Oakville Centre!</span>
     </div>
