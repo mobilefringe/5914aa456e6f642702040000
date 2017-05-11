@@ -149,46 +149,106 @@
                     </div>  
         		</div>  
         	</div>
-        </div>    
+        </div>
+        <div class="container-fluid trim_screen" style="padding-top:25px;">    
+            {{page_content}}
+        </div>
     </header>
     <section id="content">
         <!--Pages that use this file as a layout will have their content replaced in the 'yield'-->
         {{yield}}
     </section>
     <footer>
-                <div class="container-fluid trim_screen" style="padding-top:25px;">    
-            {{page_content}}
-        </div>
         <div class="line_break">&nbsp;</div>
         <!--Bottom Nav Dynamic-->
         <div class="bottom_nav hidden-phone">
         	<div class="container-fluid trim_screen">
         		<div class="row-fluid" align="left">
-        			{% for menu_item in site.menu_items_array %}			            
+        						            
                         <div class="span3">
                             <table role='presentation'>
                                 <tr>
         							<td align="left" class="bottom_nav_header">
-                                    {% if menu_item["sub_menu_items"] and menu_item["sub_menu_items"].size > 0 %}
-        								{{ menu_item["title_code"] }}
-                                    {% else %}
-                                    <a href="{{menu_item['url']}}">{{menu_item["title_code"]}}</a>                                
-                                    {% endif %}
+                                    
+                                    <a href="/stores">Stores</a>                                
+                                    
         							</td>
         						</tr>
-        						{% for sub_menu_item in menu_item["sub_menu_items"] %}
-        							<tr>
-        								<td align="left" class="bottom_nav_list">
-        									<a href='{{sub_menu_item["url"] }}' target='{{sub_menu_item["target"] }}'>{{sub_menu_item["title_code"]}}</a>
-        								</td>
-        							</tr>
-        						{%endfor%}
+        						
         					</table>
         				</div>					
-                    {%endfor%}
+                    			            
+                        <div class="span3">
+                            <table role='presentation'>
+                                <tr>
+        							<td align="left" class="bottom_nav_header">
+                                    
+        								What's New
+                                    
+        							</td>
+        						</tr>
+        						
+        							<tr>
+        								<td align="left" class="bottom_nav_list">
+        									<a href='/new_stores' target='_self'>New Stores</a>
+        								</td>
+        							</tr>
+        						
+        							<tr>
+        								<td align="left" class="bottom_nav_list">
+        									<a href='/promotions' target='_self'>Promotions</a>
+        								</td>
+        							</tr>
+        						
+        							<tr>
+        								<td align="left" class="bottom_nav_list">
+        									<a href='/events' target='_self'>Events</a>
+        								</td>
+        							</tr>
+        						
+        					</table>
+        				</div>					
+                    			            
+                        <div class="span3">
+                            <table role='presentation'>
+                                <tr>
+        							<td align="left" class="bottom_nav_header">
+                                    
+        								About Us
+                                    
+        							</td>
+        						</tr>
+        						
+        							<tr>
+        								<td align="left" class="bottom_nav_list">
+        									<a href='/hours' target='_self'>Hours</a>
+        								</td>
+        							</tr>
+        						
+        							<tr>
+        								<td align="left" class="bottom_nav_list">
+        									<a href='/about' target='_self'>Directions</a>
+        								</td>
+        							</tr>
+        						
+        							<tr>
+        								<td align="left" class="bottom_nav_list">
+        									<a href='/about#contact' target='_self'>Contact Us</a>
+        								</td>
+        							</tr>
+        						
+        							<tr>
+        								<td align="left" class="bottom_nav_list">
+        									<a href='http://www.callowayreit.com/Home-Page' target='_blank'>Smart REIT</a>
+        								</td>
+        							</tr>
+        						
+        					</table>
+        				</div>					
+                    
         		</div>
         	</div>
-        </div> 
+        </div>
         <!--Footer -->
         <div class="footer">
         	<div class="container-fluid trim_screen">
