@@ -17,6 +17,7 @@
         <span>Welcome to South Oakville Centre!</span>
     </div>
 </div>
+
 <script>
     $(document).ready(function(e){
         init(e);
