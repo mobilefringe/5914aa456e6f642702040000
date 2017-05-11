@@ -189,18 +189,18 @@
         {{yield}}
     </section>
     <footer>
-<!--Footer -->
-<div class="footer">
-	<div class="container-fluid trim_screen">
-		<div class="row-fluid">
-		  	<div class="span12">
-              <p class="footer_text">
-              Hopedale Mall,  All rights reserved &copy; 2013 | Powered by <a href="http://www.mobilefringe.com/">Mobile Fringe</a> 
-              </p>              
-            </div>				
-		</div>
-	</div>
-</div>
+        <!--Footer -->
+        <div class="footer">
+        	<div class="container-fluid trim_screen">
+        		<div class="row-fluid">
+        		  	<div class="span12">
+                      <p class="footer_text">
+                      Hopedale Mall,  All rights reserved &copy; 2013 | Powered by <a href="http://www.mobilefringe.com/">Mobile Fringe</a> 
+                      </p>              
+                    </div>				
+        		</div>
+        	</div>
+        </div>
     </footer>
 </body>
 
