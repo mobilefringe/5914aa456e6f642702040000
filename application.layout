@@ -110,7 +110,7 @@
                 </ul>
             </li>
             <a id="mobile_logo" href="/">
-                <img alt="Logo" src="https://www.mallmaverick.com/system/sites/logo_images/000/000/008/original/logo_hopedale.png?1368040657" />
+                <img alt="Logo" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494532252000/logo_hopedale.png" />
             </a>
         </div>
         <!-- iphone header END -->
@@ -120,7 +120,7 @@
             <div class="container-fluid trim_screen">              
                 <div class="row-fluid" id="site_nav">      
                     <a id="centre_logo" href="/">
-                        <img alt="Site Logo" src="https://www.mallmaverick.com/system/sites/logo_images/000/000/008/original/logo_hopedale.png?1368040657"/>
+                        <img alt="Site Logo" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494532252000/logo_hopedale.png" />
                     </a>
                     <div class="social_hours hidden-phone">
                         <!-- hours --> 
