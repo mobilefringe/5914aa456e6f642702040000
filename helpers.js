@@ -18,6 +18,7 @@ function init(e){
         $(this).find('i').toggleClass('fa-caret-down fa-caret-up');
 	});
 }
+
 function show_content(){
     $('.yield').fadeIn();
     $(".modal-backdrop").remove();
