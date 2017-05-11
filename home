@@ -1,7 +1,7 @@
 <div class="container-fluid trim_screen" style="padding-top:25px;">    
     <div class="row-fluid home_banner" >
         <div class="flexslider trim_screen" style="margin-bottom:0px;">
-            <ul class="slides" id="home_banner">
+            <ul class="slides">
                 <script id="banner_template" type="x-tmpl-mustache/text">
                     <li>
                         <a href="{{url}}" {{css}} onclick="{{noLink}}">
