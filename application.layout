@@ -53,236 +53,236 @@
 <body>
     <header>
         <!--Header -->
-<div class="header">
-    <!-- iphone header -->
-    <div class="mobile_header visible-phone top_nav row-fluid" >        
-        <li class="dropdown custom_dropdown">
-            <button type="button" data-toggle="dropdown" class="pull-right menu_btn" style="background-color:none;padding:10px 0 0; border:none">
-                <img alt="dropdown menu" src="/system/site_images/photos/000/000/028/original/btn_menu_red.png?1365032457" />
-            </button>
-            <ul class="dropdown-menu bottom pull-right" style="width:100%;left:0%;margin-top:55px">                
-                <div class="arrow" style="left:93%"></div>
-                
-                	<div class="mobile_menu_header" style="margin-left:5px;margin-right:5px;">
-                		<a href='/stores' >Stores </a>
-      				</div>
-    					
-    		 	
-                	<div class="mobile_menu_header" style="margin-left:5px;margin-right:5px;">
-                		<a href='' >What's New </a>
-      				</div>
-    					
-    					    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
-                			<a href='/new_stores'>New Stores</a>
-      						</div>
-    					
-    					    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
-                			<a href='/promotions'>Promotions</a>
-      						</div>
-    					
-    					    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
-                			<a href='/events'>Events</a>
-      						</div>
-    					
-    		 	
-                	<div class="mobile_menu_header" style="margin-left:5px;margin-right:5px;">
-                		<a href='' >About Us </a>
-      				</div>
-    					
-    					    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
-                			<a href='/hours'>Hours</a>
-      						</div>
-    					
-    					    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
-                			<a href='/about'>Directions</a>
-      						</div>
-    					
-    					    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
-                			<a href='/about#contact'>Contact Us</a>
-      						</div>
-    					
-    					    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
-                			<a href='http://www.callowayreit.com/Home-Page'>Smart REIT</a>
-      						</div>
-    					
-    		 	
-            </ul>
-        </li>
-        <a id="mobile_logo" href="/">
-            <img alt="Logo" src="https://www.mallmaverick.com/system/sites/logo_images/000/000/008/original/logo_hopedale.png?1368040657" />
-        </a>
-    </div>
-    <!-- iphone header END -->
-    
-    <!-- Home page header -->
-    <div class="top_nav hidden-phone custom_dropdown full_header" id="home_header">
-        <div class="container-fluid trim_screen">              
-            <div class="row-fluid" id="site_nav">      
-                <a id="centre_logo" href="/">
-                    <img alt="Site Logo" src="https://www.mallmaverick.com/system/sites/logo_images/000/000/008/original/logo_hopedale.png?1368040657"/>
+        <div class="header">
+            <!-- iphone header -->
+            <div class="mobile_header visible-phone top_nav row-fluid" >        
+                <li class="dropdown custom_dropdown">
+                    <button type="button" data-toggle="dropdown" class="pull-right menu_btn" style="background-color:none;padding:10px 0 0; border:none">
+                        <img alt="dropdown menu" src="/system/site_images/photos/000/000/028/original/btn_menu_red.png?1365032457" />
+                    </button>
+                    <ul class="dropdown-menu bottom pull-right" style="width:100%;left:0%;margin-top:55px">                
+                        <div class="arrow" style="left:93%"></div>
+                        
+                        	<div class="mobile_menu_header" style="margin-left:5px;margin-right:5px;">
+                        		<a href='/stores' >Stores </a>
+              				</div>
+            					
+            		 	
+                        	<div class="mobile_menu_header" style="margin-left:5px;margin-right:5px;">
+                        		<a href='' >What's New </a>
+              				</div>
+            					
+            					    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
+                        			<a href='/new_stores'>New Stores</a>
+              						</div>
+            					
+            					    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
+                        			<a href='/promotions'>Promotions</a>
+              						</div>
+            					
+            					    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
+                        			<a href='/events'>Events</a>
+              						</div>
+            					
+            		 	
+                        	<div class="mobile_menu_header" style="margin-left:5px;margin-right:5px;">
+                        		<a href='' >About Us </a>
+              				</div>
+            					
+            					    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
+                        			<a href='/hours'>Hours</a>
+              						</div>
+            					
+            					    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
+                        			<a href='/about'>Directions</a>
+              						</div>
+            					
+            					    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
+                        			<a href='/about#contact'>Contact Us</a>
+              						</div>
+            					
+            					    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
+                        			<a href='http://www.callowayreit.com/Home-Page'>Smart REIT</a>
+              						</div>
+            					
+            		 	
+                    </ul>
+                </li>
+                <a id="mobile_logo" href="/">
+                    <img alt="Logo" src="https://www.mallmaverick.com/system/sites/logo_images/000/000/008/original/logo_hopedale.png?1368040657" />
                 </a>
-                <div class="social_hours hidden-phone">
-                    <!-- hours --> 
-                    <span style="position:relative">
-                        <button class="btn" data-toggle="dropdown">
-                        <img alt="Menu" class="pull-left" src="/system/site_images/photos/000/000/016/original/icon_hours.png?1364850146" />
-                        Today 
-                                                    
-                            Open until  9:00 PM
-                        
-                        <span class="caret pull-right"></span>    
-                        </button>
-                        <ul class="dropdown-menu bottom hour_dropdown" style="top:30px;">                  
-                        
-                            <li>
+            </div>
+            <!-- iphone header END -->
+            
+            <!-- Home page header -->
+            <div class="top_nav hidden-phone custom_dropdown full_header" id="home_header">
+                <div class="container-fluid trim_screen">              
+                    <div class="row-fluid" id="site_nav">      
+                        <a id="centre_logo" href="/">
+                            <img alt="Site Logo" src="https://www.mallmaverick.com/system/sites/logo_images/000/000/008/original/logo_hopedale.png?1368040657"/>
+                        </a>
+                        <div class="social_hours hidden-phone">
+                            <!-- hours --> 
+                            <span style="position:relative">
+                                <button class="btn" data-toggle="dropdown">
+                                <img alt="Menu" class="pull-left" src="/system/site_images/photos/000/000/016/original/icon_hours.png?1364850146" />
+                                Today 
+                                                            
+                                    Open until  9:00 PM
                                 
-                                <div class="drop-down-row" style="margin-left:5px;margin-right:5px;">
+                                <span class="caret pull-right"></span>    
+                                </button>
+                                <ul class="dropdown-menu bottom hour_dropdown" style="top:30px;">                  
                                 
-                                <table width="100%" role='presentation'>
-                                <tr>
-                                    <td align="left" style="font-weight:bold">Sunday</td>
-                                    <td align="right">12:00 PM -  5:00 PM</td>
-                                </tr>
-                                </table>
-                        		</div>
-                        	</li>
-                        
-                            <li>
+                                    <li>
+                                        
+                                        <div class="drop-down-row" style="margin-left:5px;margin-right:5px;">
+                                        
+                                        <table width="100%" role='presentation'>
+                                        <tr>
+                                            <td align="left" style="font-weight:bold">Sunday</td>
+                                            <td align="right">12:00 PM -  5:00 PM</td>
+                                        </tr>
+                                        </table>
+                                		</div>
+                                	</li>
                                 
-                                <div class="drop-down-row" style="margin-left:5px;margin-right:5px;">
+                                    <li>
+                                        
+                                        <div class="drop-down-row" style="margin-left:5px;margin-right:5px;">
+                                        
+                                        <table width="100%" role='presentation'>
+                                        <tr>
+                                            <td align="left" style="font-weight:bold">Monday</td>
+                                            <td align="right"> 9:30 AM -  9:00 PM</td>
+                                        </tr>
+                                        </table>
+                                		</div>
+                                	</li>
                                 
-                                <table width="100%" role='presentation'>
-                                <tr>
-                                    <td align="left" style="font-weight:bold">Monday</td>
-                                    <td align="right"> 9:30 AM -  9:00 PM</td>
-                                </tr>
-                                </table>
-                        		</div>
-                        	</li>
-                        
-                            <li>
+                                    <li>
+                                        
+                                        <div class="drop-down-row" style="margin-left:5px;margin-right:5px;">
+                                        
+                                        <table width="100%" role='presentation'>
+                                        <tr>
+                                            <td align="left" style="font-weight:bold">Tuesday</td>
+                                            <td align="right"> 9:30 AM -  9:00 PM</td>
+                                        </tr>
+                                        </table>
+                                		</div>
+                                	</li>
                                 
-                                <div class="drop-down-row" style="margin-left:5px;margin-right:5px;">
+                                    <li>
+                                        
+                                        <div class="drop-down-row" style="margin-left:5px;margin-right:5px;">
+                                        
+                                        <table width="100%" role='presentation'>
+                                        <tr>
+                                            <td align="left" style="font-weight:bold">Wednesday</td>
+                                            <td align="right"> 9:30 AM -  9:00 PM</td>
+                                        </tr>
+                                        </table>
+                                		</div>
+                                	</li>
                                 
-                                <table width="100%" role='presentation'>
-                                <tr>
-                                    <td align="left" style="font-weight:bold">Tuesday</td>
-                                    <td align="right"> 9:30 AM -  9:00 PM</td>
-                                </tr>
-                                </table>
-                        		</div>
-                        	</li>
-                        
-                            <li>
+                                    <li>
+                                        
+                                        <div class="drop-down-row-today" style="margin-left:5px;margin-right:5px;">
+                                        
+                                        <table width="100%" role='presentation'>
+                                        <tr>
+                                            <td align="left" style="font-weight:bold">Thursday</td>
+                                            <td align="right"> 9:30 AM -  9:00 PM</td>
+                                        </tr>
+                                        </table>
+                                		</div>
+                                	</li>
                                 
-                                <div class="drop-down-row" style="margin-left:5px;margin-right:5px;">
+                                    <li>
+                                        
+                                        <div class="drop-down-row" style="margin-left:5px;margin-right:5px;">
+                                        
+                                        <table width="100%" role='presentation'>
+                                        <tr>
+                                            <td align="left" style="font-weight:bold">Friday</td>
+                                            <td align="right"> 9:30 AM -  9:00 PM</td>
+                                        </tr>
+                                        </table>
+                                		</div>
+                                	</li>
                                 
-                                <table width="100%" role='presentation'>
-                                <tr>
-                                    <td align="left" style="font-weight:bold">Wednesday</td>
-                                    <td align="right"> 9:30 AM -  9:00 PM</td>
-                                </tr>
-                                </table>
-                        		</div>
-                        	</li>
-                        
-                            <li>
-                                
-                                <div class="drop-down-row-today" style="margin-left:5px;margin-right:5px;">
-                                
-                                <table width="100%" role='presentation'>
-                                <tr>
-                                    <td align="left" style="font-weight:bold">Thursday</td>
-                                    <td align="right"> 9:30 AM -  9:00 PM</td>
-                                </tr>
-                                </table>
-                        		</div>
-                        	</li>
-                        
-                            <li>
-                                
-                                <div class="drop-down-row" style="margin-left:5px;margin-right:5px;">
-                                
-                                <table width="100%" role='presentation'>
-                                <tr>
-                                    <td align="left" style="font-weight:bold">Friday</td>
-                                    <td align="right"> 9:30 AM -  9:00 PM</td>
-                                </tr>
-                                </table>
-                        		</div>
-                        	</li>
-                        
-                            <li>
-                                
-                                <div class="drop-down-row" style="margin-left:5px;margin-right:5px;">
-                                
-                                <table width="100%" role='presentation'>
-                                <tr>
-                                    <td align="left" style="font-weight:bold">Saturday</td>
-                                    <td align="right"> 9:30 AM -  6:00 PM</td>
-                                </tr>
-                                </table>
-                        		</div>
-                        	</li>
+                                    <li>
+                                        
+                                        <div class="drop-down-row" style="margin-left:5px;margin-right:5px;">
+                                        
+                                        <table width="100%" role='presentation'>
+                                        <tr>
+                                            <td align="left" style="font-weight:bold">Saturday</td>
+                                            <td align="right"> 9:30 AM -  6:00 PM</td>
+                                        </tr>
+                                        </table>
+                                		</div>
+                                	</li>
+                                 
+                                </ul>
+                            </span>
+                            <!-- hours END --> 
+                        </div>
+                        <ul class="nav_menu">
+                                         
+                            
+                            
+                                <li class="dropdown span2">                        
+                                    <a href="/stores" class="btn-nav">Stores</a>
+                                </li>
+                            
+                                         
+                            
+                            
+                                <li class="dropdown span2">
+                                    <a class="btn-nav" data-toggle="dropdown">What's New</a>                         
+                                    
+                                    <ul class="dropdown-menu bottom" style="left:-60%">
+                                    
+                                    <div class="arrow" style=""></div>
+                                    
+                                        <li><a href='/new_stores' target='_self'><span>New Stores</span></a></li>
+                                    
+                                        <li><a href='/promotions' target='_self'><span>Promotions</span></a></li>
+                                    
+                                        <li><a href='/events' target='_self'><span>Events</span></a></li>
+                                    
+                                    </ul>
+                                </li>  
+                            
+                                         
+                            
+                            
+                                <li class="dropdown span2">
+                                    <a class="btn-nav" data-toggle="dropdown">About Us</a>                         
+                                                                
+                                    <ul class="dropdown-menu bottom" style="left:-50%">
+                                    
+                                    <div class="arrow" style=""></div>
+                                    
+                                        <li><a href='/hours' target='_self'><span>Hours</span></a></li>
+                                    
+                                        <li><a href='/about' target='_self'><span>Directions</span></a></li>
+                                    
+                                        <li><a href='/about#contact' target='_self'><span>Contact Us</span></a></li>
+                                    
+                                        <li><a href='http://www.callowayreit.com/Home-Page' target='_blank'><span>Smart REIT</span></a></li>
+                                    
+                                    </ul>
+                                </li>  
+                            
                          
                         </ul>
-                    </span>
-                    <!-- hours END --> 
-                </div>
-                <ul class="nav_menu">
-                                 
-                    
-                    
-                        <li class="dropdown span2">                        
-                            <a href="/stores" class="btn-nav">Stores</a>
-                        </li>
-                    
-                                 
-                    
-                    
-                        <li class="dropdown span2">
-                            <a class="btn-nav" data-toggle="dropdown">What's New</a>                         
-                            
-                            <ul class="dropdown-menu bottom" style="left:-60%">
-                            
-                            <div class="arrow" style=""></div>
-                            
-                                <li><a href='/new_stores' target='_self'><span>New Stores</span></a></li>
-                            
-                                <li><a href='/promotions' target='_self'><span>Promotions</span></a></li>
-                            
-                                <li><a href='/events' target='_self'><span>Events</span></a></li>
-                            
-                            </ul>
-                        </li>  
-                    
-                                 
-                    
-                    
-                        <li class="dropdown span2">
-                            <a class="btn-nav" data-toggle="dropdown">About Us</a>                         
-                                                        
-                            <ul class="dropdown-menu bottom" style="left:-50%">
-                            
-                            <div class="arrow" style=""></div>
-                            
-                                <li><a href='/hours' target='_self'><span>Hours</span></a></li>
-                            
-                                <li><a href='/about' target='_self'><span>Directions</span></a></li>
-                            
-                                <li><a href='/about#contact' target='_self'><span>Contact Us</span></a></li>
-                            
-                                <li><a href='http://www.callowayreit.com/Home-Page' target='_blank'><span>Smart REIT</span></a></li>
-                            
-                            </ul>
-                        </li>  
-                    
-                 
-                </ul>
-            </div>  
-		</div>  
-	</div>
-</div>    
+                    </div>  
+        		</div>  
+        	</div>
+        </div>    
 
     </header>
     <section id="content">
