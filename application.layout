@@ -140,7 +140,7 @@
                                     <li>    
                                         <div class="drop-down-row row" style="margin-left:5px;margin-right:5px;vertical-align: middle;">
                                             
-                                                <div class="col-sm-4" align="left" style="font-weight:bold"><p>{%raw%}{{day}}{%endraw%}</p></div>
+                                                <div class="col-sm-4" align="left" style="font-weight:bold;vertical-align: middle;""><p>{%raw%}{{day}}{%endraw%}</p></div>
                                                 <div class="col-sm-8" align="right"><p>{%raw%}{{h}}{%endraw%}</p></div>
                                            
                                 		</div>
