@@ -84,40 +84,39 @@
                                 </div>
                             </script>
                         </div>
-                        <table class="stores_table">
-                            <tr>
-                            <th colspan='4' class='stores_table_headers'>
-                    	    	<a name="578"></a> 
-                				Bowling Centre
-                                <a href="#top" class="pull-right">
-                                    <img alt="Bowling Centre"  src="/system/site_images/photos/000/000/024/original/icon_gotop.png?1365016330" />
-                                </a>
-                			</th>
-                            </tr>
-                            <tr>
-                                <td class="stores_row store_row_name">
-                                    <a href="/stores/hopedale-hopedale-bowl">Hopedale Bowl</a> <br/>                                    
-                                </td>
-                                <td class="stores_row">
-                                    
-                                                                        
-                                </td>
-                                <td class="stores_row">
-                                    
-                                </td>
-                    			<td class="stores_row"> 
-                                
-                                    <span class="hidden-phone">
-                                        <img alt="905-827-4281"  src="/system/site_images/photos/000/000/009/original/icon_call_stores.png?1364701611" />
-                                        905-827-4281
+                        <div class="stores_table">  
+                			<div id="store_list_container">
+                                <script id="store_list_template" type="x-tmpl-mustache/text">
+                                    <span style="{{show}}" class='stores_table_headers'>{{initial}}
+                                        <a href="#top" class="pull-right">
+                                        <img alt="Store - {{store.name}}" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533206000/icon_gotop.png" />
+                                        </a>
                                     </span>
-                                    <a class="visible-phone" href="tel:905-827-4281">
-                                        <img alt="905-827-4281"  src="/system/site_images/photos/000/000/009/original/icon_call_stores.png?1364701611" />                                        
-                                    </a>
-                                
-                                </td>
-                            </tr>
-                         </table>
+                                        <div class="row stores_row" >
+                                            <div class="col-md-4 col-sm-4">
+                                                    <div class="alphabet_bg row">
+                                                        <div class="stores_row store_row_name">
+                                                            <a href="/stores/{{slug}}">{{name}}</a> <br/>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                            <div class="col-md-2 col-sm-2 stores_row">
+                                            <p></p>
+                                            </div>
+                                            <div class="col-md-2 col-sm-2 stores_row">
+                                            <span style="{{new_store}}" class="new_store"> <img alt="New" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533104000/tag_new.png" /> New </span>
+                                            
+                                            </div>
+                                            
+                                            <div class="col-md-4 col-sm-4 stores_row">
+                                            <a style="{{phone_exist}}" href="tel:{{phone}}"><img src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533049000/icon_call_stores.png" class="" alt="phone"><span class="phone_field">{{phone}}</a>
+                                            </div>   
+                                            
+                                        </div>
+                                </script>
+                            </div>
+                			
+                		 </div>
                     </div>
                 </div> 
             </div>
