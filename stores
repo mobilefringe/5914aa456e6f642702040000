@@ -82,14 +82,14 @@
                 		 </div>
                     </div>  
                     <div id="category" class="tab-pane">
-                    <div id="category_container">
-                        <script id="category_template" type="x-tmpl-mustache/text">
-                        <div class="alphabet_bg">
-                            
-                            <button class="btn-secondary" onClick="parent.location='#{{id}}'">{{name}}</button>
-                            
-                        </div>
-                        </script>
+                        <div id="category_container">
+                            <script id="category_template" type="x-tmpl-mustache/text">
+                                <div class="alphabet_bg">
+                                    
+                                    <button class="btn-secondary" onClick="parent.location='#{{id}}'">{{name}}</button>
+                                    
+                                </div>
+                            </script>
                         </div>
                         <table class="stores_table">
                             <tr>
