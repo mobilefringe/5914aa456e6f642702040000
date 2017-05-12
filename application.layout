@@ -142,7 +142,7 @@
                                     <div class="drop-down-row" style="margin-left:5px;margin-right:5px;">
                                     
                                     <div class="row" role='presentation'>
-                                        <div class="col-md-12" align="left" style="font-weight:bold">{%raw%}{{h}}{%endraw%}</div>
+                                        <div class="col-md-12" align="left" style="font-weight:bold">{%raw%}{{d}}{%endraw%}</div>
                                         <div class="col-md-12" align="right">{%raw%}{{h}}{%endraw%}</div>
                                     </div>
                             		</div>
