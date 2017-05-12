@@ -139,7 +139,7 @@
                                 <script id="hours_template" type="x-tmpl-mustache/text">
                                     <li>    
                                         <div class="drop-down-row" style="margin-left:5px;margin-right:5px;">
-                                            <div class="row" role='presentation'>
+                                            <div class="row">
                                                 <div class="col-md-6" align="left" style="font-weight:bold">{%raw%}{{day}}{%endraw%}</div>
                                                 <div class="col-md-6" align="right">{%raw%}{{h}}{%endraw%}</div>
                                             </div>
