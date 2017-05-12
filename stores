@@ -1,0 +1,159 @@
+<div class="container-fluid trim_screen" style="padding-top:25px;"> 
+
+<a name="top"></a>
+<div class="row-fluid body_content">    
+    <div class="span12">
+        <div>        
+        
+        <!-- show store list -->
+            <div class="tabbable">
+                <ul class="nav nav-tabs store_tabs">
+                    <li class="active tab_colour">
+                        <a href="#list" data-toggle="tab"><span>A-Z</span></a>
+                    </li>
+                    <li><a href="#category" data-toggle="tab"><span>CATEGORIES</span></a></li>
+                </ul>
+                <div class="tab-content">
+                    <div id="list" class="tab-pane active">
+                        <div class="alphabet_bg">
+                            <button class="btn-secondary" onClick="parent.location='#A'">A</button>
+                            <button class="btn-secondary" onClick="parent.location='#B'">B</button>
+                            <button class="btn-secondary" onClick="parent.location='#C'">C</button>
+                            <button class="btn-secondary" onClick="parent.location='#D'">D</button>
+                            <button class="btn-secondary" onClick="parent.location='#E'">E</button>
+                            <button class="btn-secondary" onClick="parent.location='#F'">F</button>
+                            <button class="btn-secondary" onClick="parent.location='#G'">G</button>
+                            <button class="btn-secondary" onClick="parent.location='#H'">H</button>
+                            <button class="btn-secondary" onClick="parent.location='#I'">I</button>
+                            <button class="btn-secondary" onClick="parent.location='#J'">J</button>
+                            <button class="btn-secondary" onClick="parent.location='#K'">K</button>
+                            <button class="btn-secondary" onClick="parent.location='#L'">L</button>
+                            <button class="btn-secondary" onClick="parent.location='#M'">M</button>
+                            <button class="btn-secondary" onClick="parent.location='#N'">N</button>
+                            <button class="btn-secondary" onClick="parent.location='#O'">O</button>
+                            <button class="btn-secondary" onClick="parent.location='#P'">P</button>
+                            <button class="btn-secondary" onClick="parent.location='#Q'">Q</button>
+                            <button class="btn-secondary" onClick="parent.location='#R'">R</button>
+                            <button class="btn-secondary" onClick="parent.location='#S'">S</button>
+                            <button class="btn-secondary" onClick="parent.location='#T'">T</button>
+                            <button class="btn-secondary" onClick="parent.location='#U'">U</button>
+                            <button class="btn-secondary" onClick="parent.location='#V'">V</button>
+                            <button class="btn-secondary" onClick="parent.location='#W'">W</button>
+                            <button class="btn-secondary" onClick="parent.location='#X'">X</button>
+                            <button class="btn-secondary" onClick="parent.location='#Y'">Y</button>
+                            <button class="btn-secondary" onClick="parent.location='#Z'">Z</button>
+                        </div>
+                        <table class="stores_table" width="100%">                    
+                				<th colspan='4' class='stores_table_headers'>
+                        	    	<a name='A'></a> 
+                    				A
+                                    <a href="#top" class="pull-right">
+                                    <img alt="Store - Alsten Jewellery" src="/system/site_images/photos/000/000/024/original/icon_gotop.png?1365016330" />
+                                    </a>
+                    			</th>
+                            
+                			
+                			<tr>
+                				<td class="stores_row store_row_name">
+                                    <a href="/stores/hopedale-alsten-jewellery">Alsten Jewellery</a> <br/>
+                                </td>
+                                <td class="stores_row">
+                                    
+                                                                        
+                                </td>
+                                <td class="stores_row">
+                                    
+                                </td>
+                				<td class="stores_row">  
+                                
+                                    <span class="hidden-phone">
+                                        <img alt="905-825-9255" src="/system/site_images/photos/000/000/009/original/icon_call_stores.png?1364701611" />
+                                        905-825-9255
+                                    </span>
+                                    <a class="visible-phone" href="tel:905-825-9255">
+                                        <img alt="905-825-9255" src="/system/site_images/photos/000/000/009/original/icon_call_stores.png?1364701611" />                                        
+                                    </a>
+                                
+                                </td>                				
+                			</tr>
+                		 </table>
+                    </div>  
+                    <div id="category" class="tab-pane">
+                        <div class="alphabet_bg">
+                            
+                            <button class="btn-secondary" onClick="parent.location='#578'">Bowling Centre</button>
+                            
+                            <button class="btn-secondary" onClick="parent.location='#579'">Dental Services</button>
+                            
+                            <button class="btn-secondary" onClick="parent.location='#545'">Electronics</button>
+                            
+                            <button class="btn-secondary" onClick="parent.location='#549'">Financial</button>
+                            
+                            <button class="btn-secondary" onClick="parent.location='#560'">Fitness</button>
+                            
+                            <button class="btn-secondary" onClick="parent.location='#577'">Food Services</button>
+                            
+                            <button class="btn-secondary" onClick="parent.location='#570'">General Merchandise</button>
+                            
+                            <button class="btn-secondary" onClick="parent.location='#571'">Gift Jewelery Accesories</button>
+                            
+                            <button class="btn-secondary" onClick="parent.location='#573'">Health & Beauty</button>
+                            
+                            <button class="btn-secondary" onClick="parent.location='#575'">Home Funishings & Decor</button>
+                            
+                            <button class="btn-secondary" onClick="parent.location='#580'">Ladies Fashion</button>
+                            
+                            <button class="btn-secondary" onClick="parent.location='#581'">Legal & Tax Services</button>
+                            
+                            <button class="btn-secondary" onClick="parent.location='#564'">Lottery</button>
+                            
+                            <button class="btn-secondary" onClick="parent.location='#543'">Other</button>
+                            
+                            <button class="btn-secondary" onClick="parent.location='#572'">Other Services</button>
+                            
+                            <button class="btn-secondary" onClick="parent.location='#574'">Personal Care Services</button>
+                            
+                            <button class="btn-secondary" onClick="parent.location='#558'">Shoes</button>
+                            
+                            <button class="btn-secondary" onClick="parent.location='#565'">Supermarkets</button>
+                            
+                        </div>
+                        <table class="stores_table">
+                            <th colspan='4' class='stores_table_headers'>
+                    	    	<a name="578"></a> 
+                				Bowling Centre
+                                <a href="#top" class="pull-right">
+                                    <img alt="Bowling Centre"  src="/system/site_images/photos/000/000/024/original/icon_gotop.png?1365016330" />
+                                </a>
+                			</th>
+                            
+                            <tr>
+                                <td class="stores_row store_row_name">
+                                    <a href="/stores/hopedale-hopedale-bowl">Hopedale Bowl</a> <br/>                                    
+                                </td>
+                                <td class="stores_row">
+                                    
+                                                                        
+                                </td>
+                                <td class="stores_row">
+                                    
+                                </td>
+                    			<td class="stores_row"> 
+                                
+                                    <span class="hidden-phone">
+                                        <img alt="905-827-4281"  src="/system/site_images/photos/000/000/009/original/icon_call_stores.png?1364701611" />
+                                        905-827-4281
+                                    </span>
+                                    <a class="visible-phone" href="tel:905-827-4281">
+                                        <img alt="905-827-4281"  src="/system/site_images/photos/000/000/009/original/icon_call_stores.png?1364701611" />                                        
+                                    </a>
+                                
+                                </td>
+                            </tr>
+                         </table>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+</div>   	
