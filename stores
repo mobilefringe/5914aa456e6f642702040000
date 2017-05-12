@@ -63,7 +63,9 @@
                                 <div class="alphabet_bg row">
                                     
                                     <button class="btn-secondary" onClick="parent.location='#{{id}}'">{{name}}</button>
-                                    
+                                    <div class="stores_row store_row_name">
+                                    <a href="/stores/hopedale-alsten-jewellery">Alsten Jewellery</a> <br/>
+                                </div>
                                 </div>
                             </script>
                         </div>
