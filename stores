@@ -89,7 +89,7 @@
                                         <img alt="Store - {{store.name}}" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533206000/icon_gotop.png" />
                                         </a>
                                     </span>
-                                        <div class="row stores_row" >
+                                        <div class="stores_row" >
                                             <div class="col-md-6 col-sm-6">
                                                     <div class="alphabet_bg row">
                                                         <div class="stores_row store_row_name">
