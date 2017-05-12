@@ -118,13 +118,13 @@
                             
                         </div>
                         <table class="stores_table">
-                            <tr colspan='4' class='stores_table_headers'>
+                            <th colspan='4' class='stores_table_headers'>
                     	    	<a name="578"></a> 
                 				Bowling Centre
                                 <a href="#top" class="pull-right">
                                     <img alt="Bowling Centre"  src="/system/site_images/photos/000/000/024/original/icon_gotop.png?1365016330" />
                                 </a>
-                			</tr>
+                			</th>
                             
                             <tr>
                                 <td class="stores_row store_row_name">
