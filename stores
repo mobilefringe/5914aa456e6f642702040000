@@ -43,15 +43,7 @@
                             <button class="btn-secondary" onClick="parent.location='#Z'">Z</button>
                         </div>
                         <div class="stores_table" width="100%">  
-                        <div id="store_list_container">
-                            <script id="store_list_template" type="x-tmpl-mustache/text">
-                                <div class="alphabet_bg">
-                                    
-                                    <button class="btn-secondary" onClick="parent.location='#{{id}}'">{{name}}</button>
-                                    
-                                </div>
-                            </script>
-                        </div>
+                        
                 		<ul>		
                 		<li >
                 		    
@@ -65,6 +57,16 @@
                     			</li>
                             
                 			</ul>
+                			
+                			<div id="store_list_container">
+                            <script id="store_list_template" type="x-tmpl-mustache/text">
+                                <div class="alphabet_bg row">
+                                    
+                                    <button class="btn-secondary" onClick="parent.location='#{{id}}'">{{name}}</button>
+                                    
+                                </div>
+                            </script>
+                        </div>
                 			<ul>
                 				<li class="stores_row store_row_name">
                                     <a href="/stores/hopedale-alsten-jewellery">Alsten Jewellery</a> <br/>
