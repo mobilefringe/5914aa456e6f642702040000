@@ -127,7 +127,7 @@
 
 <div class="feature_row" >
     <ul class="thumbnails row-fluid  trim_screen" id="feature_container">
-        <script id="feature_items_template" type="x-tmpl-mustache/text">
+        <script id="feature_template" type="x-tmpl-mustache/text">
             <li class="span4">
                 <a href="{{url}}" {{css}} onclick="{{noLink}}">
                     <div class="thumbnail">  
@@ -150,7 +150,7 @@
         var feature_items = getFeatureList();
         console.log(feature_items);
         renderBanner('#banner_template','#home_banner',banners);
-        renderFeatureItems('feature_container', '#feature_items_template', feature_items);
+        renderFeatureItems('feature_container', '#feature_template', feature_items);
         show_content();
         $('.flexslider').flexslider({
                 animation: "slide",
