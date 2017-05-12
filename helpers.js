@@ -28,7 +28,7 @@ function show_content(){
     }
     var today_hours = getTodaysHours();
     renderHomeHours('#home_hours_container', '#home_hours_template', today_hours);
-    renderHours();
+    renderHours('#hours_container', '#hours_template', today_hours);
 }
 
 function get_day(id){
