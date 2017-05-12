@@ -52,7 +52,7 @@
                                     </span>
                                         <div class="row stores_row" >
                                             <div class="col-md-6 col-sm-6">
-                                                    <div class="alphabet_bg row">
+                                                    <div class="alphabet_bg">
                                                         <div class="stores_row store_row_name">
                                                             <a href="/stores/{{slug}}">{{name}}</a> <br/>
                                                         </div>
@@ -84,7 +84,7 @@
                         <div class="stores_table">  
                 			<div id="cat_store_list_container">
                                 <script id="cat_store_list_template" type="x-tmpl-mustache/text">
-                                    <span style="{{show}}" class='stores_table_headers row'>{{header}}
+                                    <span style="{{show}}" class='stores_table_headers'>{{header}}
                                         <a href="#top" class="pull-right">
                                         <img alt="Store - {{store.name}}" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533206000/icon_gotop.png" />
                                         </a>
