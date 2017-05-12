@@ -125,7 +125,7 @@
     </span>
 </div>
 
-<div class="feature_items_bar" >
+<div class="feature_row" >
     <ul class="thumbnails row-fluid  trim_screen" id="feature_container">
         <script id="feature_items_template" type="x-tmpl-mustache/text">
             <li class="span4">
