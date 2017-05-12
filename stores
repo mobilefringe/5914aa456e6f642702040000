@@ -43,7 +43,7 @@
                             <button class="btn-secondary" onClick="parent.location='#Z'">Z</button>
                         </div>
                         <table class="stores_table" width="100%">                    
-                				<th colspan='4' class='stores_table_headers'>
+                		<tr>		<th colspan='4' class='stores_table_headers'>
                         	    	<a name='A'></a> 
                     				A
                                     <a href="#top" class="pull-right">
@@ -51,7 +51,7 @@
                                     </a>
                     			</th>
                             
-                			
+                			</tr>
                 			<tr>
                 				<td class="stores_row store_row_name">
                                     <a href="/stores/hopedale-alsten-jewellery">Alsten Jewellery</a> <br/>
@@ -118,6 +118,7 @@
                             
                         </div>
                         <table class="stores_table">
+                            <tr>
                             <th colspan='4' class='stores_table_headers'>
                     	    	<a name="578"></a> 
                 				Bowling Centre
@@ -125,7 +126,7 @@
                                     <img alt="Bowling Centre"  src="/system/site_images/photos/000/000/024/original/icon_gotop.png?1365016330" />
                                 </a>
                 			</th>
-                            
+                            </tr>
                             <tr>
                                 <td class="stores_row store_row_name">
                                     <a href="/stores/hopedale-hopedale-bowl">Hopedale Bowl</a> <br/>                                    
