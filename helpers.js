@@ -106,3 +106,7 @@ function addZero(i) {
     }
     return i;
 }
+
+function in_my_time_zone(hour, format){
+    return hour.tz(getPropertyTimeZone()).format(format)
+}
