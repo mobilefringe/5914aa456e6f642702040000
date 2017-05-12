@@ -52,7 +52,7 @@
                                     </span>
                                         <div class="row cats_row" data-cat="{{cat_list}}">
                                             <div class="col-md-4 col-xs-6">
-                                            <div class="alphabet_bg row">
+                                                    <div class="alphabet_bg row">
                                                         <div class="stores_row store_row_name">
                                                             <a href="/stores/{{slug}}">{{name}}</a> <br/>
                                                         </div>
