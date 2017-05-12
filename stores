@@ -43,19 +43,17 @@
                             <button class="btn-secondary" onClick="parent.location='#Z'">Z</button>
                         </div>
                         <div class="stores_table" width="100%">  
-     
-                			
                 			<div id="store_list_container">
-                            <script id="store_list_template" type="x-tmpl-mustache/text">
-                            <span style="{{show}}" class='stores_table_headers'>{{initial}}</span>
-                    <div class="row cats_row" data-cat="{{cat_list}}">
-                        <div class="col-md-5 col-xs-6">
-                                <div class="alphabet_bg row">
-                                    <div class="stores_row store_row_name">
-                                    <a href="/stores/{{slug}}">{{name}}</a> <br/>
-                                    </div>
-                                </div>
-                        </div>
+                                <script id="store_list_template" type="x-tmpl-mustache/text">
+                                    <span style="{{show}}" class='stores_table_headers'>{{initial}}</span>
+                                        <div class="row cats_row" data-cat="{{cat_list}}">
+                                            <div class="col-md-5 col-xs-6">
+                                                    <div class="alphabet_bg row">
+                                                        <div class="stores_row store_row_name">
+                                                            <a href="/stores/{{slug}}">{{name}}</a> <br/>
+                                                        </div>
+                                                    </div>
+                                            </div>
                         <div class="col-md-7 col-xs-6">
                             <p class="store_list_name pull-right">
                                 <span style="{{new_store}}" class="new_store">New</span>
