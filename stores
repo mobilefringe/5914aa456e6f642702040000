@@ -44,12 +44,15 @@
                         </div>
                         <div class="stores_table" width="100%">                    
                 		<ul>		
-                		<li colspan='4' class='stores_table_headers'>
+                		<li >
+                		    
+                		<div colspan='4' class='stores_table_headers'>
                         	    	<a name='A'></a> 
                     				A
                                     <a href="#top" class="pull-right">
                                     <img alt="Store - Alsten Jewellery" src="/system/site_images/photos/000/000/024/original/icon_gotop.png?1365016330" />
                                     </a>
+                                     </div>
                     			</li>
                             
                 			</ul>
