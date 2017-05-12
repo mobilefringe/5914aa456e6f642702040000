@@ -47,7 +47,7 @@
                 			
                 			<div id="store_list_container">
                             <script id="store_list_template" type="x-tmpl-mustache/text">
-                            <span style="{{show}}" class='stores_table_headers>{{initial}}</span>
+                            <span style="{{show}}" class='stores_table_headers'>{{initial}}</span>
                     <div class="row cats_row" data-cat="{{cat_list}}">
                         <div class="col-md-5 col-xs-6">
                                 <div class="alphabet_bg row">
