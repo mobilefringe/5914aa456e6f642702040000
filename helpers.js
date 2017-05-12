@@ -27,9 +27,10 @@ function show_content(){
          $('.panel-collapse').removeClass('in')
     }
     var today_hours = getTodaysHours();
-    var hours = getTodaysHours();
+    var hours = getPropertyHours();
+    console.log(hours);
     renderHomeHours('#home_hours_container', '#home_hours_template', today_hours);
-    renderHours('#hours_container', '#hours_template', today_hours);
+    renderHours('#hours_container', '#hours_template', hours);
 }
 
 function get_day(id){
