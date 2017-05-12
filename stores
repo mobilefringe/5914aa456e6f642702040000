@@ -45,7 +45,7 @@
                         <div class="stores_table">  
                 			<div id="store_list_container">
                                 <script id="store_list_template" type="x-tmpl-mustache/text">
-                            <div class="row">
+                            <div class="stores_table_headers">
                                 
                           
                                     <span style="{{show}}" class='stores_table_headers'>{{initial}}
