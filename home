@@ -143,12 +143,6 @@
                             <img alt="Feature Item" src="{{image_url}}" />
                         </div>
                         </a>
-            <a href='/stores'>
-                <div class="thumbnail">                         
-                    <img alt="Feature Item" src="https://www.mallmaverick.com/system/feature_items/feature_images/000/000/023/original/GettyImages-654680306.jpg?1492614468" />                  
-                </div>
-            </a>
-            
         </li>            
     
         <li class="span4">
