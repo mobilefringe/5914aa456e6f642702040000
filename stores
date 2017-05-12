@@ -42,11 +42,20 @@
                             <button class="btn-secondary" onClick="parent.location='#Y'">Y</button>
                             <button class="btn-secondary" onClick="parent.location='#Z'">Z</button>
                         </div>
-                        <div class="stores_table" width="100%">                    
+                        <div class="stores_table" width="100%">  
+                        <div id="category_container">
+                            <script id="category_template" type="x-tmpl-mustache/text">
+                                <div class="alphabet_bg">
+                                    
+                                    <button class="btn-secondary" onClick="parent.location='#{{id}}'">{{name}}</button>
+                                    
+                                </div>
+                            </script>
+                        </div>
                 		<ul>		
                 		<li >
                 		    
-                		<div colspan='4' class='stores_table_headers'>
+                		    <div colspan='4' class='stores_table_headers'>
                         	    	<a name='A'></a> 
                     				A
                                     <a href="#top" class="pull-right">
