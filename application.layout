@@ -137,16 +137,16 @@
                             </button>
                             <ul class="dropdown-menu bottom hour_dropdown" style="top:30px;" id = "hours_container">                  
                                 <script id="hours_template" type="mustache-tmpl/text">
-                                <li>
-                                    
-                                    <div class="drop-down-row" style="margin-left:5px;margin-right:5px;">
-                                    
-                                    <div class="row" role='presentation'>
-                                        <div class="col-md-6" align="left" style="font-weight:bold">{%raw%}{{d}}{%endraw%}</div>
-                                        <div class="col-md-6" align="right">{%raw%}{{h}}{%endraw%}</div>
-                                    </div>
-                            		</div>
-                            	</li>
+                                    <li>
+                                        
+                                        <div class="drop-down-row" style="margin-left:5px;margin-right:5px;">
+                                        
+                                        <div class="row" role='presentation'>
+                                            <div class="col-md-6" align="left" style="font-weight:bold">{%raw%}{{d}}{%endraw%}</div>
+                                            <div class="col-md-6" align="right">{%raw%}{{h}}{%endraw%}</div>
+                                        </div>
+                                		</div>
+                                	</li>
                             	</script>
                             </ul>
                         </span>
