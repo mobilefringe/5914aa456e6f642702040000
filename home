@@ -149,6 +149,7 @@
         var banners = getBanners();
         var feature_items = getFeatureList()
         renderBanner('#banner_template','#home_banner',banners);
+         renderBanner('#feature_items_template','#feature_items',feature_items);
         show_content();
         $('.flexslider').flexslider({
                 animation: "slide",
