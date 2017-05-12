@@ -124,7 +124,7 @@
                     </a>
                     <div class="social_hours hidden-phone">
                         <!-- hours --> 
-                        <span style="position:relative" >
+                        <span style="position:relative">
                             <button class="btn" data-toggle="dropdown">
                                 <img alt="Menu" class="pull-left" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494531473000/icon_hours.png" />
                                 Today Open until
