@@ -126,9 +126,23 @@
 </div>
 
 <div class="feature_items_bar" >
-    <ul class="thumbnails row-fluid  trim_screen">
-    
+<ul class="slides" id="home_banner">
+                <script id="banner_template" type="x-tmpl-mustache/text">
+                    <li>
+                        <a href="{{url}}" {{css}} onclick="{{noLink}}">
+                            <img alt="banner" src="{{image_url}}" />
+                        </a>
+                    </li>
+                </script>
+            </ul>
+    <ul class="thumbnails row-fluid  trim_screen" id="feature_items">
+        <script id="feature_items_template" type="x-tmpl-mustache/text">
         <li class="span4">
+        <a href="{{url}}" {{css}} onclick="{{noLink}}">
+        <div class="thumbnail">  
+                            <img alt="Feature Item" src="{{image_url}}" />
+                        </div>
+                        </a>
             <a href='/stores'>
                 <div class="thumbnail">                         
                     <img alt="Feature Item" src="https://www.mallmaverick.com/system/feature_items/feature_images/000/000/023/original/GettyImages-654680306.jpg?1492614468" />                  
