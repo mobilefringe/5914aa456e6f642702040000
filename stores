@@ -43,27 +43,28 @@
                             <button class="btn-secondary" onClick="parent.location='#Z'">Z</button>
                         </div>
                         <div class="stores_table" width="100%">                    
-                		<div>		<th colspan='4' class='stores_table_headers'>
+                		<ul>		
+                		<li colspan='4' class='stores_table_headers'>
                         	    	<a name='A'></a> 
                     				A
                                     <a href="#top" class="pull-right">
                                     <img alt="Store - Alsten Jewellery" src="/system/site_images/photos/000/000/024/original/icon_gotop.png?1365016330" />
                                     </a>
-                    			</th>
+                    			</li>
                             
-                			</div>
-                			<div>
-                				<td class="stores_row store_row_name">
+                			</ul>
+                			<ul>
+                				<li class="stores_row store_row_name">
                                     <a href="/stores/hopedale-alsten-jewellery">Alsten Jewellery</a> <br/>
-                                </td>
-                                <td class="stores_row">
+                                </li>
+                                <li class="stores_row">
                                     
                                                                         
-                                </td>
-                                <td class="stores_row">
+                                </li>
+                                <li class="stores_row">
                                     
-                                </td>
-                				<td class="stores_row">  
+                                </li>
+                				<li class="stores_row">  
                                 
                                     <span class="hidden-phone">
                                         <img alt="905-825-9255" src="/system/site_images/photos/000/000/009/original/icon_call_stores.png?1364701611" />
@@ -73,8 +74,8 @@
                                         <img alt="905-825-9255" src="/system/site_images/photos/000/000/009/original/icon_call_stores.png?1364701611" />                                        
                                     </a>
                                 
-                                </td>                				
-                			</div>
+                                </li>                				
+                			</ul>
                 		 </div>
                     </div>  
                     <div id="category" class="tab-pane">
