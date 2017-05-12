@@ -82,45 +82,13 @@
                 		 </div>
                     </div>  
                     <div id="category" class="tab-pane">
+                         <script id="category_template" type="x-tmpl-mustache/text">
                         <div class="alphabet_bg">
                             
                             <button class="btn-secondary" onClick="parent.location='#578'">Bowling Centre</button>
                             
-                            <button class="btn-secondary" onClick="parent.location='#579'">Dental Services</button>
-                            
-                            <button class="btn-secondary" onClick="parent.location='#545'">Electronics</button>
-                            
-                            <button class="btn-secondary" onClick="parent.location='#549'">Financial</button>
-                            
-                            <button class="btn-secondary" onClick="parent.location='#560'">Fitness</button>
-                            
-                            <button class="btn-secondary" onClick="parent.location='#577'">Food Services</button>
-                            
-                            <button class="btn-secondary" onClick="parent.location='#570'">General Merchandise</button>
-                            
-                            <button class="btn-secondary" onClick="parent.location='#571'">Gift Jewelery Accesories</button>
-                            
-                            <button class="btn-secondary" onClick="parent.location='#573'">Health & Beauty</button>
-                            
-                            <button class="btn-secondary" onClick="parent.location='#575'">Home Funishings & Decor</button>
-                            
-                            <button class="btn-secondary" onClick="parent.location='#580'">Ladies Fashion</button>
-                            
-                            <button class="btn-secondary" onClick="parent.location='#581'">Legal & Tax Services</button>
-                            
-                            <button class="btn-secondary" onClick="parent.location='#564'">Lottery</button>
-                            
-                            <button class="btn-secondary" onClick="parent.location='#543'">Other</button>
-                            
-                            <button class="btn-secondary" onClick="parent.location='#572'">Other Services</button>
-                            
-                            <button class="btn-secondary" onClick="parent.location='#574'">Personal Care Services</button>
-                            
-                            <button class="btn-secondary" onClick="parent.location='#558'">Shoes</button>
-                            
-                            <button class="btn-secondary" onClick="parent.location='#565'">Supermarkets</button>
-                            
                         </div>
+                        </script>
                         <table class="stores_table">
                             <tr>
                             <th colspan='4' class='stores_table_headers'>
