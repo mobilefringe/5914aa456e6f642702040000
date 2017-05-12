@@ -43,24 +43,11 @@
                             <button class="btn-secondary" onClick="parent.location='#Z'">Z</button>
                         </div>
                         <div class="stores_table" width="100%">  
-                        
-                		<ul>		
-                		<li >
-                		    
-                		    <div colspan='4' class='stores_table_headers'>
-                        	    	<a name='A'></a> 
-                    				A
-                                    <a href="#top" class="pull-right">
-                                    <img alt="Store - Alsten Jewellery" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533206000/icon_gotop.png" />
-                                    </a>
-                                     </div>
-                    			</li>
-                            
-                			</ul>
+     
                 			
                 			<div id="store_list_container">
                             <script id="store_list_template" type="x-tmpl-mustache/text">
-                            <span style="{{show}}" class="store_initial">{{initial}}</span>
+                            <span style="{{show}}" class='stores_table_headers>{{initial}}</span>
                     <div class="row cats_row" data-cat="{{cat_list}}">
                         <div class="col-md-5 col-xs-6">
                                 <div class="alphabet_bg row">
