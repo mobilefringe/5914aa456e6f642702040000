@@ -82,6 +82,7 @@
                 		 </div>
                     </div>  
                     <div id="category" class="tab-pane">
+                    <div id="category_container">
                         <script id="category_template" type="x-tmpl-mustache/text">
                         <div class="alphabet_bg">
                             
@@ -89,6 +90,7 @@
                             
                         </div>
                         </script>
+                        </div>
                         <table class="stores_table">
                             <tr>
                             <th colspan='4' class='stores_table_headers'>
@@ -141,7 +143,7 @@
         var categories = getStoreCategories();
         var stores = getStoresList();
         renderStoreList('#store_list_container','#store_list_template', stores, "stores");
-        renderGeneral('#category', '#category_template', categories);
+        renderGeneral('#category_container', '#category_template', categories);
         show_content();
     }
 </script>
