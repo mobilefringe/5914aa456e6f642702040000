@@ -124,6 +124,40 @@
         </ul>
     </span>
 </div>
+
+<div class="feature_items_bar" >
+    <ul class="thumbnails row-fluid  trim_screen">
+    
+        <li class="span4">
+            <a href='/stores'>
+                <div class="thumbnail">                         
+                    <img alt="Feature Item" src="https://www.mallmaverick.com/system/feature_items/feature_images/000/000/023/original/GettyImages-654680306.jpg?1492614468" />                  
+                </div>
+            </a>
+            
+        </li>            
+    
+        <li class="span4">
+            <a href='/events'>
+                <div class="thumbnail">                         
+                    <img alt="Feature Item" src="https://www.mallmaverick.com/system/feature_items/feature_images/000/000/024/original/GettyImages-163523688.jpg?1492614404" />                  
+                </div>
+            </a>
+            
+        </li>            
+    
+        <li class="span4">
+            <a href='/hours'>
+                <div class="thumbnail">                         
+                    <img alt="Feature Item" src="https://www.mallmaverick.com/system/feature_items/feature_images/000/000/025/original/GettyImages-489803256.jpg?1492614446" />                  
+                </div>
+            </a>
+            
+        </li>            
+    
+    </ul>
+</div>
+
 <script>
     $(document).ready(function(e){
         init(e);
