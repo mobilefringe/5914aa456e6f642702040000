@@ -64,7 +64,7 @@
                                     
                                     <button class="btn-secondary" onClick="parent.location='#{{id}}'">{{name}}</button>
                                     <div class="stores_row store_row_name">
-                                    q<a href="/stores/{{slug}}">{{name}}y</a> <br/>
+                                    q<a href="/stores/{{slug}}">{{name}}</a> <br/>
                                 </div>
                                 </div>
                             </script>
