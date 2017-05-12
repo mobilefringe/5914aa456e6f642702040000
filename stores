@@ -44,12 +44,16 @@
                         </div>
                         <div class="stores_table">  
                 			<div id="store_list_container">
-                                <script id="store_list_template" type="x-tmpl-mustache/text">
+                                <script id="store_list_template" type="x-tmpl-mustache/text
+                            <div>
+                                
+                          
                                     <span style="{{show}}" class='stores_table_headers'>{{initial}}
                                         <a href="#top" class="pull-right">
                                         <img alt="Store - {{store.name}}" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533206000/icon_gotop.png" />
                                         </a>
                                     </span>
+                                      </div>
                                         <div class="row stores_row" >
                                             <div class="col-md-4 col-xs-6">
                                                     <div class="alphabet_bg row">
