@@ -135,7 +135,6 @@
         var categories = getStoreCategories();
         var stores = getStoresList();
         renderStoreList('#store_list_container','#store_list_template', stores, "stores");
-        renderStoreList('#cat_store_list_container','#cat_store_list_template', stores, "category_stores");
         renderStoreListCatetories('#cat_store_list_container','#cat_store_list_template', categories, stores);
         renderGeneral('#category_container', '#category_template', categories);
         show_content();
