@@ -141,12 +141,10 @@
                                     
                                     <div class="drop-down-row" style="margin-left:5px;margin-right:5px;">
                                     
-                                    <table width="100%" role='presentation'>
-                                    <tr>
-                                        <td align="left" style="font-weight:bold">Sunday</td>
-                                        <td align="right">12:00 PM -  5:00 PM</td>
-                                    </tr>
-                                    </table>
+                                    <div class="row" role='presentation'>
+                                        <div class="col-md-12" align="left" style="font-weight:bold">Sunday</div>
+                                        <div class="col-md-12" align="right">12:00 PM -  5:00 PM</div>
+                                    </div>
                             		</div>
                             	</li>
                             </ul>
