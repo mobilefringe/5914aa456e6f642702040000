@@ -4,8 +4,7 @@
 <div class="row-fluid body_content">    
     <div class="span12">
         <div>        
-        
-        <!-- show store list -->
+            <!-- show store list -->
             <div class="tabbable">
                 <ul class="nav nav-tabs store_tabs">
                     <li class="active tab_colour">
@@ -119,13 +118,13 @@
                             
                         </div>
                         <table class="stores_table">
-                            <th colspan='4' class='stores_table_headers'>
+                            <tr colspan='4' class='stores_table_headers'>
                     	    	<a name="578"></a> 
                 				Bowling Centre
                                 <a href="#top" class="pull-right">
                                     <img alt="Bowling Centre"  src="/system/site_images/photos/000/000/024/original/icon_gotop.png?1365016330" />
                                 </a>
-                			</th>
+                			</tr>
                             
                             <tr>
                                 <td class="stores_row store_row_name">
