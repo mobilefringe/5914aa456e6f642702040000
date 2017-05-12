@@ -42,8 +42,8 @@
                             <button class="btn-secondary" onClick="parent.location='#Y'">Y</button>
                             <button class="btn-secondary" onClick="parent.location='#Z'">Z</button>
                         </div>
-                        <table class="stores_table" width="100%">                    
-                		<tr>		<th colspan='4' class='stores_table_headers'>
+                        <div class="stores_table" width="100%">                    
+                		<div>		<th colspan='4' class='stores_table_headers'>
                         	    	<a name='A'></a> 
                     				A
                                     <a href="#top" class="pull-right">
@@ -51,8 +51,8 @@
                                     </a>
                     			</th>
                             
-                			</tr>
-                			<tr>
+                			</div>
+                			<div>
                 				<td class="stores_row store_row_name">
                                     <a href="/stores/hopedale-alsten-jewellery">Alsten Jewellery</a> <br/>
                                 </td>
@@ -74,8 +74,8 @@
                                     </a>
                                 
                                 </td>                				
-                			</tr>
-                		 </table>
+                			</div>
+                		 </div>
                     </div>  
                     <div id="category" class="tab-pane">
                         <div class="alphabet_bg">
