@@ -51,7 +51,7 @@
                                         </a>
                                     </span>
                                         <div class="row stores_row" >
-                                            <div class="col-md-4 col-xs-6">
+                                            <div class="col-md-4 col-xs-4">
                                                     <div class="alphabet_bg row">
                                                         <div class="stores_row store_row_name">
                                                             <a href="/stores/{{slug}}">{{name}}</a> <br/>
@@ -59,13 +59,13 @@
                                                     </div>
                                             </div>
                                             <div class="col-md-2 col-xs-2 stores_row">
-                                            <p> </p>
+                                            <p></p>
                                             </div>
                                             <div class="col-md-2 col-xs-2 stores_row">
                                             <img alt="New" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533104000/tag_new.png" />
                                             </div>
                                             
-                                            <div class="col-md-4 col-xs-2 stores_row">
+                                            <div class="col-md-4 col-xs-4 stores_row">
                                             <a style="{{phone_exist}}" href="tel:{{phone}}"><img src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533049000/icon_call_stores.png" class="" alt="phone"><span class="phone_field">{{phone}}</a>
                                             </div>   
                                             
