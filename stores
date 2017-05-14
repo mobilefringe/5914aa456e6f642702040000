@@ -2,7 +2,7 @@
 
 <a name="top"></a>
 <div class="row-fluid body_content">    
-    <div >
+    <div class="span12">
         <div>        
             <!-- show store list -->
             <div class="tabbable">
