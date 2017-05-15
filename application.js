@@ -103,8 +103,6 @@ function renderPropertyDetails(container, template, collection){
         if(key == "contact_email") {
             new_val.contact_email = val;
         }
-        
-
     });
     var repo_rendered = Mustache.render(template_html,val);
     item_rendered.push(repo_rendered);
