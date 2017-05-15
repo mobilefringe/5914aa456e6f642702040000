@@ -48,7 +48,6 @@
     function renderAll(){
         var hours = getPropertyHours();
         renderHours('#hours_page_container','#hour_page_template',hours);
-        renderFeatureItems('#feature_container', '#feature_template', feature_items);
         show_content();
         $('.flexslider').flexslider({
                 animation: "slide",
