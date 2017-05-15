@@ -71,6 +71,7 @@ function renderPropertyDetails(container, template, collection){
     var template_html = $(template).html();
     Mustache.parse(template_html); 
     $.each( collection , function( key, val ) {
+         var new_val.id = val.id;
         if(key == "name") {
             val.name = 
         }
