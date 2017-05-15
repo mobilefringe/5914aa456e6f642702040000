@@ -637,7 +637,7 @@ function renderHomeHours(container, template, collection){
     $(container).html(item_rendered.join(''));
 }
 
-function renderHours(container, template, collection, type){
+function renderHomeDropdownHours(container, template, collection, type){
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
