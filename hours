@@ -7,7 +7,7 @@
     <table role='presentation' class="hour_div span12 row-fluid">
     
         <tr>
-            <td style="width:auto;">
+            <td >
                 <strong>Sunday</strong>
             </td>
             <td>12:00 PM -  5:00 PM</td>
@@ -16,7 +16,7 @@
     
     <div style="top:30px;" id = "hours_page_container">                  
         <script id="hours_page_template" type="x-tmpl-mustache/text">
-            <div>
+            <div style="width:auto;">
                 <div class="col-sm-4" align="left"><p<strong>{{day}}</strong></p></div>
                 <div class="col-sm-8" align="right"><p></strong>{{h}}</strong></p></div>
             </div>
