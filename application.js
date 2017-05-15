@@ -73,7 +73,7 @@ function renderPropertyDetails(container, template, collection){
     $.each( collection , function( key, val ) {
          var new_val;
         if(key == "name") {
-            new_val.name = 
+            new_val.name = val;
         }
         var repo_rendered = Mustache.render(template_html,val);
         item_rendered.push(repo_rendered);
