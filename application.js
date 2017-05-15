@@ -163,7 +163,7 @@ function renderStoreListCatetories(container, template, category_list,stores){
                 }
                 if (store.promotions.length > 0){
                     store.promotion_exist = "display:inline";
-                    var store_promo = getPromotionsForIds(val.promotions).sortBy(function(o){ return o.start_date })[0];
+                    var store_promo = getPromotionsForIds(store.promotions).sortBy(function(o){ return o.start_date })[0];
                     if (store_promo != undefined){
                         store.promo_btn = "/promotions/" + store_promo.slug;
                     }
