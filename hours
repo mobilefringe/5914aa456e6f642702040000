@@ -4,15 +4,6 @@
     <h1>South Oakville Centre Hours</h1>
     
     <h2 class="span12">Regular Hours</h2>    
-    <table role='presentation' class="hour_div span12 row-fluid">
-    
-        <tr>
-            <td >
-                <strong>Sunday</strong>
-            </td>
-            <td>12:00 PM -  5:00 PM</td>
-            
-        </tr>
     
     <div style="top:30px;" id = "hours_page_container">                  
         <script id="hours_page_template" type="x-tmpl-mustache/text">
