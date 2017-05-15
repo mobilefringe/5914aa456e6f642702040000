@@ -142,6 +142,7 @@ function renderStoreListCatetories(container, template, category_list,stores){
         $.each( stores , function( i, store ) {
             var store_category = store.categories;
             var a = store.categories.indexOf(category_id);
+            
             store.promotion_exist = "display:inline";
                     console.log(store.name, store.promotion_exist);
             if(a > -1){
