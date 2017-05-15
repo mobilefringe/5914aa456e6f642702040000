@@ -1012,16 +1012,16 @@ ul.spaced li{
 div.hour_div{    
     background-color: #BBBBBB;    
 }
-div.hour_div td{
+div.hour_div .hour_td{
     padding: 10px;
 }
-div.hour_div tr td:first-child{
+div.hour_div .hour_tr .hour_td:first-child{
     width:200px;
 }
 .span12{
     max-width: 940px;
 }
-div.hour_div tr td a{
+div.hour_div .hour_tr .hour_td a{
     float: right;
 }
 
