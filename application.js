@@ -82,6 +82,12 @@ function renderPropertyDetails(container, template, collection){
         if(key == "address1") {
             new_val.address1 = val;
         }
+         if(key == "address2") {
+            new_val.address2 = val;
+        }
+         if(key == "city") {
+            new_val.city = val;
+        }
         
 
     });
