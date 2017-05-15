@@ -8,7 +8,7 @@
         <div id = "hours_page_container">                  
             <script id="hours_page_template" type="x-tmpl-mustache/text">
                 <div style="width:auto;" >
-                    <div class="col-md-6" align="left"><p<strong>{{day}}</strong></p></div>
+                    <div class="col-md-6" align="left"><p><strong>{{day}}</strong></p></div>
                     <div class="col-md-6" align="left"><p></strong>{{h}}</strong></p></div>
                 </div>
             </script>
