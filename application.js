@@ -92,7 +92,7 @@ function renderPropertyDetails(container, template, collection){
             new_val.country = val;
         }
         if(key == "postal_code") {
-            new_val.city = val;
+            new_val.postal_code = val;
         }
         
 
