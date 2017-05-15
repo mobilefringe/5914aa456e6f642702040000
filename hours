@@ -14,14 +14,14 @@
             
         </tr>
     
-    <div class="row" style="top:30px;" id = "hours_page_container">                  
-                                <script id="hours_page_template" type="x-tmpl-mustache/text">
-                                        <div class={{show_class}}>
-                                                <div class="col-sm-4" align="left" style="font-weight:bold;"><p>{%raw%}{{day}}{%endraw%}</p></div>
-                                                <div class="col-sm-8" align="right"><p>{%raw%}{{h}}{%endraw%}</p></div>
-                                		</div>
-                            	</script>
-                            </div>
+    <div style="top:30px;" id = "hours_page_container">                  
+        <script id="hours_page_template" type="x-tmpl-mustache/text">
+            <div>
+                <div class="col-sm-4" align="left"><p<strong>{{day}}</strong></p></div>
+                <div class="col-sm-8" align="right"><p></strong>{{h}}</strong></p></div>
+            </div>
+        </script>
+    </div>
     
     <div class="line_break span12">&nbsp;</div>
         
