@@ -76,8 +76,8 @@ function renderPropertyDetails(container, template, collection){
         if(key == "name") {
             new_val.name = val;
         }
-        
-        console.log(val);
+        if
+
     });
     var repo_rendered = Mustache.render(template_html,val);
     item_rendered.push(repo_rendered);
