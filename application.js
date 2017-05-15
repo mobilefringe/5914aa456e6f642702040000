@@ -678,7 +678,10 @@ function renderHomeDropdownHours(container, template, collection, type){
                     "Closed";
                 }
                 if(val.day_of_week == today_hours) {
-                    
+                    val.class= ""
+                }
+                else {
+                    val.class = "drop-down-row";
                 }
                 
                 item_list.push(val);
