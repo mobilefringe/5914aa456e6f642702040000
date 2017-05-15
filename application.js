@@ -68,10 +68,11 @@ function renderGeneral(container, template, collection){
 function renderPropertyDetails(container, template, collection){
     var item_list = [];
     var item_rendered = [];
+    var new_val;
     var template_html = $(template).html();
     Mustache.parse(template_html); 
     $.each( collection , function( key, val ) {
-         var new_val;
+         
         if(key == "name") {
             new_val.name = val;
         }
