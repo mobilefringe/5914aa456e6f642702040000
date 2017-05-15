@@ -7,7 +7,7 @@
                 <h1>New Stores</h1>
                 <ul class="media-list">
                     <li class="media">                			  	
-                        <div class="media-body">
+                        <div class="media-body" id="new_store_container">
                 		    <h3><a href="/stores/soc-south-oakville-centre-boba-green">BoBa Green </a></h3>                					
                 		</div>
                 	</li>
