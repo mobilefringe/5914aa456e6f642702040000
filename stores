@@ -111,7 +111,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-3 col-sm-3 stores_row">
-                                                <span style="{{promotion_exist}}">class="new_store">
+                                                <span style="{{promotion_exist}}" class="new_store">
                                                     <img alt="Sale" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533300000/tag_sale.png" /> 
                                                     Sale!
                                                 </span>
