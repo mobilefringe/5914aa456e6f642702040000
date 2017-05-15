@@ -670,7 +670,7 @@ function renderHomeDropdownHours(container, template, collection, type){
                         val.day = "Saturday";
                         break;
                 }
-                if (val.open_time && val.close_time && val.is_closed == false){
+                if (val.open_time && val.close_time && val.is_closed === false){
                     var open_time = in_my_time_zone(moment(val.open_time), "h:mmA");
                     var close_time = in_my_time_zone(moment(val.close_time), "h:mmA");
                     val.h = open_time + " - " + close_time;
