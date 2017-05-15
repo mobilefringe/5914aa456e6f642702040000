@@ -4,7 +4,7 @@
     <script id="address_template">
         <h4>{{name}}</h4>
 	{{address1}}</br>
-	Oakville,
+	{{address2}},</br>
 	Ontario</br>
 	Canada</br>
 	L6L 5G8</br>
