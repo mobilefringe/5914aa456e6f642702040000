@@ -173,7 +173,7 @@
     
     function renderAll(){
         var prop_details = getPropertyDetails();
-        renderGeneral('#address_container','#address_template',prop_details);
+        renderPropertyDetails('#address_container','#address_template',prop_details);
         show_content();
     }
 </script>
