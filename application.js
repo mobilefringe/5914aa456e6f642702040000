@@ -104,7 +104,7 @@ function renderPropertyDetails(container, template, collection){
             new_val.contact_email = val;
         }
     });
-    var repo_rendered = Mustache.render(template_html,val);
+    var repo_rendered = Mustache.render(template_html,new_val);
     item_rendered.push(repo_rendered);
     $(container).html(item_rendered.join(''));
 }
