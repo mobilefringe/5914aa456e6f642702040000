@@ -76,6 +76,12 @@ function renderPropertyDetails(container, template, collection){
         if(key == "name") {
             new_val.name = val;
         }
+        if(key == "name") {
+            new_val.name = val;
+        }
+        if(key == "name") {
+            new_val.name = val;
+        }
         
 
     });
