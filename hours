@@ -14,55 +14,14 @@
             
         </tr>
     
-        <tr>
-            <td style="width:auto;">
-                <strong>Monday</strong>
-            </td>
-            <td> 9:30 AM -  9:00 PM</td>
-            
-        </tr>
-    
-        <tr>
-            <td style="width:auto;">
-                <strong>Tuesday</strong>
-            </td>
-            <td> 9:30 AM -  9:00 PM</td>
-            
-        </tr>
-    
-        <tr>
-            <td style="width:auto;">
-                <strong>Wednesday</strong>
-            </td>
-            <td> 9:30 AM -  9:00 PM</td>
-            
-        </tr>
-    
-        <tr>
-            <td style="width:auto;">
-                <strong>Thursday</strong>
-            </td>
-            <td> 9:30 AM -  9:00 PM</td>
-            
-        </tr>
-    
-        <tr>
-            <td style="width:auto;">
-                <strong>Friday</strong>
-            </td>
-            <td> 9:30 AM -  9:00 PM</td>
-            
-        </tr>
-    
-        <tr>
-            <td style="width:auto;">
-                <strong>Saturday</strong>
-            </td>
-            <td> 9:30 AM -  6:00 PM</td>
-            
-        </tr>
-    
-    </table>
+    <div class="row" style="top:30px;" id = "hours_page_container">                  
+                                <script id="hours_page_template" type="x-tmpl-mustache/text">
+                                        <div class={{show_class}}>
+                                                <div class="col-sm-4" align="left" style="font-weight:bold;"><p>{%raw%}{{day}}{%endraw%}</p></div>
+                                                <div class="col-sm-8" align="right"><p>{%raw%}{{h}}{%endraw%}</p></div>
+                                		</div>
+                            	</script>
+                            </div>
     
     <div class="line_break span12">&nbsp;</div>
         
@@ -88,7 +47,7 @@
     
     function renderAll(){
         var hours = getPropertyHours();
-        renderHours('#banner_template','#home_banner',banners);
+        renderHours('#hours_page_container','#hour_page_template',hours);
         renderFeatureItems('#feature_container', '#feature_template', feature_items);
         show_content();
         $('.flexslider').flexslider({
