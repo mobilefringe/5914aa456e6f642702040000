@@ -1038,5 +1038,5 @@ table.hour_div tr td a{
     }
 }
 .tab_row {
-
+    display: table-row;
 }
