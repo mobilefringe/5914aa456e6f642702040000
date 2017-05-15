@@ -76,8 +76,8 @@ function renderPropertyDetails(container, template, collection){
         if(key == "name") {
             new_val.name = val;
         }
-        if(key == "name") {
-            new_val.name = val;
+        if(key == "description") {
+            new_val.description = val;
         }
         if(key == "name") {
             new_val.name = val;
