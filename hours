@@ -79,3 +79,22 @@
 <div class="line_break span12">&nbsp;</div>
 
 </div>
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        loadMallData(renderAll); 
+    })
+    
+    function renderAll(){
+        var banners = getBanners();
+        var feature_items = getFeatureList();
+        console.log(feature_items);
+        renderBanner('#banner_template','#home_banner',banners);
+        renderFeatureItems('#feature_container', '#feature_template', feature_items);
+        show_content();
+        $('.flexslider').flexslider({
+                animation: "slide",
+        });
+    }
+</script>
