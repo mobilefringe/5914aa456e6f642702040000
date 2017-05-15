@@ -6,7 +6,6 @@
                 {{name}} 
             </h4>
         	{{address1}}</br>
-        	{{address2}}</br>
         	{{city}}</br>
         	{{country}}</br>
         	{{country}}</br>
