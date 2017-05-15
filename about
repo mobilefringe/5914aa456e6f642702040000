@@ -6,7 +6,7 @@
                 {{name}} 
             </h4>
         	{{address1}}</br>
-        	{{city}},
+        	{{city}}, 
         	{{country}}</br>
         	{{country}}</br>
         	{{postal_code}}</br>
