@@ -8,7 +8,7 @@
                 <ul class="media-list">
                     <li class="media">                			  	
                         <div class="media-body" id="new_stores_container">
-                            <script id="new_stores_template">
+                            <script id="new_stores_template" type="x-tmpl-mustache/text">
                                 
                             </script>
                 		    <h3><a href="/stores/soc-south-oakville-centre-boba-green">BoBa Green </a></h3>                					
