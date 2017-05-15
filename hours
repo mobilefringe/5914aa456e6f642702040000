@@ -49,8 +49,5 @@
         var hours = getPropertyHours();
         renderHours('#hours_page_container','#hour_page_template',hours);
         show_content();
-        $('.flexslider').flexslider({
-                animation: "slide",
-        });
     }
 </script>
