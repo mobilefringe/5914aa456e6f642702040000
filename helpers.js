@@ -29,7 +29,7 @@ function show_content(){
     var today_hours = getTodaysHours();
     var hours = getPropertyHours();
     renderHomeHours('#home_hours_container', '#home_hours_template', today_hours);
-    renderHours('#hours_container', '#hours_template', hours, 'reg_hours');
+    renderHomeDropdownHours('#hours_container', '#hours_template', hours, 'reg_hours');
 }
 
 function get_day(id){
