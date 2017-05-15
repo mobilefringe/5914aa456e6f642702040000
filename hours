@@ -45,6 +45,7 @@
     function renderAll(){
         var hours = getPropertyHours();
         renderHours('#hours_page_container','#hours_page_template',hours,'reg_hours');
+        renderHours('#hours_page_container','#hours_page_template',hours,'reg_hours');
         show_content();
     }
 </script>
