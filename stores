@@ -52,7 +52,7 @@
                                     </span>
                                     <div class="row" >
                                         <div class="col-md-6 col-sm-6">
-                                            <div class="alphabet_bg">
+                                            <div class="alphabet_bg row">
                                                 <div class="stores_row store_row_name">
                                                     <a href="/stores/{{slug}}">{{name}}</a> <br/>
                                                 </div>
