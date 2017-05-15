@@ -121,3 +121,16 @@ L6L 5G8</span></p>
 <div class="line_break">&nbsp;</div>
 </div>
 
+<script>
+    $(document).ready(function(e){
+        init(e);
+        loadMallData(renderAll); 
+    })
+    
+    function renderAll(){
+        var hours = getPropertyHours();
+        renderHours('#hours_page_container','#hours_page_template',hours,'reg_hours');
+        renderHours('#h_hours_page_container','#h_hours_page_template',hours,'holiday_hours');
+        show_content();
+    }
+</script>
