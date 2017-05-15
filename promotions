@@ -54,6 +54,14 @@
     </div>
 </div>
 
+<script type="text/javascript">
+    (function($) {
+        $(function() { //on DOM ready 
+            $("#scroller").simplyScroll();
+    	});    
+     })(jQuery);     
+</script>
+
 <script>
     $(document).ready(function(e){
         init(e);
