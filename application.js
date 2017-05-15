@@ -684,7 +684,7 @@ function renderHomeDropdownHours(container, template, collection, type){
                 else {
                     val.show_class = "drop-down-row";
                 }
-                
+                console.log(val.show_class);
                 item_list.push(val);
             }
         });
