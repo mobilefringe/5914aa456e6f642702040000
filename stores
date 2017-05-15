@@ -11,7 +11,11 @@
                                 <span>A-Z</span>
                             </a>
                         </li>
-                        <li><a href="#category" data-toggle="tab"><span>CATEGORIES</span></a></li>
+                        <li>
+                            <a href="#category" data-toggle="tab">
+                                <span>CATEGORIES</span>
+                            </a>
+                        </li>
                     </ul>
                     <div class="tab-content">
                         <div id="list" class="tab-pane active">
