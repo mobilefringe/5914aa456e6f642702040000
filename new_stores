@@ -26,8 +26,8 @@
     })
     
     function renderAll(){
-        var newstores = getNewStoresList();
-        renderStoreList('#new_stores_container','#new_stores_template', stores, "stores");
+        var new_stores = getNewStoresList();
+        renderGeneral('#new_stores_container','#new_stores_template', new_stores);
         show_content();
     }
 </script>
