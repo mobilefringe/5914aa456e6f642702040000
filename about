@@ -3,7 +3,7 @@
 <div id="address_container">
     <script id="address_template">
         <h4>{{name}}</h4>
-	1515 Rebecca Street</br>
+	{{address1}}</br>
 	Oakville,
 	Ontario</br>
 	Canada</br>
