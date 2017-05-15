@@ -68,4 +68,9 @@
         renderGeneral('#category_container', '#category_template', categories);
         show_content();
     }
+    (function($) {
+        $(function() { //on DOM ready 
+            $("#scroller").simplyScroll();
+    	});    
+     })(jQuery);  
 </script>
