@@ -94,6 +94,15 @@ function renderPropertyDetails(container, template, collection){
         if(key == "postal_code") {
             new_val.postal_code = val;
         }
+        if(key == "postal_code") {
+            new_val.postal_code = val;
+        }
+        if(key == "postal_code") {
+            new_val.postal_code = val;
+        }
+        if(key == "postal_code") {
+            new_val.postal_code = val;
+        }
         
 
     });
