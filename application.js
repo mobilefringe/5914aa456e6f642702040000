@@ -149,19 +149,7 @@ function renderStoreListCatetories(container, template, category_list,stores){
                 }else{
                     store.show  = "display:none"; 
                 }
-                if(store.is_coming_soon_store == true){
-                    store.coming_soon_store = "display:inline";
-                }
-                else{
-                    store.coming_soon_store = "display:none";
-                }
-                if(store.is_new_store == true){
-                    store.new_store = "display:inline";
-                }
-                else{
-                    store.new_store = "display:none";
-                }
-                if (store.promotions.length > 0){
+                                if (store.promotions.length > 0){
                     store.promotion_exist = "display:inline";
                     console.log(store.name, store.promotion_exist);
                     var store_promo = getPromotionsForIds(store.promotions).sortBy(function(o){ return o.start_date })[0];
