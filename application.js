@@ -149,7 +149,10 @@ function renderStoreListCatetories(container, template, category_list,stores){
                 }else{
                     store.show  = "display:none"; 
                 }
-                                if (store.promotions.length > 0){
+                
+                store.header = category_name;
+                store.block = category.id;
+                if (store.promotions.length > 0){
                     store.promotion_exist = "display:inline";
                     console.log(store.name, store.promotion_exist);
                     var store_promo = getPromotionsForIds(store.promotions).sortBy(function(o){ return o.start_date })[0];
@@ -163,8 +166,6 @@ function renderStoreListCatetories(container, template, category_list,stores){
                 if(store.phone.length < 1){
                     store.phone_exist = "display:none";
                 }
-                store.header = category_name;
-                store.block = category.id;
                 var rendered = Mustache.render(template_html,store);
                 item_rendered.push(rendered);
                 count += 1;
