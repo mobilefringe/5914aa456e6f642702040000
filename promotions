@@ -53,7 +53,11 @@
                                 <img alt="Store soc-penguin-pick-up" src="/system/stores/store_fronts/000/021/114/original/Penguin-logo-tagline-official-FIN-01.png?1452746127" height="100">
                             </a>
                         </li>
-                    <li><a href="/stores/hopedale-shoppers-drug-mart"><img alt="Store hopedale-shoppers-drug-mart" src="/system/stores/store_fronts/000/001/292/original/Screen_Shot_2013-05-30_at_1.38.43_PM.png?1452736469" height="100"></a></li>
+                        <li>
+                            <a href="/stores/hopedale-shoppers-drug-mart">
+                                <img alt="Store hopedale-shoppers-drug-mart" src="/system/stores/store_fronts/000/001/292/original/Screen_Shot_2013-05-30_at_1.38.43_PM.png?1452736469" height="100">
+                            </a>
+                        </li>
                     <li><a href="/stores/soc-tavolo"><img alt="Store soc-tavolo" src="/system/stores/store_fronts/000/002/146/original/Screen_Shot_2013-06-13_at_4.55.24_PM.png?1452736608" height="100"></a></li>
                     <li><a href="/stores/soc-winners"><img alt="Store soc-winners" src="/system/stores/store_fronts/000/010/102/original/winners.png?1452741215" height="100"></a></li>
                 </ul>   
