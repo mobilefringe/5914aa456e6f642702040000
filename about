@@ -7,8 +7,8 @@
 	{{address2}},</br>
 	{{city}}</br>
 	{{country}}</br>
-	Canada</br>
-	L6L 5G8</br>
+	{{country}}</br>
+	{{postal_code}}</br>
     </script>
 </div>
 
