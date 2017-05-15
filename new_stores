@@ -9,9 +9,9 @@
                     <li class="media">                			  	
                         <div class="media-body" id="new_stores_container">
                             <script id="new_stores_template" type="x-tmpl-mustache/text">
-                                
+                                <h3><a href="/stores/soc-south-oakville-centre-boba-green">BoBa Green </a></h3>    
                             </script>
-                		    <h3><a href="/stores/soc-south-oakville-centre-boba-green">BoBa Green </a></h3>                					
+                		                   					
                 		</div>
                 	</li>
                 	<li class="media">                			  	
