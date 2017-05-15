@@ -60,6 +60,7 @@ function renderGeneral(container, template, collection){
     $.each( collection , function( key, val ) {
         var repo_rendered = Mustache.render(template_html,val);
         item_rendered.push(repo_rendered);
+        console.log(val);
     });
     $(container).html(item_rendered.join(''));
 }
