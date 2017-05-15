@@ -647,6 +647,7 @@ function renderHomeDropdownHours(container, template, collection, type){
              var d = new Date();
             val.month = get_month(d.getMonth());
             val.weekday = addZero(d.getDate());
+            console.log(d,val.weekday);
             if (!val.store_id && val.is_holiday === false) {
                 switch(val.day_of_week) {
                     case 0:
