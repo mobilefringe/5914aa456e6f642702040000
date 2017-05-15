@@ -1,29 +1,28 @@
 <div class="container-fluid trim_screen" style="padding-top:25px;"> 
-<h3>Address</h3>
-<div id="address_container">
-    <script id="address_template">
-        <h4>{{name}}</h4>
-    	{{address1}}</br>
-    	{{address2}},</br>
-    	{{city}}</br>
-    	{{country}}</br>
-    	{{country}}</br>
-    	{{postal_code}}</br>
-    </script>
-</div>
+    <h3>Address</h3>
+    <div id="address_container">
+        <script id="address_template">
+            <h4>{{name}}</h4>
+        	{{address1}}</br>
+        	{{address2}},</br>
+        	{{city}}</br>
+        	{{country}}</br>
+        	{{country}}</br>
+        	{{postal_code}}</br>
+        </script>
+    </div>
 
-<div class="hidden-phone">
-<iframe title="Map" width="100%" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"  src="http://maps.google.nl/maps?q=1515 Rebecca Street  Oakville Canada Ontario L6L 5G8&amp;hl=en&amp;ie=UTF8&amp;t=v&amp;hnear=1515 Rebecca Street  Oakville Canada Ontario L6L 5G8&amp;z=13&amp;output=embed">Map</iframe></div>
-<div class="visible-phone">
-	<a href="http://maps.google.ca?q=1515 Rebecca Street  Oakville Canada Ontario L6L 5G8" target="_blank">
-	<img alt="Map" src="http://maps.googleapis.com/maps/api/staticmap?center=1515 Rebecca Street  Oakville Canada Ontario L6L 5G8&amp;zoom=13&amp;size=600x500&amp;maptype=roadmap&amp;sensor=false&amp;markers=color:red%7Ccolor:red%7Clabel:%7C43.4121,-79.7053"/></a>
-</div>
+    <div class="hidden-phone">
+        <iframe title="Map" width="100%" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"  src="http://maps.google.nl/maps?q=1515 Rebecca Street  Oakville Canada Ontario L6L 5G8&amp;hl=en&amp;ie=UTF8&amp;t=v&amp;hnear=1515 Rebecca Street  Oakville Canada Ontario L6L 5G8&amp;z=13&amp;output=embed">
+            Map
+        </iframe>
+    </div>
+    <div class="visible-phone">
+    	<a href="http://maps.google.ca?q=1515 Rebecca Street  Oakville Canada Ontario L6L 5G8" target="_blank">
+    	    <img alt="Map" src="http://maps.googleapis.com/maps/api/staticmap?center=1515 Rebecca Street  Oakville Canada Ontario L6L 5G8&amp;zoom=13&amp;size=600x500&amp;maptype=roadmap&amp;sensor=false&amp;markers=color:red%7Ccolor:red%7Clabel:%7C43.4121,-79.7053"/>
+    	  </a>
+    </div>
 <br/>
-
-
-
-
-
 
 <a name="contact"></a>
 <h1>Contact Us</h1>
