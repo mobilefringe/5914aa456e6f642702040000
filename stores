@@ -62,11 +62,14 @@
                                             </div>
                                             <div class="col-md-3 col-sm-3 stores_row">
                                                 <span class="hidden-phone">
-                                                    <img src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533049000/icon_call_stores.png" class="" alt="phone">
+                                                    <img src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533049000/icon_call_stores.png" class="" alt="phone"/ß>
                                                     {{phone}}
                                                 </span>
-                                                <a class="visible-phone" href="tel:{{phone}}"><img src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533049000/icon_call_stores.png" class="" alt="phone"><span class="phone_field">
-                                                    {{phone}}
+                                                <a class="visible-phone" href="tel:{{phone}}">
+                                                    <img src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533049000/icon_call_stores.png" class="" alt="phone"/>
+                                                    <span class="phone_field">
+                                                        {{phone}}
+                                                    </span>
                                                 </a>
                                             </div>   
                                         </div>
