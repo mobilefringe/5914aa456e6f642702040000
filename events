@@ -3,4 +3,5 @@
         init(e);
         loadMallData(renderAll); 
     })
+    
 </script>
