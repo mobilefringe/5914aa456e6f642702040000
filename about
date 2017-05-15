@@ -133,7 +133,7 @@ L6L 5G8</span></p>
     })
     
     function renderAll(){
-        var prop_detail = getPropertyDetails()
+        var prop_detail = getPropertyDetails();
         renderGeneral('#hours_page_container','#hours_page_template',hours,'reg_hours');
         renderHours('#h_hours_page_container','#h_hours_page_template',hours,'holiday_hours');
         show_content();
