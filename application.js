@@ -88,8 +88,8 @@ function renderPropertyDetails(container, template, collection){
         if(key == "city") {
             new_val.city = val;
         }
-        if(key == "city") {
-            new_val.city = val;
+        if(key == "country") {
+            new_val.country = val;
         }
         if(key == "city") {
             new_val.city = val;
