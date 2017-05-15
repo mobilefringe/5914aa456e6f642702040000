@@ -68,13 +68,11 @@
                                 <img alt="Store soc-winners" src="/system/stores/store_fronts/000/010/102/original/winners.png?1452741215" height="100">
                             </a>
                         </li>
-                </ul>   
-            </div>
-        </div>    
-        
-        <div class="line_break">&nbsp;</div>
-        
-        <ul class="thumbnails row-fluid  trim_screen">
+                    </ul>   
+                </div>
+            </div>    
+            <div class="line_break">&nbsp;</div>
+            <ul class="thumbnails row-fluid  trim_screen">
             <li class="side_bar_li">
                 <a href='/stores'>
                     <div class="thumbnail">                         
