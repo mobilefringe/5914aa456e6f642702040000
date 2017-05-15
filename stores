@@ -45,6 +45,8 @@
                         <div class="stores_table">  
                 			<div id="store_list_container">
                                 <script id="store_list_template" type="x-tmpl-mustache/text">
+                                <div>
+                                
                                     <span style="{{show}}" class='stores_table_headers'>{{initial}}
                                         <a href="#top" class="pull-right">
                                         <img alt="Store - {{store.name}}" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533206000/icon_gotop.png" />
@@ -67,6 +69,7 @@
                                             <a style="{{phone_exist}}" href="tel:{{phone}}"><img src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533049000/icon_call_stores.png" class="" alt="phone"><span class="phone_field">{{phone}}</a>
                                             </div>   
                                             
+                                        </div>
                                         </div>
                                 </script>
                             </div>
