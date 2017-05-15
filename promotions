@@ -73,23 +73,23 @@
             </div>    
             <div class="line_break">&nbsp;</div>
             <ul class="thumbnails row-fluid  trim_screen">
-            <li class="side_bar_li">
-                <a href='/stores'>
-                    <div class="thumbnail">                         
-                        <img alt="logo_hopedale" src="https://www.mallmaverick.com/system/site_images/photos/000/029/038/original/logo_hopedale.png?1494535871" />                  
-                    </div>
-                </a>
-            </li>
-                
-            <li class="side_bar_li">
-                <a href='/hours'>
-                    <div class="thumbnail">                         
-                        <img alt="logo_hopedale" src="https://www.mallmaverick.com/system/site_images/photos/000/029/039/original/logo_hopedale.png?1494535886" />                  
-                    </div>
-                </a>
-            </li>
-        </ul>
-    </div>
+                <li class="side_bar_li">
+                    <a href='/stores'>
+                        <div class="thumbnail">                         
+                            <img alt="logo_hopedale" src="https://www.mallmaverick.com/system/site_images/photos/000/029/038/original/logo_hopedale.png?1494535871" />                  
+                        </div>
+                    </a>
+                </li>
+                    
+                <li class="side_bar_li">
+                    <a href='/hours'>
+                        <div class="thumbnail">                         
+                            <img alt="logo_hopedale" src="https://www.mallmaverick.com/system/site_images/photos/000/029/039/original/logo_hopedale.png?1494535886" />                  
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
     <!-- side bar END -->
 </div>
 </div>
