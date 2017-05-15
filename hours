@@ -8,8 +8,8 @@
         <div role="presentation" style="top:30px;" id = "hours_page_container">                  
             <script id="hours_page_template" type="x-tmpl-mustache/text">
                 <div style="width:auto;" class="hour-div span12 row-fluid">
-                    <div class="col-sm-4" align="left"><p<strong>{{day}}</strong></p></div>
-                    <div class="col-sm-8" align="right"><p></strong>{{h}}</strong></p></div>
+                    <div class="col-sm-6" align="left"><p<strong>{{day}}</strong></p></div>
+                    <div class="col-sm-6" align="right"><p></strong>{{h}}</strong></p></div>
                 </div>
             </script>
         </div>
