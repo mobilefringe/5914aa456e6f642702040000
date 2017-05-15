@@ -1,119 +1,119 @@
 <div class="container-fluid trim_screen" style="padding-top:25px;"> 
     <a name="top"></a>
-<div class="row-fluid body_content">    
-    <div class="span12">
-        <div>        
-            <!-- show store list -->
-            <div class="tabbable">
-                <ul class="nav nav-tabs store_tabs">
-                    <li class="active tab_colour">
-                        <a href="#list" data-toggle="tab"><span>A-Z</span></a>
-                    </li>
-                    <li><a href="#category" data-toggle="tab"><span>CATEGORIES</span></a></li>
-                </ul>
-                <div class="tab-content">
-                    <div id="list" class="tab-pane active">
-                        <div class="alphabet_bg">
-                            <button class="btn-secondary" onClick="parent.location='#A'">A</button>
-                            <button class="btn-secondary" onClick="parent.location='#B'">B</button>
-                            <button class="btn-secondary" onClick="parent.location='#C'">C</button>
-                            <button class="btn-secondary" onClick="parent.location='#D'">D</button>
-                            <button class="btn-secondary" onClick="parent.location='#E'">E</button>
-                            <button class="btn-secondary" onClick="parent.location='#F'">F</button>
-                            <button class="btn-secondary" onClick="parent.location='#G'">G</button>
-                            <button class="btn-secondary" onClick="parent.location='#H'">H</button>
-                            <button class="btn-secondary" onClick="parent.location='#I'">I</button>
-                            <button class="btn-secondary" onClick="parent.location='#J'">J</button>
-                            <button class="btn-secondary" onClick="parent.location='#K'">K</button>
-                            <button class="btn-secondary" onClick="parent.location='#L'">L</button>
-                            <button class="btn-secondary" onClick="parent.location='#M'">M</button>
-                            <button class="btn-secondary" onClick="parent.location='#N'">N</button>
-                            <button class="btn-secondary" onClick="parent.location='#O'">O</button>
-                            <button class="btn-secondary" onClick="parent.location='#P'">P</button>
-                            <button class="btn-secondary" onClick="parent.location='#Q'">Q</button>
-                            <button class="btn-secondary" onClick="parent.location='#R'">R</button>
-                            <button class="btn-secondary" onClick="parent.location='#S'">S</button>
-                            <button class="btn-secondary" onClick="parent.location='#T'">T</button>
-                            <button class="btn-secondary" onClick="parent.location='#U'">U</button>
-                            <button class="btn-secondary" onClick="parent.location='#V'">V</button>
-                            <button class="btn-secondary" onClick="parent.location='#W'">W</button>
-                            <button class="btn-secondary" onClick="parent.location='#X'">X</button>
-                            <button class="btn-secondary" onClick="parent.location='#Y'">Y</button>
-                            <button class="btn-secondary" onClick="parent.location='#Z'">Z</button>
-                        </div>
-                        <div class="stores_table" width="100%">  
-                			<div id="store_list_container">
-                                <script id="store_list_template" type="x-tmpl-mustache/text">
-                                    <span style="{{show}}" colspan="4" class='stores_table_headers'>{{initial}}
-                                        <a href="#top" class="pull-right">
-                                            <img alt="Top" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533206000/icon_gotop.png" />
-                                        </a>
-                                    </span>
-                                    <div class="stores_row" >
-                                        <div class="col-md-6 col-sm-6">
-                                            <div class="alphabet_bg row">
-                                                <div class="stores_row store_row_name">
-                                                    <a href="/stores/{{slug}}">{{name}}</a> <br/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3 col-sm-3 stores_row">
-                                            <span style="{{new_store}}" class="new_store"> <img alt="New" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533104000/tag_new.png" /> New </span>
-                                        </div>
-                                        <div class="col-md-3 col-sm-3 stores_row">
-                                            <a style="{{phone_exist}}" href="tel:{{phone}}"><img src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533049000/icon_call_stores.png" class="" alt="phone"><span class="phone_field">{{phone}}</a>
-                                        </div>   
-                                    </div>
-                                </script>
+    <div class="row-fluid body_content">    
+        <div class="span12">
+            <div>        
+                <!-- show store list -->
+                <div class="tabbable">
+                    <ul class="nav nav-tabs store_tabs">
+                        <li class="active tab_colour">
+                            <a href="#list" data-toggle="tab"><span>A-Z</span></a>
+                        </li>
+                        <li><a href="#category" data-toggle="tab"><span>CATEGORIES</span></a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="list" class="tab-pane active">
+                            <div class="alphabet_bg">
+                                <button class="btn-secondary" onClick="parent.location='#A'">A</button>
+                                <button class="btn-secondary" onClick="parent.location='#B'">B</button>
+                                <button class="btn-secondary" onClick="parent.location='#C'">C</button>
+                                <button class="btn-secondary" onClick="parent.location='#D'">D</button>
+                                <button class="btn-secondary" onClick="parent.location='#E'">E</button>
+                                <button class="btn-secondary" onClick="parent.location='#F'">F</button>
+                                <button class="btn-secondary" onClick="parent.location='#G'">G</button>
+                                <button class="btn-secondary" onClick="parent.location='#H'">H</button>
+                                <button class="btn-secondary" onClick="parent.location='#I'">I</button>
+                                <button class="btn-secondary" onClick="parent.location='#J'">J</button>
+                                <button class="btn-secondary" onClick="parent.location='#K'">K</button>
+                                <button class="btn-secondary" onClick="parent.location='#L'">L</button>
+                                <button class="btn-secondary" onClick="parent.location='#M'">M</button>
+                                <button class="btn-secondary" onClick="parent.location='#N'">N</button>
+                                <button class="btn-secondary" onClick="parent.location='#O'">O</button>
+                                <button class="btn-secondary" onClick="parent.location='#P'">P</button>
+                                <button class="btn-secondary" onClick="parent.location='#Q'">Q</button>
+                                <button class="btn-secondary" onClick="parent.location='#R'">R</button>
+                                <button class="btn-secondary" onClick="parent.location='#S'">S</button>
+                                <button class="btn-secondary" onClick="parent.location='#T'">T</button>
+                                <button class="btn-secondary" onClick="parent.location='#U'">U</button>
+                                <button class="btn-secondary" onClick="parent.location='#V'">V</button>
+                                <button class="btn-secondary" onClick="parent.location='#W'">W</button>
+                                <button class="btn-secondary" onClick="parent.location='#X'">X</button>
+                                <button class="btn-secondary" onClick="parent.location='#Y'">Y</button>
+                                <button class="btn-secondary" onClick="parent.location='#Z'">Z</button>
                             </div>
-                		</div>
-                    </div>  
-                    <div id="category" class="tab-pane">
-                        <div class="alphabet_bg">
-                            <div id="category_container">
-                                <script id="category_template" type="x-tmpl-mustache/text">
-                                    <button class="btn-secondary" onClick="parent.location='#{{id}}'">{{name}}</button>
-                                </script>
-                            </div>
-                        </div>
-                        <div class="stores_table">  
-                			<div id="cat_store_list_container">
-                                <script id="cat_store_list_template" type="x-tmpl-mustache/text">
-                                    <span style="{{show}}" class='stores_table_headers'>{{header}}
-                                        <a href="#top" class="pull-right">
-                                            <img alt="Store - {{store.name}}" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533206000/icon_gotop.png" />
-                                        </a>
-                                    </span>
-                                    <div class="stores_row" >
-                                        <div class="col-md-6 col-sm-6 stores_row">
-                                            <div class="alphabet_bg row">
-                                                <div class="stores_row store_row_name">
-                                                    <a href="/stores/{{slug}}">{{name}}</a> <br/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3 col-sm-3 stores_row">
-                                            <span style="{{promotion_exist}}">class="new_store"> <img alt="Sale" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533300000/tag_sale.png" /> Sale! </span>
-                                        </div>
-                                        <div class="col-md-3 col-sm-3 stores_row">
-                                            <span class="hidden-phone">
-                                                <img src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533049000/icon_call_stores.png" class="" alt="phone">
-                                                {{phone}}
-                                            </span>
-                                            <a class="visible-phone" href="tel:{{phone}}"><img src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533049000/icon_call_stores.png" class="" alt="phone"><span class="phone_field">
-                                                {{phone}}
+                            <div class="stores_table" width="100%">  
+                    			<div id="store_list_container">
+                                    <script id="store_list_template" type="x-tmpl-mustache/text">
+                                        <span style="{{show}}" colspan="4" class='stores_table_headers'>{{initial}}
+                                            <a href="#top" class="pull-right">
+                                                <img alt="Top" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533206000/icon_gotop.png" />
                                             </a>
-                                        </div>   
-                                    </div>
-                                </script>
+                                        </span>
+                                        <div class="stores_row" >
+                                            <div class="col-md-6 col-sm-6">
+                                                <div class="alphabet_bg row">
+                                                    <div class="stores_row store_row_name">
+                                                        <a href="/stores/{{slug}}">{{name}}</a> <br/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3 stores_row">
+                                                <span style="{{new_store}}" class="new_store"> <img alt="New" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533104000/tag_new.png" /> New </span>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3 stores_row">
+                                                <a style="{{phone_exist}}" href="tel:{{phone}}"><img src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533049000/icon_call_stores.png" class="" alt="phone"><span class="phone_field">{{phone}}</a>
+                                            </div>   
+                                        </div>
+                                    </script>
+                                </div>
+                    		</div>
+                        </div>  
+                        <div id="category" class="tab-pane">
+                            <div class="alphabet_bg">
+                                <div id="category_container">
+                                    <script id="category_template" type="x-tmpl-mustache/text">
+                                        <button class="btn-secondary" onClick="parent.location='#{{id}}'">{{name}}</button>
+                                    </script>
+                                </div>
                             </div>
-                		 </div>
-                    </div>
-                </div> 
+                            <div class="stores_table">  
+                    			<div id="cat_store_list_container">
+                                    <script id="cat_store_list_template" type="x-tmpl-mustache/text">
+                                        <span style="{{show}}" class='stores_table_headers'>{{header}}
+                                            <a href="#top" class="pull-right">
+                                                <img alt="Store - {{store.name}}" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533206000/icon_gotop.png" />
+                                            </a>
+                                        </span>
+                                        <div class="stores_row" >
+                                            <div class="col-md-6 col-sm-6 stores_row">
+                                                <div class="alphabet_bg row">
+                                                    <div class="stores_row store_row_name">
+                                                        <a href="/stores/{{slug}}">{{name}}</a> <br/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3 stores_row">
+                                                <span style="{{promotion_exist}}">class="new_store"> <img alt="Sale" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533300000/tag_sale.png" /> Sale! </span>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3 stores_row">
+                                                <span class="hidden-phone">
+                                                    <img src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533049000/icon_call_stores.png" class="" alt="phone">
+                                                    {{phone}}
+                                                </span>
+                                                <a class="visible-phone" href="tel:{{phone}}"><img src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533049000/icon_call_stores.png" class="" alt="phone"><span class="phone_field">
+                                                    {{phone}}
+                                                </a>
+                                            </div>   
+                                        </div>
+                                    </script>
+                                </div>
+                    		 </div>
+                        </div>
+                    </div> 
+                </div>
             </div>
         </div>
-    </div>
-</div>   
+    </div>   
 </div>
 
 <script>
