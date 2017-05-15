@@ -1015,7 +1015,7 @@ div.hour_div{
 div.hour_div .hour_td{
     padding: 10px;
 }
-div.hour_div .hour_tr .hour_td:first-child{
+div.hour_div {
     width:200px;
 }
 .span12{
