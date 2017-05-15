@@ -172,7 +172,7 @@
     })
     
     function renderAll(){
-        var prop_details = getPropertyDetails()[0];
+        var prop_details = getPropertyDetails();
         renderGeneral('#address_container','#address_template',prop_details);
         show_content();
     }
