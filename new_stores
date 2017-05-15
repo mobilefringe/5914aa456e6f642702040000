@@ -1,0 +1,28 @@
+<div class="container-fluid trim_screen" style="padding-top:25px;">    
+    <a name="top"></a>
+    <div class="row-fluid body_content">    
+        <div class="span12">
+            <div>        
+                <!-- show NEW store list -->
+                <h1>New Stores</h1>
+                <ul class="media-list">
+                    <li class="media">                			  	
+                        <div class="media-body">
+                		    <h3><a href="/stores/soc-south-oakville-centre-boba-green">BoBa Green </a></h3>                					
+                		</div>
+                	</li>
+                	<li class="media">                			  	
+                	    <div class="media-body">
+                		    <h3><a href="/stores/soc-south-oakville-centre-r-r-books">Desiderata Books</a></h3>                					
+                		</div>
+                	</li>
+                	<li class="media">                			  	
+                	    <div class="media-body">
+                		    <h3><a href="/stores/soc-south-oakville-centre-hair-chateau">Hair Chateau</a></h3>                					
+                		</div>
+                	</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
