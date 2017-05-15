@@ -45,8 +45,6 @@
                         <div class="stores_table">  
                 			<div id="store_list_container">
                                 <script id="store_list_template" type="x-tmpl-mustache/text">
-                                <div class="tab_row">
-                                
                                     <span style="{{show}}" class='stores_table_headers'>{{initial}}
                                         <a href="#top" class="pull-right">
                                         <img alt="Store - {{store.name}}" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533206000/icon_gotop.png" />
@@ -70,7 +68,6 @@
                                             </div>   
                                             
                                         </div>
-                                        </div>
                                 </script>
                             </div>
                 			
@@ -89,7 +86,6 @@
                         <div class="stores_table">  
                 			<div id="cat_store_list_container">
                                 <script id="cat_store_list_template" type="x-tmpl-mustache/text">
-                                
                                     <span style="{{show}}" class='stores_table_headers'>{{header}}
                                         <a href="#top" class="pull-right">
                                         <img alt="Store - {{store.name}}" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533206000/icon_gotop.png" />
