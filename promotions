@@ -33,10 +33,26 @@
                                 <img alt="Store hopedale-good-life-fitness-exclusively-women" src="/system/stores/store_fronts/000/001/279/original/good.png?1452736464" height="100">
                             </a>
                         </li>
-                    <li><a href="/stores/hopedale-lcbo"><img alt="Store hopedale-lcbo" src="/system/stores/store_fronts/000/001/284/original/Screen_Shot_2013-05-30_at_1.38.43_PM.png?1452736466" height="100"></a></li>
-                    <li><a href="/stores/hopedale-metro-grocery-store"><img alt="Store hopedale-metro-grocery-store" src="/system/stores/store_fronts/000/001/286/original/Metro.png?1452736467" height="100"></a></li>
-                    <li><a href="/stores/hopedale-northern-reflections"><img alt="Store hopedale-northern-reflections" src="/system/stores/store_fronts/000/001/287/original/NR.jpg?1494442696" height="100"></a></li>
-                    <li><a href="/stores/soc-penguin-pick-up"><img alt="Store soc-penguin-pick-up" src="/system/stores/store_fronts/000/021/114/original/Penguin-logo-tagline-official-FIN-01.png?1452746127" height="100"></a></li>
+                        <li>
+                            <a href="/stores/hopedale-lcbo">
+                                <img alt="Store hopedale-lcbo" src="/system/stores/store_fronts/000/001/284/original/Screen_Shot_2013-05-30_at_1.38.43_PM.png?1452736466" height="100">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/stores/hopedale-metro-grocery-store">
+                                <img alt="Store hopedale-metro-grocery-store" src="/system/stores/store_fronts/000/001/286/original/Metro.png?1452736467" height="100">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/stores/hopedale-northern-reflections">
+                                <img alt="Store hopedale-northern-reflections" src="/system/stores/store_fronts/000/001/287/original/NR.jpg?1494442696" height="100">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/stores/soc-penguin-pick-up">
+                                <img alt="Store soc-penguin-pick-up" src="/system/stores/store_fronts/000/021/114/original/Penguin-logo-tagline-official-FIN-01.png?1452746127" height="100">
+                            </a>
+                        </li>
                     <li><a href="/stores/hopedale-shoppers-drug-mart"><img alt="Store hopedale-shoppers-drug-mart" src="/system/stores/store_fronts/000/001/292/original/Screen_Shot_2013-05-30_at_1.38.43_PM.png?1452736469" height="100"></a></li>
                     <li><a href="/stores/soc-tavolo"><img alt="Store soc-tavolo" src="/system/stores/store_fronts/000/002/146/original/Screen_Shot_2013-06-13_at_4.55.24_PM.png?1452736608" height="100"></a></li>
                     <li><a href="/stores/soc-winners"><img alt="Store soc-winners" src="/system/stores/store_fronts/000/010/102/original/winners.png?1452741215" height="100"></a></li>
