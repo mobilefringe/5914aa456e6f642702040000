@@ -7,7 +7,9 @@
                 <div class="tabbable">
                     <ul class="nav nav-tabs store_tabs">
                         <li class="active tab_colour">
-                            <a href="#list" data-toggle="tab"><span>A-Z</span></a>
+                            <a href="#list" data-toggle="tab">
+                                <span>A-Z</span>
+                            </a>
                         </li>
                         <li><a href="#category" data-toggle="tab"><span>CATEGORIES</span></a></li>
                     </ul>
