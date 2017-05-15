@@ -1,5 +1,10 @@
 <div class="container-fluid trim_screen" style="padding-top:25px;"> 
 <h3>Address</h3>
+<div id="address_container">
+    <script id="address_template">
+        
+    </script>
+</div>
 <h4>South Oakville Centre</h4>
 	1515 Rebecca Street</br>
 	Oakville,
