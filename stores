@@ -92,7 +92,7 @@
                                         </a>
                                     </span>
                                         <div class="stores_row" >
-                                            <div class="col-md-6 col-sm-6">
+                                            <div class="col-md-6 col-sm-6 stores_row">
                                                     <div class="alphabet_bg row">
                                                         <div class="stores_row store_row_name">
                                                             <a href="/stores/{{slug}}">{{name}}</a> <br/>
@@ -100,17 +100,17 @@
                                                     </div>
                                             </div>
                                             <div class="col-md-3 col-sm-3 stores_row">
-                                            <span style="{{promotion_exist}}">class="new_store"> <img alt="Sale" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533300000/tag_sale.png" /> Sale! </span>
+                                                <span style="{{promotion_exist}}">class="new_store"> <img alt="Sale" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533300000/tag_sale.png" /> Sale! </span>
                                             
                                             </div>
                                             
                                             <div class="col-md-3 col-sm-3 stores_row">
                                             
-                                            <span class="hidden-phone">
-                                                <img src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533049000/icon_call_stores.png" class="" alt="phone">
-                                                {{phone}}
-                                            </span>
-                                            <a class="visible-phone" href="tel:{{phone}}"><img src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533049000/icon_call_stores.png" class="" alt="phone"><span class="phone_field">{{phone}}</a>
+                                                <span class="hidden-phone">
+                                                    <img src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533049000/icon_call_stores.png" class="" alt="phone">
+                                                    {{phone}}
+                                                </span>
+                                                <a class="visible-phone" href="tel:{{phone}}"><img src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533049000/icon_call_stores.png" class="" alt="phone"><span class="phone_field">{{phone}}</a>
                                             </div>   
                                             
                                         </div>
