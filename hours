@@ -8,8 +8,8 @@
         <div id = "hours_page_container">                  
             <script id="hours_page_template" type="x-tmpl-mustache/text">
                 <div style="width:auto;" class="hour_tr">
-                    <div class="col-md-4 hour_td" align="left"><p><strong>{{day}}</strong></p></div>
-                    <div class="col-md-8 hour_td" align="left"><p>{{h}}</p></div>
+                    <div class="col-md-5 hour_td" align="left"><p><strong>{{day}}</strong></p></div>
+                    <div class="col-md-7 hour_td" align="left"><p>{{h}}</p></div>
                 </div>
             </script>
         </div>
@@ -23,8 +23,8 @@
         <div id = "h_hours_page_container">                  
             <script id="h_hours_page_template" type="x-tmpl-mustache/text">
                 <div style="width:auto;" class="hour_tr">
-                    <div class="col-md-4 hour_td" align="left"><p><strong>{{day}}</strong></p></div>
-                    <div class="col-md-8 hour_td" align="left"><p>{{h}}</p></div>
+                    <div class="col-md-5 hour_td" align="left"><p><strong>{{day}}</strong></p></div>
+                    <div class="col-md-7 hour_td" align="left"><p>{{h}}</p></div>
                 </div>
             </script>
         </div>
