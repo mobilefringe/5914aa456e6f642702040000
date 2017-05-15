@@ -16,7 +16,7 @@
     
     <div style="top:30px;" id = "hours_page_container">                  
         <script id="hours_page_template" type="x-tmpl-mustache/text">
-            <div style="width:auto;">
+            <div style="width:auto;" class="span12 row-fluid">
                 <div class="col-sm-4" align="left"><p<strong>{{day}}</strong></p></div>
                 <div class="col-sm-8" align="right"><p></strong>{{h}}</strong></p></div>
             </div>
