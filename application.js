@@ -641,6 +641,7 @@ function renderHomeDropdownHours(container, template, collection, type){
     var item_list = [];
     var item_rendered = [];
     var today_hours = getTodaysHours()[0];
+    console.log(today_hours);
     var template_html = $(template).html();
     
     Mustache.parse(template_html);   // optional, speeds up future uses
