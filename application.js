@@ -79,7 +79,7 @@ function renderPropertyDetails(container, template, collection){
         console.log(val);
     });
     var repo_rendered = Mustache.render(template_html,val);
-        item_rendered.push(repo_rendered);
+    item_rendered.push(repo_rendered);
     $(container).html(item_rendered.join(''));
 }
 
