@@ -3,12 +3,12 @@
 <div id="address_container">
     <script id="address_template">
         <h4>{{name}}</h4>
-	{{address1}}</br>
-	{{address2}},</br>
-	{{city}}</br>
-	{{country}}</br>
-	{{country}}</br>
-	{{postal_code}}</br>
+    	{{address1}}</br>
+    	{{address2}},</br>
+    	{{city}}</br>
+    	{{country}}</br>
+    	{{country}}</br>
+    	{{postal_code}}</br>
     </script>
 </div>
 
