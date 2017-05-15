@@ -679,7 +679,7 @@ function renderHomeDropdownHours(container, template, collection, type){
                 }
                 
                 if(val.day_of_week == today_hours) {
-                    val.show_class= "drop-down-row-today"
+                    val.show_class= "drop-down-row-today";
                 }
                 else {
                     val.show_class = "drop-down-row";
