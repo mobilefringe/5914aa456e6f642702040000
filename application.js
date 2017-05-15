@@ -75,10 +75,11 @@ function renderPropertyDetails(container, template, collection){
         if(key == "name") {
             new_val.name = val;
         }
-        var repo_rendered = Mustache.render(template_html,val);
-        item_rendered.push(repo_rendered);
+        
         console.log(val);
     });
+    var repo_rendered = Mustache.render(template_html,val);
+        item_rendered.push(repo_rendered);
     $(container).html(item_rendered.join(''));
 }
 
