@@ -5,7 +5,7 @@
             <div>        
                 <!-- show NEW store list -->
                 <h1>New Stores</h1>
-                <ul class="media-list">
+                <ul class="media-list" id="new_store_container">
                     <li class="media">                			  	
                         <div class="media-body">
                 		    <h3><a href="/stores/soc-south-oakville-centre-boba-green">BoBa Green </a></h3>                					
