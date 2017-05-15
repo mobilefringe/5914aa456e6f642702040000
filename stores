@@ -45,12 +45,12 @@
                         <div class="stores_table">  
                 			<div id="store_list_container">
                                 <script id="store_list_template" type="x-tmpl-mustache/text">
-                                    <span style="{{show}}" class='stores_table_headers'>{{initial}}
+                                    <span style="{{show}}" class='stores_table_headers tab_row'>{{initial}}
                                         <a href="#top" class="pull-right">
                                         <img alt="Store - {{store.name}}" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533206000/icon_gotop.png" />
                                         </a>
                                     </span>
-                                        <div class="stores_row" >
+                                        <div class="stores_row tab_row" >
                                             <div class="col-md-6 col-sm-6">
                                                     <div class="alphabet_bg row">
                                                         <div class="stores_row store_row_name">
@@ -58,12 +58,12 @@
                                                         </div>
                                                     </div>
                                             </div>
-                                            <div class="col-md-3 col-sm-3 stores_row">
+                                            <div class="col-md-3 col-sm-3 stores_row tab_row">
                                             <span style="{{new_store}}" class="new_store"> <img alt="New" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533104000/tag_new.png" /> New </span>
                                             
                                             </div>
                                             
-                                            <div class="col-md-3 col-sm-3 stores_row">
+                                            <div class="col-md-3 col-sm-3 stores_row tab_row">
                                             <a style="{{phone_exist}}" href="tel:{{phone}}"><img src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533049000/icon_call_stores.png" class="" alt="phone"><span class="phone_field">{{phone}}</a>
                                             </div>   
                                             
