@@ -161,8 +161,8 @@ function renderStoreListCatetories(container, template, category_list,stores){
                 else{
                     store.new_store = "display:none";
                 }
-                if (val.promotions.length > 0){
-                    val.promotion_exist = "display:inline";
+                if (store.promotions.length > 0){
+                    store.promotion_exist = "display:inline";
                     var store_promo = getPromotionsForIds(val.promotions).sortBy(function(o){ return o.start_date })[0];
                     if (store_promo != undefined){
                         store.promo_btn = "/promotions/" + store_promo.slug;
