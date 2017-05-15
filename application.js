@@ -94,14 +94,14 @@ function renderPropertyDetails(container, template, collection){
         if(key == "postal_code") {
             new_val.postal_code = val;
         }
-        if(key == "postal_code") {
-            new_val.postal_code = val;
+        if(key == "contact_name") {
+            new_val.contact_name = val;
         }
-        if(key == "postal_code") {
-            new_val.postal_code = val;
+        if(key == "contact_phone") {
+            new_val.contact_phone = val;
         }
-        if(key == "postal_code") {
-            new_val.postal_code = val;
+        if(key == "contact_email") {
+            new_val.contact_email = val;
         }
         
 
