@@ -1009,19 +1009,19 @@ ul.spaced li{
 }
 
 /******** hours page **************/
-table.hour_div{    
+div.hour_div{    
     background-color: #BBBBBB;    
 }
-table.hour_div td{
+div.hour_div td{
     padding: 10px;
 }
-table.hour_div tr td:first-child{
+div.hour_div tr td:first-child{
     width:200px;
 }
 .span12{
     max-width: 940px;
 }
-table.hour_div tr td a{
+div.hour_div tr td a{
     float: right;
 }
 
