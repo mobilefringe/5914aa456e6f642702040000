@@ -67,10 +67,5 @@
         renderStoreListCatetories('#cat_store_list_container','#cat_store_list_template', categories, stores);
         renderGeneral('#category_container', '#category_template', categories);
         show_content();
-    }
-    (function($) {
-        $(function() { //on DOM ready 
-            $("#scroller").simplyScroll();
-    	});    
-     })(jQuery);  
+    } 
 </script>
