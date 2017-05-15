@@ -1,7 +1,7 @@
 <div class="container-fluid trim_screen" style="padding-top:25px;"> 
     <h3>Address</h3>
     <div id="address_container">
-        <script id="address_template">
+        <script id="address_template" type="x-tmpl-mustache/text">
             <h4> 
                 {{name}} 
             </h4>
