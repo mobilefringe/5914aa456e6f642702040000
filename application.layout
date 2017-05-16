@@ -211,52 +211,42 @@
             <div class="bottom_nav hidden-phone">
             	<div class="container-fluid trim_screen">
             		<div class="row-fluid" align="left">
-            						            
-                            <div class="span3">
-                                <table role='presentation'>
-                                    <tr>
-            							<td align="left" class="bottom_nav_header">
-                                        
+            			 <div class="span3">
+                            <table role='presentation'>
+                                <tr>
+            						<td align="left" class="bottom_nav_header">
                                         <a href="/stores">Stores</a>                                
-                                        
-            							</td>
-            						</tr>
-            						
-            					</table>
-            				</div>					
+                                    </td>
+            					</tr>
+            				</table>
+            			</div>					
                         			            
-                            <div class="span3">
-                                <table role='presentation'>
-                                    <tr>
-            							<td align="left" class="bottom_nav_header">
-                                        
-            								What's New
-                                        
-            							</td>
-            						</tr>
-            						
-            							<tr>
-            								<td align="left" class="bottom_nav_list">
-            									<a href='/new_stores' target='_self'>New Stores</a>
-            								</td>
-            							</tr>
-            						
-            							<tr>
-            								<td align="left" class="bottom_nav_list">
-            									<a href='/promotions' target='_self'>Promotions</a>
-            								</td>
-            							</tr>
-            						
-            							<tr>
-            								<td align="left" class="bottom_nav_list">
-            									<a href='/events' target='_self'>Events</a>
-            								</td>
-            							</tr>
-            						
-            					</table>
-            				</div>					
+                        <div class="span3">
+                            <table role='presentation'>
+                                <tr>
+            						<td align="left" class="bottom_nav_header">
+                                        What's New
+                                    </td>
+            					</tr>
+            					<tr>
+                					<td align="left" class="bottom_nav_list">
+                					    <a href='/new_stores' target='_self'>New Stores</a>
+                					</td>
+            					</tr>
+            					<tr>
+            						<td align="left" class="bottom_nav_list">
+            							<a href='/promotions' target='_self'>Promotions</a>
+            						</td>
+            					</tr>
+            					<tr>
+            						<td align="left" class="bottom_nav_list">
+            							<a href='/events' target='_self'>Events</a>
+            						</td>
+            					</tr>
+            				</table>
+            			</div>					
                         			            
-                            <div class="span3">
+                        <div class="span3">
                                 <table role='presentation'>
                                     <tr>
             							<td align="left" class="bottom_nav_header">
