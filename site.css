@@ -1015,7 +1015,10 @@ ul.spaced li{
     border-color: gray;
 }
 
-.hidden_now{display:none}
+.hidden_now {
+    display:none
+    
+}
 
 /******** hours page **************/
 div.hour_div{    
