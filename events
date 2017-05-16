@@ -1,5 +1,6 @@
 <div class="container-fluid trim_screen" style="padding-top:25px;">    
     <div id="events_container"> 
+    <scirpt id="events_template" type="x-tmpl-mustache/text"></scirpt>
 <div class="row-fluid span12">            
     <div class="span3">
         <a href="/events/{{promo.slug}}">
