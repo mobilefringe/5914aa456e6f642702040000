@@ -17,6 +17,8 @@ function init(e){
 	$('.accordion_header').click(function(e){
         $(this).find('i').toggleClass('fa-caret-down fa-caret-up');
 	});
+	
+	$("#404_msg").fadeIn("fast");
 }
 
 function show_content(){
