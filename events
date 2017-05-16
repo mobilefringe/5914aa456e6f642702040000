@@ -11,10 +11,10 @@
         {% endif %}
         </a>
     </div>
-    <div class="span9">
+    <div class="span9"><a href="/events/{{slug}}" class="read_more_btn">read more</a>
         <h3><a href="/events/{{promo.slug}}">{{ promo.name }}</a></h3>    			                
 		{{ promo.description  | strip_html | truncate: 240  }}
-        <a href="/events/{{promo.slug}}" class="read_more">Read More</a>
+        <a href="/events/{{slug}}" class="read_more">Read More</a>
     </div>        
 </div>
 <div class="line_break">&nbsp;</div>
