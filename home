@@ -22,7 +22,7 @@
     <span style="position:relative; ">
         <button class="btn" data-toggle="dropdown">
             <img alt="Menu" class="pull-left" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494531473000/icon_hours.png" />
-                                Today
+                                Today 
                                 <span id="home_hours_container">
                                     <script id="home_hours_template" type="x-tmpl-mustache/text">
                                         {%raw%}{{h}}{%endraw%}
