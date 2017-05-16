@@ -1,7 +1,7 @@
 <center>
 <h1>Sorry we can't find the page you're looking for</h1>
 <div class="error_img_div"><img src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494946851000/404_error_msg-1_404.png"  alt="404 page"></div>
-<a href="/" class="back_to_home class="btn"">Go to Homepage!</a>
+<a href="/" class="back_to_home class btn">Go to Homepage!</a>
 </center>
 <script>
     $(document).ready(function(e){
