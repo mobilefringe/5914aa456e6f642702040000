@@ -13,7 +13,6 @@
                         <div class="span3">
                             <a href="/promotions/{{slug}}">
                                 <img alt="Promo - {{name}}" src="{{promo_image_path}}" />                       
-                            {% endif %}
                             </a>
                         </div>
                         <div class="span9">
