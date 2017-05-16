@@ -143,52 +143,42 @@
                                 <!-- hours END --> 
                             </div>
                             <ul class="nav_menu">
-                                             
+                                <li class="dropdown span2">                        
+                                    <a href="/stores" class="btn-nav">Stores</a>
+                                </li>
                                 
-                                
-                                    <li class="dropdown span2">                        
-                                        <a href="/stores" class="btn-nav">Stores</a>
-                                    </li>
-                                
-                                             
-                                
-                                
-                                    <li class="dropdown span2">
-                                        <a class="btn-nav" data-toggle="dropdown">What's New</a>                         
+                                <li class="dropdown span2">
+                                    <a class="btn-nav" data-toggle="dropdown">What's New</a>                         
                                         
-                                        <ul class="dropdown-menu bottom" style="left:-60%">
-                                        
+                                    <ul class="dropdown-menu bottom" style="left:-60%">
                                         <div class="arrow" style=""></div>
-                                        
-                                            <li><a href='/new_stores' target='_self'><span>New Stores</span></a></li>
-                                        
-                                            <li><a href='/promotions' target='_self'><span>Promotions</span></a></li>
-                                        
-                                            <li><a href='/events' target='_self'><span>Events</span></a></li>
-                                        
-                                        </ul>
-                                    </li>  
-                                
-                                             
-                                
-                                
-                                    <li class="dropdown span2">
-                                        <a class="btn-nav" data-toggle="dropdown">About Us</a>                         
-                                                                    
-                                        <ul class="dropdown-menu bottom" style="left:-50%">
-                                        
+                                        <li>
+                                            <a href='/new_stores' target='_self'>
+                                                <span>New Stores</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href='/promotions' target='_self'>
+                                                <span>Promotions</span>
+                                            </a>
+                                        </li>
+                                         <li>
+                                            <a href='/events' target='_self'>
+                                                <span>Events</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>  
+                                <li class="dropdown span2">
+                                    <a class="btn-nav" data-toggle="dropdown">About Us</a>                         
+                                    <ul class="dropdown-menu bottom" style="left:-50%">
                                         <div class="arrow" style=""></div>
-                                        
-                                            <li><a href='/hours' target='_self'><span>Hours</span></a></li>
-                                        
-                                            <li><a href='/about' target='_self'><span>Directions</span></a></li>
-                                        
-                                            <li><a href='/about#contact' target='_self'><span>Contact Us</span></a></li>
-                                        
-                                            <li><a href='http://www.callowayreit.com/Home-Page' target='_blank'><span>Smart REIT</span></a></li>
-                                        
-                                        </ul>
-                                    </li>  
+                                        <li><a href='/hours' target='_self'><span>Hours</span></a></li>
+                                        <li><a href='/about' target='_self'><span>Directions</span></a></li>
+                                        <li><a href='/about#contact' target='_self'><span>Contact Us</span></a></li>
+                                        <li><a href='http://www.callowayreit.com/Home-Page' target='_blank'><span>Smart REIT</span></a></li>
+                                    </ul>
+                                </li>  
                                 
                              
                             </ul>
