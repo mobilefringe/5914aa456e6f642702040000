@@ -64,51 +64,46 @@
                         </button>
                         <ul class="dropdown-menu bottom pull-right" style="width:100%;left:0%;margin-top:55px">                
                             <div class="arrow" style="left:93%"></div>
-                            
-                            	<div class="mobile_menu_header" style="margin-left:5px;margin-right:5px;">
-                            		<a href='/stores' >Stores </a>
-                  				</div>
+                            <div class="mobile_menu_header" style="margin-left:5px;margin-right:5px;">
+                                <a href='/stores' >Stores </a>
+                  			</div>
+                  			
+                			<div class="mobile_menu_header" style="margin-left:5px;margin-right:5px;">
+                                <a href='' >What's New </a>
+                  			</div>
                 					
-                		 	
-                            	<div class="mobile_menu_header" style="margin-left:5px;margin-right:5px;">
-                            		<a href='' >What's New </a>
-                  				</div>
+                			<div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
+                            	<a href='/new_stores'>New Stores</a>
+                  			</div>
                 					
-                					    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
-                            			<a href='/new_stores'>New Stores</a>
-                  						</div>
+                			<div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
+                            	<a href='/promotions'>Promotions</a>
+                  			</div>
                 					
-                					    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
-                            			<a href='/promotions'>Promotions</a>
-                  						</div>
+                			<div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
+                            	<a href='/events'>Events</a>
+                  			</div>
                 					
-                					    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
-                            			<a href='/events'>Events</a>
-                  						</div>
+                		 	<div class="mobile_menu_header" style="margin-left:5px;margin-right:5px;">
+                                <a href='' >About Us </a>
+                  			</div>
                 					
-                		 	
-                            	<div class="mobile_menu_header" style="margin-left:5px;margin-right:5px;">
-                            		<a href='' >About Us </a>
-                  				</div>
+                			<div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
+                                <a href='/hours'>Hours</a>
+                  			</div>
                 					
-                					    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
-                            			<a href='/hours'>Hours</a>
-                  						</div>
+                			<div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
+                                <a href='/about'>Directions</a>
+                  			</div>
                 					
-                					    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
-                            			<a href='/about'>Directions</a>
-                  						</div>
+                		    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
+                                <a href='/about#contact'>Contact Us</a>
+                  			</div>
                 					
-                					    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
-                            			<a href='/about#contact'>Contact Us</a>
-                  						</div>
-                					
-                					    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
-                            			<a href='http://www.callowayreit.com/Home-Page'>Smart REIT</a>
-                  						</div>
-                					
-                		 	
-                        </ul>
+                			<div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
+                            	<a href='http://www.callowayreit.com/Home-Page'>Smart REIT</a>
+                  			</div>
+                		</ul>
                     </li>
                     <a id="mobile_logo" href="/">
                         <img alt="Logo" src= "//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494532252000/logo_hopedale.png" />
