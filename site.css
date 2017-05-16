@@ -1024,7 +1024,9 @@ div.hour_div .hour_tr {
 .span12{
     max-width: 940px;
 }
-
+.hour_tr {
+    display: table-row;
+}
 
 .hour_td {
     font-family: verdana, arial, helvetica, sans-serif;
