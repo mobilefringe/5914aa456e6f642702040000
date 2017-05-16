@@ -594,7 +594,7 @@ function renderEvents(container, template, collection){
                 val.logo = val.image_url;
             }
             else{
-                val.logo = "//codecloud.cdn.speedyrails.net/sites/57f66e416e6f6465fe050000/image/jpeg/1446753494000/Dixie_default.jpg";
+                val.logo = "//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494532252000/logo_hopedale.png";
             }
         }
         var show_date = moment(val.show_on_web_date);
