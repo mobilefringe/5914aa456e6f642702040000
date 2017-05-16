@@ -118,9 +118,7 @@
                     }     
                 } 
             });
-            if(mall_published_promos.length > 0){
-                renderPromotions("#mall_promo_container","#mall_promo_template", mall_published_promos);
-            }
+        renderPromotions("#mall_promo_container","#mall_promo_template", mall_published_promos);
         show_content();
     } 
 </script>
