@@ -247,43 +247,35 @@
             			</div>					
                         			            
                         <div class="span3">
-                                <table role='presentation'>
-                                    <tr>
-            							<td align="left" class="bottom_nav_header">
-                                        
-            								About Us
-                                        
-            							</td>
-            						</tr>
-            						
-            							<tr>
-            								<td align="left" class="bottom_nav_list">
-            									<a href='/hours' target='_self'>Hours</a>
-            								</td>
-            							</tr>
-            						
-            							<tr>
-            								<td align="left" class="bottom_nav_list">
-            									<a href='/about' target='_self'>Directions</a>
-            								</td>
-            							</tr>
-            						
-            							<tr>
-            								<td align="left" class="bottom_nav_list">
-            									<a href='/about#contact' target='_self'>Contact Us</a>
-            								</td>
-            							</tr>
-            						
-            							<tr>
-            								<td align="left" class="bottom_nav_list">
-            									<a href='http://www.callowayreit.com/Home-Page' target='_blank'>Smart REIT</a>
-            								</td>
-            							</tr>
-            						
-            					</table>
-            				</div>					
-                        
-            		</div>
+                            <table role='presentation'>
+                                <tr>
+            						<td align="left" class="bottom_nav_header">
+                                        About Us
+                                    </td>
+            					</tr>
+            					<tr>
+            						<td align="left" class="bottom_nav_list">
+            							<a href='/hours' target='_self'>Hours</a>
+            						</td>
+            					</tr>
+            					<tr>
+            						<td align="left" class="bottom_nav_list">
+            							<a href='/about' target='_self'>Directions</a>
+            						</td>
+            					</tr>
+            					<tr>
+            						<td align="left" class="bottom_nav_list">
+            							<a href='/about#contact' target='_self'>Contact Us</a>
+            						</td>
+            					</tr>
+            					<tr>
+            						<td align="left" class="bottom_nav_list">
+            							<a href='http://www.callowayreit.com/Home-Page' target='_blank'>Smart REIT</a>
+            						</td>
+            					</tr>
+            				</table>
+            			</div>					
+                    </div>
             	</div>
             </div>
             <!--Footer -->
@@ -291,9 +283,9 @@
             	<div class="container-fluid trim_screen">
             		<div class="row-fluid">
             		  	<div class="span12">
-                          <p class="footer_text">
-                          Hopedale Mall,  All rights reserved &copy; 2017 | Powered by <a href="http://www.mobilefringe.com/">Mobile Fringe</a> 
-                          </p>              
+                            <p class="footer_text">
+                                Hopedale Mall,  All rights reserved &copy; 2017 | Powered by <a href="http://www.mobilefringe.com/">Mobile Fringe</a> 
+                            </p>              
                         </div>				
             		</div>
             	</div>
