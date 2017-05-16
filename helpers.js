@@ -19,7 +19,7 @@ function init(e){
 	});
 	
 	$('.dropdown_btn').click(function(e){
-	$("#404_msg").fadeIn("fast");
+	    $("#404_msg").fadeIn("fast");
 	});
 }
 
