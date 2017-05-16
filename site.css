@@ -283,6 +283,7 @@ ul.nav_menu{
 .stores_table_headers{
 	background-color: #D33A2E;
 	color:white;
+	 height: 35px;
 }
 
 .stores_row{
