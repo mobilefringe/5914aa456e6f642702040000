@@ -1,15 +1,6 @@
 <div class="container-fluid trim_screen" style="padding-top:25px;">    
-    <style>
-        .row-fluid .span12 {
-            width: 100%;
-            margin-left: 0;
-        }
-    </style>
-    <div class="row-fluid span12">   
-        <!-- <img alt="Banner" src="/system/site_images/photos/000/000/191/original/SOC_Reno_Banner.jpg?1368051665" width="100%" /> -->
-<div class="line_break">&nbsp;</div>
 
-{% for promo in events %}        
+        {% for promo in events %}        
 <div class="row-fluid span12">            
     <div class="span3">
         <a href="/events/{{promo.slug}}">
@@ -38,11 +29,24 @@
     })
     
     function renderAll(){
-        var categories = getStoreCategories();
-        var stores = getStoresList();
-        renderStoreList('#store_list_container','#store_list_template', stores, "stores");
-        renderStoreListCatetories('#cat_store_list_container','#cat_store_list_template', categories, stores);
-        renderGeneral('#category_container', '#category_template', categories);
+        var events = getEventsList().sortBy(function(o){ return o.start_date });
+        var published_events = [];
+        $.each(events,function(key,val){
+            today = moment();
+            webDate = moment(val.show_on_web_date);
+            if(today>=webDate) {
+                published_events.push(val);
+            }
+        });
+        if(published_events.length > 0) {
+            renderEvents("#events_container","#events_template",published_events);
+            $('#no_events').hide();
+        }
+        else
+        {
+            $("#events_header").click();
+            $("#events_header").find('i').toggleClass("fa-chevron-down fa-chevron-up");
+        }
         show_content();
     } 
 </script>
