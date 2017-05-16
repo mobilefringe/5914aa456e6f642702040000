@@ -1035,9 +1035,7 @@ div.hour_div .hour_tr {
     display: table-cell;
     vertical-align: inherit;
 }
-div.hour_div .hour_tr .hour_td a{
-    float: right;
-}
+
 
 /******** mobile **************/
 @media (max-width: 800px) {
