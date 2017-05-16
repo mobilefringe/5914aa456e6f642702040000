@@ -7,8 +7,8 @@
                         <img src="http://placehold.it/150x150" />   
                     </a>
                 </div>
-    <div class="span9">
-        <h3><a href="/events/{{promo.slug}}">{{ promo.name }}</a></h3>    			                
+                <div class="span9">
+                <h3><a href="/events/{{promo.slug}}">{{ promo.name }}</a></h3>    			                
 		{{ promo.description  | strip_html | truncate: 240  }}
         <a href="/events/{{slug}}" class="read_more">Read More</a>
     </div>        
