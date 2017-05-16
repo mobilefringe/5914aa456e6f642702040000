@@ -40,7 +40,6 @@
         });
         renderEvents("#events_container","#events_template",published_events);
           
-       
         show_content();
     } 
 </script>
