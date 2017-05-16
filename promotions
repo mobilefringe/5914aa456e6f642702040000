@@ -7,6 +7,45 @@
     </style>
     <div class="row-fluid span12">   
         <div class="span8">
+        {% for promo in store_promotions%}
+        <div class="row-fluid span12" >            
+            <div class="span3">
+                <a href="/promotions/{{promo.slug}}">
+                {% if promo.promo_image_path contains "/original/missing.png" %}
+                    
+                {% else %}
+                    <img alt="Promo - {{promo.name}}" src="{{promo.promo_image_path}}" />                       
+                {% endif %}
+                </a>
+            </div>
+            <div class="span9">
+                <h3>{{promo.promotionable.name}}</h3>
+                <h3><a href="/promotions/{{promo.slug}}">{{ promo.name }}</a></h3>        		                
+    			{{ promo.description  | strip_html | truncate: 140  }}
+                <a href="/promotions/{{promo.slug}}" class="read_more">Read More</a>
+            </div>    
+        </div>
+        {% endfor %}
+        
+        {% for promo in property_promotions%}
+        <div class="row-fluid span12" >            
+            <div class="span3">
+                <a href="/promotions/{{promo.slug}}">
+                {% if promo.promo_image_path contains "/original/missing.png" %}
+                    
+                {% else %}
+                    <img alt="Promo - {{promo.name}}" src="{{promo.promo_image_path}}" />                       
+                {% endif %}
+                </a>
+            </div>
+            <div class="span9">
+                <h3>{{promo.promotionable.name}}</h3>
+                <h3><a href="/promotions/{{promo.slug}}">{{ promo.name }}</a></h3>            	                
+    			{{ promo.description  | strip_html | truncate: 140  }}
+                <a href="/promotions/{{promo.slug}}" class="read_more">Read More</a>
+            </div>    
+        </div>
+        {% endfor %}
         </div>
         <!-- side bar -->
         <div class="span4">
