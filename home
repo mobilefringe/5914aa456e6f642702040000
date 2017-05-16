@@ -188,7 +188,7 @@
         renderBanner('#banner_template','#home_banner',banners);
         renderFeatureItems('#feature_container', '#feature_template', feature_items);
         renderHomeHours('#home_hours_container', '#home_hours_template', today_hours);
-        renderHomeDropdownHours('#hours_container', '#hours_template', hours, 'reg_hours');
+        renderHomeDropdownHours('#menu_hours_container', '#menu_hours_template', hours, 'reg_hours');
         show_content();
         $('.flexslider').flexslider({
                 animation: "slide",
