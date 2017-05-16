@@ -130,6 +130,7 @@ legend{
     color: #FFFFFF;
     cursor: default;
 	border-radius:0px;
+	border-style: none;
 }
 
 .nav-tabs > .active > a:hover {
