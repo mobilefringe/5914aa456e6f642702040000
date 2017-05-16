@@ -188,7 +188,11 @@
                                                 <span>Contact Us</span>
                                             </a>
                                         </li>
-                                        <li><a href='http://www.callowayreit.com/Home-Page' target='_blank'><span>Smart REIT</span></a></li>
+                                        <li>
+                                            <a href='http://www.callowayreit.com/Home-Page' target='_blank'>
+                                                <span>Smart REIT</span>
+                                            </a>
+                                        </li>
                                     </ul>
                                 </li>  
                                 
