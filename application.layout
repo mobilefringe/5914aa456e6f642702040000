@@ -48,8 +48,8 @@
         <script>
             setEndPoint('//soc.mallmaverick.com/api/v3/soc/all.json');
         </script>
+    
         
-
     </head>
 
     <body>
