@@ -38,15 +38,9 @@
                 published_events.push(val);
             }
         });
-        if(published_events.length > 0) {
-            renderEvents("#events_container","#events_template",published_events);
-            $('#no_events').hide();
-        }
-        else
-        {
-            $("#events_header").click();
-            $("#events_header").find('i').toggleClass("fa-chevron-down fa-chevron-up");
-        }
+        renderEvents("#events_container","#events_template",published_events);
+          
+       
         show_content();
     } 
 </script>
