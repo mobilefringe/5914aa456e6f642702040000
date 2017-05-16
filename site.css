@@ -1024,7 +1024,9 @@ div.hour_div .hour_tr {
 .span12{
     max-width: 940px;
 }
-
+div.hour_div .hour_tr .hour_td a{
+    float: right;
+}
 
 /******** mobile **************/
 @media (max-width: 800px) {
