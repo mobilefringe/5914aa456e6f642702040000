@@ -47,39 +47,6 @@
         </div>
         {% endfor %}
         </div>
-        <!-- side bar -->
-        <div class="span4">
-            <div class="vendor_scroll">
-                <div class="vendor_scroll_list">
-                    <ul id="scroller">
-                        <li>
-                            <a href="/stores/hopedale-beer-store">
-                                <img alt="Store hopedale-beer-store" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494532252000/logo_hopedale.png" height="100">
-                            </a>
-                        </li>
-                    </ul>   
-                </div>
-            </div>    
-            <div class="line_break">&nbsp;</div>
-            <ul class="thumbnails row-fluid  trim_screen">
-                <li class="side_bar_li">
-                    <a href='/stores'>
-                        <div class="thumbnail">                         
-                            <img alt="logo_hopedale" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494532252000/logo_hopedale.png" />                  
-                        </div>
-                    </a>
-                </li>
-                    
-                <li class="side_bar_li">
-                    <a href='/hours'>
-                        <div class="thumbnail">                         
-                            <img alt="logo_hopedale" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494532252000/logo_hopedale.png" />                  
-                        </div>
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <!-- side bar END -->
     </div>
 </div>
 
