@@ -1025,7 +1025,7 @@ div.hour_div .hour_tr {
     max-width: 940px;
 }
 .hour_tr {
-    
+    display: table-row;
 }
 
 .hour_td {
