@@ -20,7 +20,7 @@
 <div class="line_break">&nbsp;</div>
 {% endfor %}
     </div>
-</div>
+
 
 <script>
     $(document).ready(function(e){
