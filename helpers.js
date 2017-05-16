@@ -18,7 +18,9 @@ function init(e){
         $(this).find('i').toggleClass('fa-caret-down fa-caret-up');
 	});
 	
+	$('.dropdown_btn').click(function(e){
 	$("#404_msg").fadeIn("fast");
+	});
 }
 
 function show_content(){
