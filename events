@@ -1,6 +1,5 @@
 <div class="container-fluid trim_screen" style="padding-top:25px;">    
-
-        {% for promo in events %}        
+    <div id="events_container"> </div>
 <div class="row-fluid span12">            
     <div class="span3">
         <a href="/events/{{promo.slug}}">
