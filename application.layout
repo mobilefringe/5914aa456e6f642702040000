@@ -136,8 +136,8 @@
                                             {%raw%}
                                                 <div class="drop-down-row row {{show_class}}">
                                                         <div class="col-sm-4" align="left" style="font-weight:bold;"><p>{{day}}
-                                                    {%endraw%}</p></div>
-                                                        <div class="col-sm-8" align="right"><p>{%raw%}{{h}}{%endraw%}</p></div>
+                                                    </p></div>
+                                                        <div class="col-sm-8" align="right"><p>{{h}}</p></div>
                                         		</div>
                                         	{%endraw%}
                                     	</script>
