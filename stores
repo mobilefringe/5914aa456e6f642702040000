@@ -1,4 +1,4 @@
-<div class="container-fluid trim_screen" style="padding-top:25px;"> 
+
     <a name="top"></a>
     <div class="row-fluid body_content">    
         <div class="span12">
@@ -138,7 +138,7 @@
             </div>
         </div>
     </div>   
-</div>
+
 
 <script>
     $(document).ready(function(e){
