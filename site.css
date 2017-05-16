@@ -307,7 +307,7 @@ w
 }
 
 .store_img {
-    
+    float:left; 
 }
 .pin{
 	background-color:#00000;
