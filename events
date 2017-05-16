@@ -3,7 +3,7 @@
         <scirpt id="events_template" type="x-tmpl-mustache/text">
             <div class="row-fluid span12">            
                 <div class="span3">
-                    <a href="/events/{{promo.slug}}">
+                    <a href="/events/{{slug}}">
                         <img src="http://placehold.it/150x150" />   
                     </a>
                 </div>
