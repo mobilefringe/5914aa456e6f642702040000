@@ -1024,17 +1024,7 @@ div.hour_div .hour_tr {
 .span12{
     max-width: 940px;
 }
-.hour_tr {
-    display: table-row;
-}
 
-.hour_td {
-    font-family: verdana, arial, helvetica, sans-serif;
-    font-size: 13px;
-    line-height: 18px;
-    display: table-cell;
-    vertical-align: inherit;
-}
 div.hour_div .hour_tr .hour_td a{
     float: right;
 }
