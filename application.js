@@ -724,10 +724,10 @@ function renderHomeDropdownHours(container, template, collection, type){
                 }
                 
                 if(val.day_of_week == today_hours) {
-                    val.show_class= 'drop-down-row-today';
+                    val.show_class= 'drop-down-row-today row';
                 }
                 else {
-                    val.show_class = 'drop-down-row';
+                    val.show_class = 'drop-down-row row';
                 }
                 console.log(val.show_class);
                 item_list.push(val);
