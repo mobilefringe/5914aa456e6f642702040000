@@ -132,7 +132,9 @@ legend{
 	border-radius:0px;
 	border-style: none;
 }
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
 
+}
 .nav-tabs > .active > a:hover {
 	height:41px;
 	background-image:none;
