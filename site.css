@@ -972,6 +972,10 @@ ul.spaced li{
     visibility: hidden;
 }
 
+.flex-direction-nav a.flex-next:before {
+   content: '';
+}
+
 .home_banner{
     position: relative;
 }
