@@ -11,10 +11,7 @@
                 <script id="store_promo_template" type="x-tmpl-mustache/text">
                     <div class="row-fluid span12" >            
                         <div class="span3">
-                            <a href="/promotions/{{promo.slug}}">
-                            {% if promo.promo_image_path contains "/original/missing.png" %}
-                                
-                            {% else %}
+                            <a href="/promotions/{{slug}}">
                                 <img alt="Promo - {{promo.name}}" src="{{promo.promo_image_path}}" />                       
                             {% endif %}
                             </a>
