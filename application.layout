@@ -131,8 +131,8 @@
                                         </span>
                                         <span class="caret pull-right"></span>    
                                     </button>
-                                    <div id="dropdown_container" class="hidden_now bottom hour_dropdown">
-                                    <div class="dropdown-menu" style="top:30px;" id = "hours_container">                  
+                                    <div id="dropdown_container" class="hidden_now">
+                                    <div class="dropdown-menu bottom hour_dropdown" style="top:30px;" id = "hours_container">                  
                                         <script id="hours_template" type="x-tmpl-mustache/text">
                                             {%raw%}
                                                 <div class="{{show_class}} row">
