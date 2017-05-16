@@ -8,7 +8,7 @@
                     </a>
                 </div>
                 <div class="span9">
-                    <h3><a href="/events/{{slug}}">{{name }}</a></h3>    			                
+                    <h3><a href="/events/{{slug}}">{{name}}</a></h3>    			                
             	    {{{rich_description}}}
                     <a href="/events/{{slug}}" class="read_more">Read More</a>
                 </div>        
