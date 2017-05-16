@@ -23,8 +23,8 @@
         <button class="btn" data-toggle="dropdown" style="margin:0 0 30px 0; width:100%;">
             <img alt="Menu" class="pull-left" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494531473000/icon_hours.png" />
             Today 
-            <span id="home_hours_container">
-                <script id="home_hours_template" type="x-tmpl-mustache/text">
+            <span id="homem_hours_container">
+                <script id="homem_hours_template" type="x-tmpl-mustache/text">
                     {{h}}
                 </script>
             </span>
@@ -86,7 +86,7 @@
         var hours = getPropertyHours();
         renderBanner('#banner_template','#home_banner',banners);
         renderFeatureItems('#feature_container', '#feature_template', feature_items);
-        renderHomeHours('#home_hours_container', '#home_hours_template', today_hours);
+        renderHomeHours('#homem_hours_container', '#homem_hours_template', today_hours);
         renderHomeDropdownHours('#menu_hours_container', '#menu_hours_template', hours, 'reg_hours');
         show_content();
         $('.flexslider').flexslider({
