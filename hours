@@ -50,7 +50,7 @@
             renderHours('#h_hours_page_container','#h_hours_page_template',hours,'holiday_hours');
         }
         else{
-            
+            $("#disp_holiday_hour").hide();
         }
         
         show_content();
