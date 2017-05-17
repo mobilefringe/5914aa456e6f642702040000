@@ -108,7 +108,7 @@
                                             </a>
                                         </span>
                                         <div class="stores_row" >
-                                            <div class="col-md-6 col-sm-6 stores_row">
+                                            <div class="col-md-5 col-sm-5 stores_row">
                                                 <div class="alphabet_bg row">
                                                     <div class="stores_row store_row_name">
                                                         <a href="/stores/{{slug}}">{{name}}</a> <br/>
