@@ -19,7 +19,7 @@
     <h2 class="span12">
         Holiday Hours 
     </h2>        
-    <div  role="presentation"  class="hour_div span12 row-fluid" style="{{display_style}}">
+    <div  role="presentation"  class="hour_div span12 row-fluid" id="disp_holiday_hour">
         <div id = "h_hours_page_container" class="table">                  
             <script id="h_hours_page_template" type="x-tmpl-mustache/text">
                 <div style="width:auto;" class="hour_tr row">
