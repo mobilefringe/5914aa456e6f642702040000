@@ -958,7 +958,7 @@ ul.spaced li{
     height: 150px;
     overflow: hidden;
     background-color:white;
-    border-bottom: solid 2px #a11d20;
+    border-bottom: solid 0px #a11d20;
     border-radius:7px 7px 0px 0px;
 }
 .promotion_image img{
