@@ -302,7 +302,10 @@ ul.nav_menu{
 }
 
 .store_row_name{
-   color:gray;   
+   color:gray;  
+   font-size: 12pt;
+   font-weight: bold;
+   padding-top: 5px;
 }
 
 .store_row_name a{
