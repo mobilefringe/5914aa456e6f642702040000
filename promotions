@@ -1,6 +1,6 @@
 <div class="container-fluid trim_screen" style="padding-top:25px;">    
     <div class="row-fluid span12">   
-        <div class="span8">
+        <div class="col-md-8">
             <div id="store_promo_container">
                 <script id="store_promo_template" type="x-tmpl-mustache/text">
                     <div class="row-fluid span12" >            
@@ -35,7 +35,7 @@
             </div>
         </div>
         <!-- side bar -->
-        <div class="span4">
+        <div class="col-md-4">
             <div class="vendor_scroll">
                 <div class="vendor_scroll_list">
                     <ul id="scroller">
