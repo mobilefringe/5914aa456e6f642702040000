@@ -45,7 +45,7 @@
     function renderAll(){
         var hours = getPropertyHours();
         renderHours('#hours_page_container','#hours_page_template',hours,'reg_hours');
-        if(hours.length > 8)
+        if(hours.length > 7)
         {
             renderHours('#h_hours_page_container','#h_hours_page_template',hours,'holiday_hours');
         }
