@@ -1065,6 +1065,7 @@ div.hour_div .hour_td{
 }
 div.hour_div .hour_tr {
     width:200px;
+    padding-left: 10px;
 }
 .span12{
     max-width: 940px;
