@@ -1061,7 +1061,7 @@ div.hour_div{
     background-color: #BBBBBB;    
 }
 div.hour_div .hour_td{
-    padding: 10px;
+    padding: 5px;
 }
 div.hour_div .hour_tr {
     width:200px;
