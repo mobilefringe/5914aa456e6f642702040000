@@ -296,13 +296,13 @@ ul.nav_menu{
     color:gray;
     font-family: verdana, arial, helvetica, sans-serif;
     font-size: 13px;
-    line-height: 40px;
+    line-height: 18px;
     height: 50px;
     border-top-width: 0px;
     padding-left: 10px;
 }
 .stores_full_row {
-    
+    line-height: 40px;
 }
 
 .stores_row img{
