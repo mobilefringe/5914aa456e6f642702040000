@@ -630,6 +630,15 @@ function renderEventDetails(container, template, collection){
             var store_details = getStoreDetailsByID(val.eventable_id);
             val.store_detail_btn = store_details.slug;
             val.store_name = store_details.name;
+            val.image_url  = val.event_image_url_abs;
+            if(val.image_url.indexOf('missing.png') > 0){
+                if (store_details.store_front_url_abs.indexOf('missing.png') > -1){
+                val.image_url = "//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494532252000/logo_hopedale.png";
+                }
+                else{
+                    val.image_url = store_details.store_front_url_abs;
+                }
+            }
             if (store_details.store_front_url_abs.indexOf('missing.png') > -1){
                 val.image_url = "//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494532252000/logo_hopedale.png";
             }
