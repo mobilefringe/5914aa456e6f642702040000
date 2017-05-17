@@ -48,7 +48,7 @@
                                 <button class="btn-secondary" onClick="parent.location='#Z'">Z</button>
                             </div>
                             <div class="stores_table" width="100%">  
-                    			<div id="store_list_container" class ="col-md-12">
+                    			<div id="store_list_container">
                                     <script id="store_list_template" type="x-tmpl-mustache/text">
                                         <span style="{{show}}" colspan="4" class='stores_table_headers'>{{initial}}
                                             <a href="#top" class="pull-right">
