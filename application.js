@@ -330,6 +330,10 @@ function renderHours(container, template, collection, type){
     
     if (type == "holiday_hours") {
         $.each( collection , function( key, val ) {
+             if(item_list.length < 0)
+             {
+                  val.display_style ="display:none";
+             }
             if (!val.store_id && val.is_holiday == true) {
                 holiday = moment(val.holiday_date);
                 val.formatted_date = in_my_time_zone(holiday, "MMM D");
@@ -343,6 +347,7 @@ function renderHours(container, template, collection, type){
                 item_list.push(val);
             }
         });
+       
         collection = [];
         collection = item_list;
     }
