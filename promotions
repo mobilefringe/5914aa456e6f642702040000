@@ -4,7 +4,7 @@
             <div id="store_promo_container">
                 <script id="store_promo_template" type="x-tmpl-mustache/text">
                     <div class="row-fluid row " >            
-                        <div class="col-md-3">
+                        <div class="col-md-3 promotion_image">
                             <a href="/promotions/{{slug}}">
                                 <img alt="Promo - {{name}}" src="{{image_url}}" />                       
                             </a>
