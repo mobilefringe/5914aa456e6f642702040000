@@ -457,9 +457,6 @@ function renderPromotions(container, template, collection){
             if(val.image_url.indexOf('missing.png') > 0){
                 val.image_url = store_details.store_front_url_abs;
             }
-            else{
-                val.image_url  = val.promo_image_url_abs;
-            }
             
         }
         else{
