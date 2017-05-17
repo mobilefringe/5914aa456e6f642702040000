@@ -10,11 +10,11 @@
                             </a>
                         </div>
                         <div class="col-md-9 promotion_box">
-                        <div class="promotion_info"
-                            <h3><a href="/promotions/{{slug}}">{{ name }}</a></h3>        		                
-                			{{description}}
-                            <a href="/promotions/{{slug}}" class="read_more">Read More</a>
-                            
+                            <div class="promotion_info"
+                                <h3><a href="/promotions/{{slug}}">{{ name }}</a></h3>        		                
+                    			{{description}}
+                                <a href="/promotions/{{slug}}" class="read_more">Read More</a>
+                                
                         </div>    
                     </div>
                 </script>
