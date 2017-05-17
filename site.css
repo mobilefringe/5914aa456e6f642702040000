@@ -291,7 +291,10 @@ ul.nav_menu{
 	border-bottom-color: white; 
 	border-top-color: white; 
 	background-color: white;
-    color:gray;   
+    color:gray;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
 }
 
 .stores_row img{
