@@ -55,7 +55,7 @@
                                                 <img alt="Top" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533206000/icon_gotop.png" />
                                             </a>
                                         </span>
-                                        <div class="stores_row" >
+                                        <div class="stores_row col-md-12" >
                                             <div class="col-md-5 col-sm-5">
                                                 <div class="alphabet_bg row">
                                                     <div class="stores_row store_row_name">
