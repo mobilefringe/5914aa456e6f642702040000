@@ -767,6 +767,7 @@ p.twitter_feed{
 
 .alphabet_bg{
     background-color:black;
+    overflow:hidden;
 }
 .btn-secondary{
     background-color:black;
