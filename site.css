@@ -966,7 +966,7 @@ ul.spaced li{
     clip:rect(0px,220px,150px,0px);
     width:220px;
     border-radius:7px;
-    vertical-align:center;
+    vertical-align:middle;
 }
 .promotion_info{
     height:220px;
