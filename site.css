@@ -298,6 +298,7 @@ ul.nav_menu{
     line-height: 40px;
     height: 50px;
     border-top-width: 0px;
+    padding-left: 8px;
 }
 
 .stores_row img{
