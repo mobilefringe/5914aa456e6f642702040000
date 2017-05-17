@@ -457,7 +457,7 @@ function renderPromotions(container, template, collection){
                 val.image_url = store_details.store_front_url_abs;
             }
             else{
-                val.image_url  = "//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494532252000/logo_hopedale.png";
+                val.image_url  = val.promo_image_url_abs;
             }
             
         }
