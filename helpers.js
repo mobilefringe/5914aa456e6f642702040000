@@ -18,6 +18,7 @@ function init(e){
         $(this).find('i').toggleClass('fa-caret-down fa-caret-up');
 	});
 	
+	//Dropdown Hours
 	$('.dropdown_btn').click(function(e){
 	    $("#hours_container").toggle();
 	    console.log("toggle");
