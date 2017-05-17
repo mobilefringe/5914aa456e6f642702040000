@@ -453,6 +453,7 @@ function renderPromotions(container, template, collection){
             var store_details = getStoreDetailsByID(val.promotionable_id);
             val.store_detail_btn = store_details.slug ;
             val.store_name = store_details.name;
+            val.image_url  = val.promo_image_url_abs;
             if(val.image_url.indexOf('missing.png') > 0){
                 val.image_url = store_details.store_front_url_abs;
             }
