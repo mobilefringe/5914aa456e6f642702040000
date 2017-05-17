@@ -454,12 +454,12 @@ function renderPromotions(container, template, collection){
             val.store_detail_btn = store_details.slug ;
             val.store_name = store_details.name;
             if(val.image_url.indexOf('missing.png') > 0){
-                val.image_url  = "//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494532252000/logo_hopedale.png";
+                val.image_url = store_details.store_front_url_abs;
             }
             else{
-                
+                val.image_url  = "//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494532252000/logo_hopedale.png";
             }
-            val.image_url = store_details.store_front_url_abs;
+            
         }
         else{
             val.store_name = "South Oakville Centre";
