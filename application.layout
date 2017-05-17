@@ -46,7 +46,7 @@
         <script src="../helpers.js" type="text/javascript"></script>
         
         <script>
-            setEndPoint('//twinpine.mallmaverick.com/api/v3/twinpine/all.json');
+            setEndPoint('//twinpines.mallmaverick.com/api/v3/twinpines/all.json');
         </script>
     
         
