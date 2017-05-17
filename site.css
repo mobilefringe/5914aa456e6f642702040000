@@ -943,6 +943,7 @@ ul.spaced li{
 }
 .promotion_row {
     padding: 10px 10px 10px 10px;
+    vertical-align:center;
 }
 .promotion_box{
       
