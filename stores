@@ -56,25 +56,25 @@
                                             </a>
                                         </span>
                                         <div class="stores_row " >
-                                            <div class="col-md-5 col-sm-5">
+                                            <div class="col-md-5">
                                                 <div class="alphabet_bg row">
                                                     <div class="stores_row store_row_name">
                                                         <a href="/stores/{{slug}}">{{name}}</a> <br/>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-2 col-sm-2 stores_row">
+                                            <div class="col-md-2  stores_row">
                                                 <span style="{{new_store}}" class="new_store">
                                                     
                                                 </span>
                                             </div>
-                                            <div class="col-md-2 col-sm-2 stores_row">
+                                            <div class="col-md-2 col stores_row">
                                                 <span style="{{new_store}}" class="new_store">
                                                     <img alt="New" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533104000/tag_new.png" /> 
                                                     New 
                                                 </span>
                                             </div>
-                                            <div class="col-md-3 col-sm-3 stores_row">
+                                            <div class="col-md-3  stores_row">
                                                 <span class="hidden-phone">
                                                     <img src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533049000/icon_call_stores.png" class="" alt="phone"/>
                                                     {{phone}}
