@@ -9,7 +9,7 @@
                                 <img alt="Promo - {{name}}" src="{{image_url}}" />                       
                             </a>
                         </div>
-                        <div class="col-md-9 promotion_box promotion_row">
+                        <div class="col-md-9 promotion_box ">
                             <div class="promotion_info"
                                 <h3><a href="/promotions/{{slug}}">{{ name }}</a></h3>        		                
                     			{{description}}
