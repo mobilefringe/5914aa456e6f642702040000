@@ -19,6 +19,7 @@ function init(e){
 	});
 	
 	//Dropdown Hours
+	$("#hours_container").hide();
 	$('.dropdown_btn').click(function(e){
 	    $("#hours_container").toggle();
 	    console.log("toggle");
