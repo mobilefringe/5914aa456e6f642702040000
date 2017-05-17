@@ -693,7 +693,6 @@ function renderHomeDropdownHours(container, template, collection, type){
     var item_list = [];
     var item_rendered = [];
     var today_hours = getTodaysHours().day_of_week;
-    console.log(today_hours);
     var template_html = $(template).html();
     
     Mustache.parse(template_html);   // optional, speeds up future uses
@@ -737,7 +736,6 @@ function renderHomeDropdownHours(container, template, collection, type){
                 else {
                     val.show_class = 'drop-down-row';
                 }
-                console.log(val.show_class);
                 item_list.push(val);
             }
         });
