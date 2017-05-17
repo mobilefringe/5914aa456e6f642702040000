@@ -60,7 +60,7 @@ function renderGeneral(container, template, collection){
     $.each( collection , function( key, val ) {
         var repo_rendered = Mustache.render(template_html,val);
         item_rendered.push(repo_rendered);
-        console.log(val);
+       
     });
     $(container).html(item_rendered.join(''));
 }
@@ -199,7 +199,6 @@ function renderStoreListCatetories(container, template, category_list,stores){
                 store.block = category.id;
                 if (store.promotions.length > 0){
                     store.promotion_exist = "display:inline";
-                    console.log(store.name, store.promotion_exist);
                     var store_promo = getPromotionsForIds(store.promotions).sortBy(function(o){ return o.start_date })[0];
                     if (store_promo != undefined){
                         store.promo_btn = "/promotions/" + store_promo.slug;
