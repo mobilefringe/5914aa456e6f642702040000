@@ -949,6 +949,7 @@ ul.spaced li{
     background-color: #450302;
     border-radius:8px;
     vertical-align:center;
+    width:100%;
 }
 
 .promotion_image{
