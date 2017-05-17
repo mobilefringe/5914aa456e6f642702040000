@@ -3,14 +3,14 @@
         <div class="col-md-8" width="100%">
             <div id="store_promo_container" class="promotions_div">
                 <script id="store_promo_template" type="x-tmpl-mustache/text">
-                    <div class="row-fluid promotion_row promotion_box" >            
+                    <div class="row-fluid promotion_row " >            
                         <div class="col-md-3 promotion_image promotion_row">
                             <a href="/promotions/{{slug}}">
                                 <img alt="Promo - {{name}}" src="{{image_url}}" />                       
                             </a>
                         </div>
                         <div class="col-md-9 promotion_row ">
-                            <div class=" promotion_info"
+                            <div class="promotion_box promotion_info"
                                 <h3><a href="/promotions/{{slug}}">{{ name }}</a></h3>        		                
                     			{{description}}
                                 <a href="/promotions/{{slug}}" class="read_more">Read More</a>
