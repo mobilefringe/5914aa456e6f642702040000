@@ -934,7 +934,10 @@ ul.spaced li{
 }
 
 /************** promotion box *****************/
-
+.promotions_div{
+   width:220px;
+    margin: 0 20px 20px 0px;   
+}
 .promotions_div .span3{
     width:220px;
     margin: 0 20px 20px 0px;    
