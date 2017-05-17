@@ -1,9 +1,9 @@
 <div class="container-fluid trim_screen" style="padding-top:25px;">    
-    <div class="row-fluid row">   
+    <div class="row-fluid ">   
         <div class="col-md-8" width="100%">
             <div id="store_promo_container" class="promotions_div">
                 <script id="store_promo_template" type="x-tmpl-mustache/text">
-                    <div class="row-fluid row" >            
+                    <div class="row-fluid " >            
                         <div class="col-md-3 promotion_image">
                             <a href="/promotions/{{slug}}">
                                 <img alt="Promo - {{name}}" src="{{image_url}}" />                       
@@ -21,7 +21,7 @@
             </div>    
             <div id="mall_promo_container">
                 <script id="mall_promo_template" type="x-tmpl-mustache/text">
-                    <div class="row-fluid row" >            
+                    <div class="row-fluid" >            
                         <div class="col-md-3">
                             <a href="/promotions/{{slug}}">
                                 <img alt="Promo - {{promo.name}}" src="{{image_url}}" />                       
