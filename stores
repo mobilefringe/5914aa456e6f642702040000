@@ -50,7 +50,7 @@
                             <div class="stores_table" width="100%">  
                     			<div id="store_list_container">
                                     <script id="store_list_template" type="x-tmpl-mustache/text">
-                                        <span style="{{show}}" colspan="4" class='stores_table_headers'>{{initial}}
+                                        <span style="{{show}}" class='stores_table_headers'>{{initial}}
                                             <a href="#top" class="pull-right">
                                                 <img alt="Top" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533206000/icon_gotop.png" />
                                             </a>
