@@ -1062,8 +1062,8 @@ div.hour_div{
     display : table;
 }
 div.hour_div .hour_td{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 div.hour_div .hour_tr {
     width:200px;
