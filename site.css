@@ -1076,7 +1076,7 @@ div.hour_div .hour_tr {
     font-size: 13px;
     line-height: 18px;
 }
-div.hour_div .hour_tr  a{
+div.hour_div .hour_tr .hour_td a{
     float: right;
 }
 
