@@ -179,6 +179,24 @@
     function renderAll(){
         var prop_details = getPropertyDetails();
         renderPropertyDetails('#address_container','#address_template',prop_details);
+        var pathArray = window.location.pathname.split( '/' );
+            var slug = pathArray[pathArray.length-1];
+            prefix = get_prefix();
+            var pages_json = prefix + "/pages/" + slug + ".json"
+            $.getJSON(pages_json).done(function(data) {
+                if(Cookies.get('current_locale') == "en-CA"){
+                   $('#page_title').html(data.title);
+                   $('#page_content').html(data.body);
+                }
+                if(Cookies.get('current_locale') == "fr-CA"){
+                   $('#page_title').html(data.title_2);
+                   $('#page_content').html(data.body_2);
+                }
+            }).fail(function(jqXHR) {
+                if (jqXHR.status == 404) {
+                   $("#404_msg").fadeIn("fast");
+                }
+            });
         show_content();
     }
 </script>
