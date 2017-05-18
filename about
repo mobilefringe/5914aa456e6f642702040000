@@ -35,6 +35,8 @@
                     </button>
                     </div>
                     <div width="50%" style='padding-right:12px' height='48px'>
+                        <button class="btn-prime" onClick="window.location.href='mailto:?subject=South Oakville Centre'">
+                        </button>
                     </div>
                 </div>
             </div>
