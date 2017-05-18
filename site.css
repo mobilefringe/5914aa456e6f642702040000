@@ -1091,9 +1091,7 @@ div.hour_div .hour_tr .hour_td a{
     .stores_row {
         display:table-cell;
     }
-    .stores_full_row {
-        display:table-row;
-    }
+    
     .hour_tr {
         display:table-row;
     }
