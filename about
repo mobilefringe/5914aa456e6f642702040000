@@ -65,77 +65,9 @@
             
         </script>
     </div>
-    <div class="hidden-phone">
-        
-        <!--<table width='100%' class="hidden-phone" role="presentation">
-	        <tr>
-		        <td width='50%' style='padding-right:12px' height='48px'>
-			        <button class="btn-prime">
-				        <table cellpadding='0px' cellspacing='0px' style="margin-left:auto; margin-right:auto" role="presentation">
-				            <tr>
-					            <td align="right">
-						            <img alt="Icon_phone" src="https://www.mallmaverick.com/assets/icon_phone-858ac781839093c66ff29e5658a7d9ad.png" style="height:20px;width20px;padding-right:15px;padding-top:2px;padding-left:0px" />
-					            </td>
-					            <td align="left" class="hidden-phone">
-						        </td>
-				            </tr>
-				        </table>
-			        </button>
-		        </td>
-		        <td style='padding-left:12px'>
-			        <button class="btn-prime" onClick="window.location.href='mailto:?subject=South Oakville Centre'">
-        				<table cellpadding='0px' cellspacing='0px' style="margin-left:auto; margin-right:auto" role="presentation">
-            				<tr>
-            					<td align="right">
-            						<img alt="Icon_website" src="https://www.mallmaverick.com/assets/icon_website-fef8542e33bd86e40a85bd7b0708a6ba.png" style="height:24px;padding-right:15px;padding-top:0px;padding-left:0px" />
-            					</td>
-            					<td align="left" class="hidden-phone">
-            						Email Us
-            					</td>
-            				</tr>
-        				</table>
-			        </button>
-		        </td>
-	        </tr>
-        </table>-->
-    </div>
-    <div class="visible-phone">
-        <!--<table width="100%" role="presentation">
-        	<tr>
-        		<td>
-        			<button class="btn-prime" style="margin-bottom:6px">
-        				<table cellpadding='0px' cellspacing='0px' style="margin-left:auto; margin-right:auto" role="presentation">
-        				<tr>
-        					<td align="right">
-        						<img alt="Icon_phone" src="https://www.mallmaverick.com/assets/icon_phone-858ac781839093c66ff29e5658a7d9ad.png" style="height:20px;padding-right:15px;padding-top:2px;padding-left:0px" />
-        					</td>
-        					<td align="left">
-        						
-        					</td>
-        				</tr>
-        				</table>
-        			</button>
-        		</td>
-        	</tr>
-        	<tr>
-        		<td>
-        			<button class="btn-prime" onClick="window.location.href='mailto:?subject=South Oakville Centre'">
-        				<table cellpadding='0px' cellspacing='0px' style="margin-left:auto; margin-right:auto" role="presentation">
-        				<tr>
-        					<td align="right">
-        						<img alt="Icon_website" src="https://www.mallmaverick.com/assets/icon_website-fef8542e33bd86e40a85bd7b0708a6ba.png" style="height:24px;padding-right:15px;padding-top:0px;padding-left:0px" />
-        					</td>
-        					<td align="left">
-        						Email Us
-        					</td>
-        				</tr>
-        				</table>
-        			</button>
-        		</td>
-        	</tr>
-        </table>-->
-    </div>
-    <div>
+
+     <div width="100%" role="presentation">
+                    
         <br/><br/>
     </div>
 	
