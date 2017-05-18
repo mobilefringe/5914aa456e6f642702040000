@@ -28,7 +28,8 @@
     <h1>Contact Us</h1>
     <div id="contact_us_container">
         <script id="contact_us_template" type="x-tmpl-mustache/text">
-            
+            <div class="hidden-phone">
+            </div>
         </script>
     </div>
     <div class="hidden-phone">
