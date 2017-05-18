@@ -9,7 +9,7 @@
             <script id="hours_page_template" type="x-tmpl-mustache/text">
                 <div class="hour_tr">
                     <div class="col-md-5 hour_td" align="left" width="auto"><strong>{{day}}</strong></div>
-                    <div class="col-md-7 hour_td" align="left" width="auto" >{{h}}</div>
+                    <div class="col-md-7 hour_td" align="left" width="auto">{{h}}</div>
                 </div>
             </script>
         </div>
