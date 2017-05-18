@@ -30,7 +30,7 @@
     <div class="hidden-phone">
                 <div width="100%" role="presentation">
                     <div style='display:table-row;'>
-                    <div width="50%" style='padding-right:12px; display:table-cell;' height='48px'>
+                    <div width="50%" style='padding-right:12px; display:table-cell;' height='48px' class='col-md-6'>
                         <button class="btn-prime">
                             <img alt="Icon_phone" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533467000/icon_phone-858ac781839093c66ff29e5658a7d9ad.png" style="height:20px;width20px;padding-right:15px;padding-top:2px;padding-left:0px" />
                         </button>
