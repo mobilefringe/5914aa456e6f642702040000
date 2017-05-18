@@ -98,8 +98,10 @@
         </table>-->
     </div>
 	<br/>
-	    <div id="contact_us">
+	<div class="page_body">
+	<div id="contact_us">
 
+    </div>
     </div>
 	<!--<p>
 	    <span style="font-size:16px">
