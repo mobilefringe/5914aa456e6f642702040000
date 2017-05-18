@@ -333,8 +333,7 @@ ul.nav_menu{
 
 .store_row_name span{ 
    font-weight:normal;
-   font-weight: bold;
-   padding-top: 5px;
+   font-size:0.8em;
 }
 
 .store_img {
