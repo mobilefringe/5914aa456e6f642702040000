@@ -312,6 +312,7 @@ ul.nav_menu{
     border-top-width: 0px;
     padding-left: 10px;
     float:left;
+    display:block;
 }
 
 .stores_row img{
