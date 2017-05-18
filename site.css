@@ -1067,7 +1067,6 @@ div.hour_td{
     display: table-cell;
 }
 div.hour_div .hour_tr {
-    width:200px;
     padding-left: 20px;
 }
 .span12{
