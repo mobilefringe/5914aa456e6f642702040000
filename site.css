@@ -1066,7 +1066,6 @@ div.hour_td{
     display: table-cell;
     font-family: verdana, arial, helvetica, sans-serif;
     font-size: 13px;
-    line-height: 18px;
 }
 div.hour_div .hour_tr {
     padding-left: 20px;
