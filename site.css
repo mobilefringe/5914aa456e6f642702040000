@@ -1062,7 +1062,7 @@ div.hour_div{
     display : table;
 }
 div.hour_div .hour_td{
-    padding: 10px;
+    padding-left: 10px;
 }
 div.hour_div .hour_tr {
     width:200px;
