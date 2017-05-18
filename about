@@ -33,7 +33,7 @@
     </div>
     <div class="hidden-phone">
         
-        <!--<table width='100%' class="hidden-phone" role="presentation">
+        <table width='100%' class="hidden-phone" role="presentation">
 	        <tr>
 		        <td width='50%' style='padding-right:12px' height='48px'>
 			        <button class="btn-prime">
@@ -63,10 +63,10 @@
 			        </button>
 		        </td>
 	        </tr>
-        </table>-->
+        </table>
     </div>
     <div class="visible-phone">
-        <!--<table width="100%" role="presentation">
+        <table width="100%" role="presentation">
         	<tr>
         		<td>
         			<button class="btn-prime" style="margin-bottom:6px">
@@ -99,7 +99,7 @@
         			</button>
         		</td>
         	</tr>
-        </table>-->
+        </table>
     </div>
 	<br/>
 	<div id="page_content">
@@ -117,6 +117,7 @@
     function renderAll(){
         var prop_details = getPropertyDetails();
         renderPropertyDetails('#address_container','#address_template',prop_details);
+        
         var slug = "soc-contact-us";
         prefix = get_prefix();
         var pages_json = prefix + "/pages/" + slug + ".json"
