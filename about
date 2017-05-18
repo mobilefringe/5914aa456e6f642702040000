@@ -98,7 +98,7 @@
         </table>-->
     </div>
 	<br/>
-	<div class="page_content">
+	<div id="page_content">
 	    <div id="contact_us" >
 
         </div>
