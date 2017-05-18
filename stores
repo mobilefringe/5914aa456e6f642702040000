@@ -55,7 +55,7 @@
                                                 <img alt="Top" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533206000/icon_gotop.png" />
                                             </a>
                                         </span>
-                                        <div class="stores_full_row ta">
+                                        <div class="stores_full_row">
                                             <div class="col-md-6">
                                                 <div class="store_row_name ">
                                                         <a href="/stores/{{slug}}">{{name}}</a>
