@@ -756,7 +756,7 @@ p.twitter_feed{
 
 /************ store list tab *********/
 .body_content .store_tabs li a, .body_content .store_tabs li a:hover{
-    width:144px;
+   
     z-index:0px;
     border-radius:0px;
     height: 0; 
