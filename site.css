@@ -1094,10 +1094,7 @@ div.hour_div .hour_tr .hour_td a{
         padding-left:5px;
         color: black;
     }
-    
-    div.hour_div .hour_tr .hour_td {
-         margin-right: 0px;
-    }
+
 }
 .tab_row {
     display: table-row;
