@@ -27,7 +27,7 @@
     <a name="contact"></a>
     <h1>Contact Us</h1>
     <div class="hidden-phone">
-        <div id="contact_us"
+        <div id="contact_us"></div>
         </div>
         <table width='100%' class="hidden-phone" role="presentation">
 	        <tr>
