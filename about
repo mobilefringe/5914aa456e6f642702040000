@@ -63,7 +63,7 @@
         </table>-->
     </div>
     <div class="visible-phone">
-        <table width="100%" role="presentation">
+        <!--<table width="100%" role="presentation">
         	<tr>
         		<td>
         			<button class="btn-prime" style="margin-bottom:6px">
@@ -96,7 +96,7 @@
         			</button>
         		</td>
         	</tr>
-        </table>
+        </table>-->
     </div>
 	<br/>
 	<p>
