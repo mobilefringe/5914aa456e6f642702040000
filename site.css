@@ -1061,7 +1061,7 @@ div.hour_div{
     background-color: #BBBBBB;
     display : table;
 }
-div.hour_div .hour_td{
+div.hour_td{
     padding-top: 5px;
     padding-bottom: 5px;
 }
