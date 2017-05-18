@@ -290,8 +290,7 @@ ul.nav_menu{
 
 }
 .stores_table{
-    display: table-row-group;
-    vertical-align: middle;
+    width:100%;
 }
 .stores_row{
 	border-bottom-color: white; 
