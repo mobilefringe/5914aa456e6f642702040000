@@ -125,6 +125,7 @@
     function renderAll(){
         var prop_details = getPropertyDetails();
         renderPropertyDetails('#address_container','#address_template',prop_details);
+        renderPropertyDetails('#contact_us_container','#contact_us_template',prop_details);
         var slug = "soc-contact-us";
         prefix = get_prefix();
         var pages_json = prefix + "/pages/" + slug + ".json"
