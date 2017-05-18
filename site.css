@@ -1059,6 +1059,7 @@ ul.spaced li{
 /******** hours page **************/
 div.hour_div{    
     background-color: #BBBBBB;
+    display:table;
 }
 div.hour_td{
     padding:10px;
@@ -1067,6 +1068,7 @@ div.hour_td{
     font-family: verdana, arial, helvetica, sans-serif;
     font-size: 13px;
 }
+
 div.hour_div .hour_tr {
     padding-left: 20px;
 }
