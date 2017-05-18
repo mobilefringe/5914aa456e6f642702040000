@@ -17,13 +17,13 @@
     <div class="line_break span12">&nbsp;</div>
         
            
-    <div  role="presentation"  class="hour_div span12 row-fluid" id="disp_holiday_hour">
+    <div  role="presentation"  class="hour_div row-fluid" id="disp_holiday_hour">
     <h2 class="col-md-12">
         Holiday Hours 
     </h2>
-        <div id = "h_hours_page_container" class="table">                  
+        <div id = "h_hours_page_container">                  
             <script id="h_hours_page_template" type="x-tmpl-mustache/text">
-                <div style="width:auto;" class="hour_tr">
+                <div class="hour_tr">
                     <div class="col-md-5 hour_td" align="left"><strong>{{day}}</strong></div>
                     <div class="col-md-7 hour_td" align="left">{{h}}</div>
                 </div>
