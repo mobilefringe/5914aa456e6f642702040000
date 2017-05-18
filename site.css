@@ -308,7 +308,7 @@ ul.nav_menu{
     color:gray;
     font-family: verdana, arial, helvetica, sans-serif;
     font-size: 13px;
-    
+    height: 50px;
     border-top-width: 0px;
     padding-left: 10px;
 }
