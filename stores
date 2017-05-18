@@ -47,7 +47,7 @@
                                 <button class="btn-secondary" onClick="parent.location='#Y'">Y</button>
                                 <button class="btn-secondary" onClick="parent.location='#Z'">Z</button>
                             </div>
-                            <div class="stores_table" style="display:table; width=100%">  
+                            <div class="stores_table" style="display:table; width:100%">  
                     			<div id="store_list_container">
                                     <script id="store_list_template" type="x-tmpl-mustache/text">
                                         <span style="{{show}}" class='stores_table_headers'>{{initial}}
