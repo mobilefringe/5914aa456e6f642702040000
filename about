@@ -30,9 +30,9 @@
         <script id="contact_us_template" type="x-tmpl-mustache/text">
             <div class="hidden-phone">
                 <div width="100%" role="presentation">
-                    <div width="50%">
+                    <div width="50%" style='padding-right:12px' height='48px'>
                     </div>
-                    <div width="50%">
+                    <div width="50%" style='padding-right:12px' height='48px'>
                     </div>
                 </div>
             </div>
