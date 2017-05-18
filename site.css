@@ -1093,7 +1093,7 @@ div.hour_div .hour_tr .hour_td a{
         color: black;
     }
     
-    div.hour_div .hour_tr {
+    div.hour_div .hour_tr .hour_td {
          margin-right: 0px;
     }
 }
