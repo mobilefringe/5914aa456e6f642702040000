@@ -99,7 +99,7 @@
     </div>
 	<br/>
 	<div id="page_content">
-        <!-- dynamic data from pages/soc-contact-us -->
+        <!-- dynamic data retrived from pages/soc-contact-us -->
     </div>
     <div class="line_break">&nbsp;</div>
 </div>
