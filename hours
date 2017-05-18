@@ -7,9 +7,9 @@
     <div role="presentation"  class="hour_div row-fluid row">
         <div id = "hours_page_container" >                  
             <script id="hours_page_template" type="x-tmpl-mustache/text">
-                <div style="width:auto;" class="hour_tr">
-                    <div class="col-md-5 hour_td" align="left" style="width:auto;" ><strong>{{day}}</strong></div>
-                    <div class="col-md-7 hour_td" align="left" style="width:auto;" >{{h}}</div>
+                <div style="width:100%;" class="hour_tr">
+                    <div class="col-md-5 hour_td" align="left" style="width:50%;" ><strong>{{day}}</strong></div>
+                    <div class="col-md-7 hour_td" align="left" style="width:50%;" >{{h}}</div>
                 </div>
             </script>
         </div>
