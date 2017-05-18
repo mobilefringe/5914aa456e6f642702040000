@@ -1064,7 +1064,7 @@ div.hour_div{
 div.hour_td{
     padding:10px;
     line-height: 18px;
-        display: table-cell;
+    display: table-cell;
 }
 div.hour_div .hour_tr {
     width:200px;
