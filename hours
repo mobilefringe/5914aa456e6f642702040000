@@ -4,7 +4,7 @@
     <h1>South Oakville Centre Hours</h1>
     
     <h2 >Regular Hours</h2>
-    <div role="presentation"  class="hour_div  row-fluid row">
+    <div role="presentation"  class="hour_div row-fluid row">
         <div id = "hours_page_container">                  
             <script id="hours_page_template" type="x-tmpl-mustache/text">
                 <div style="width:auto;" class="hour_tr">
