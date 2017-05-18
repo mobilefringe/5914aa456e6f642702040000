@@ -57,18 +57,23 @@
                                         </span>
                                         <div class="stores_full_row">
                                             <div class="col-md-6">
-                                                <span class="store_row_name ">
+                                                <div class="store_row_name ">
                                                         <a href="/stores/{{slug}}">{{name}}</a>
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="col-md-1  stores_row">
+                                                <span style="{{new_store}}" class="new_store">
+                                                    
                                                 </span>
                                             </div>
-                                            
-                                            <div class="col-md-2 stores_row">
+                                            <div class="col-md-2 col stores_row">
                                                 <span style="{{new_store}}" class="new_store">
                                                     <img alt="New" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533104000/tag_new.png" /> 
                                                     New 
                                                 </span>
                                             </div>
-                                            <div class="col-md-4  stores_row">
+                                            <div class="col-md-3  stores_row">
                                                 <span class="hidden-phone">
                                                     <img src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533049000/icon_call_stores.png" class="" alt="phone"/>
                                                     {{phone}}
