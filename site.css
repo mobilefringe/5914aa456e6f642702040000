@@ -1093,6 +1093,7 @@ div.hour_div .hour_tr .hour_td a{
         display:table-cell;
     }
     .stores_full_row {
+        display:table-row;
         width:100%;
     }
     .hour_tr {
