@@ -99,7 +99,7 @@
     </div>
 	<br/>
 	<div class="page_content">
-	    <div id="contact_us">
+	    <div id="contact_us" class="hidden_now">
 
         </div>
     </div>
