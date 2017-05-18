@@ -44,7 +44,7 @@
                 </div>
             </div>
             
-    <div class="hidden-phone">
+    <div class="visible-phone">
                 <div width="100%" role="presentation">
                     
                     <div width="50%" style='padding-right:12px; ' height='48px' class='col-md-6'>
@@ -65,7 +65,7 @@
             
         </script>
     </div>
-    <div class="visible-phone">
+    <div class="hidden-phone">
         
         <!--<table width='100%' class="hidden-phone" role="presentation">
 	        <tr>
