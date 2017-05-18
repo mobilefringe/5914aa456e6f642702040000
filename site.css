@@ -311,6 +311,7 @@ ul.nav_menu{
     height: 50px;
     border-top-width: 0px;
     padding-left: 10px;
+    float:left;
 }
 
 .stores_row img{
