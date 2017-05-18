@@ -30,7 +30,7 @@
         <div id="contact_us">
 
         </div>
-        <table width='100%' class="hidden-phone" role="presentation">
+        <!--<table width='100%' class="hidden-phone" role="presentation">
 	        <tr>
 		        <td width='50%' style='padding-right:12px' height='48px'>
 			        <button class="btn-prime">
@@ -60,7 +60,7 @@
 			        </button>
 		        </td>
 	        </tr>
-        </table>
+        </table>-->
     </div>
     <div class="visible-phone">
         <table width="100%" role="presentation">
