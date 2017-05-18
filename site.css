@@ -289,7 +289,12 @@ ul.nav_menu{
 	padding-left: 14px;
 
 }
-
+.stores_table{
+    display: table-row-group;
+    vertical-align: middle;
+    
+}
+}
 .stores_row{
 	border-bottom-color: white; 
 	border-top-color: white; 
