@@ -57,10 +57,9 @@
                                         </span>
                                         <div class="stores_full_row">
                                             <div class="col-md-7 store_row_name ">
-                                                <span>
+                                            
                                                         <a href="/stores/{{slug}}">{{name}}</a>
-                                                    
-                                                </span>
+                                                
                                             </div>
                                             
                                             <div class="col-md-2 col stores_row">
