@@ -1077,6 +1077,9 @@ div.hour_div .hour_tr {
     font-size: 13px;
     line-height: 18px;
 }
+.hour_tr {
+    display:table-row;
+}
 div.hour_div .hour_tr .hour_td a{
     float: right;
 }
