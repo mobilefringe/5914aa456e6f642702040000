@@ -179,19 +179,17 @@
     function renderAll(){
         var prop_details = getPropertyDetails();
         renderPropertyDetails('#address_container','#address_template',prop_details);
-        var pathArray = window.location.pathname.split( '/' );
-            var slug = "soc-contact-us";//pathArray[pathArray.length-1];
-            console.log(slug);
-            prefix = get_prefix();
-            var pages_json = prefix + "/pages/" + slug + ".json"
-            $.getJSON(pages_json).done(function(data) {
-                   $('#page_title').html(data.title);
-                   $('#page_content').html(data.body);
-            }).fail(function(jqXHR) {
-                if (jqXHR.status == 404) {
-                   $("#404_msg").fadeIn("fast");
-                }
-            });
+        var slug = "soc-contact-us";
+        prefix = get_prefix();
+        var pages_json = prefix + "/pages/" + slug + ".json"
+        $.getJSON(pages_json).done(function(data) {
+               $('#page_title').html(data.title);
+               $('#page_content').html(data.body);
+        }).fail(function(jqXHR) {
+            if (jqXHR.status == 404) {
+               $("#404_msg").fadeIn("fast");
+            }
+        });
         show_content();
     }
 </script>
