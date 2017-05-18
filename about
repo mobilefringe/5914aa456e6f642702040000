@@ -30,6 +30,8 @@
         <script id="contact_us_template" type="x-tmpl-mustache/text">
             <div class="hidden-phone">
                 <div width="100%" role="presentation">
+                    <div width="50%">
+                    </div>
                 </div>
             </div>
         </script>
