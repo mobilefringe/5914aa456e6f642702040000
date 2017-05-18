@@ -180,7 +180,7 @@
         var prop_details = getPropertyDetails();
         renderPropertyDetails('#address_container','#address_template',prop_details);
         var pathArray = window.location.pathname.split( '/' );
-            var slug = "soc-contact-us"";//pathArray[pathArray.length-1];
+            var slug = "soc-contact-us";//pathArray[pathArray.length-1];
             console.log(slug);
             prefix = get_prefix();
             var pages_json = prefix + "/pages/" + slug + ".json"
