@@ -1137,7 +1137,7 @@ div.hour_div .hour_tr .hour_td a{
 
 
 /*keyframe animations*/
-.first {
+.first_image {
     -webkit-animation: bannermove 30s linear infinite;
        -moz-animation: bannermove 30s linear infinite;
         -ms-animation: bannermove 30s linear infinite;
