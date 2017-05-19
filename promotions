@@ -42,7 +42,7 @@
         <div class="col-md-4">
             <div class="vendor_scroll trim_screen span12">
                 <div class="vendor_scroll_list">
-                    <ul id="promo_scroller" class="simply-scroll-list" style="width: 3150px;">
+                    <ul id="scroller" class="simply-scroll-list" style="width: 3150px;">
                         <script id="promo_scroller_template" type="x-tmpl-mustache/text">
                             <li>
                                 <a href="/stores/{{slug}}">
@@ -94,7 +94,7 @@
     
    
     $(function() { //on DOM ready 
-        $("#promo_scroller").simplyScroll();
+        $("#scroller").simplyScroll();
     });    
     
      
@@ -103,7 +103,7 @@
         var mall_published_promos = [];
         var store_published_promos = [];
         var stores = getStoresList();
-        renderVendorScroll('#promo_scroller','#promo_scroller_template', stores);
+        renderVendorScroll('#scroller','#promo_scroller_template', stores);
         $.each(promotions, function(key, val){
             if(val.promotionable_type == "Property"){
                 today = moment();
