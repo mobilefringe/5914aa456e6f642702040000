@@ -43,7 +43,7 @@
             <div class="vendor_scroll trim_screen span12">
                 <div class="vendor_scroll_list">
                     <ul id="scroller" class="simply-scroll-list" style="width: 3150px;">
-                        <script id="scroller_template" type="x-tmpl-mustache/text">
+                        <script id="promo_scroller_template" type="x-tmpl-mustache/text">
                             <li>
                                 <a href="/stores/{{slug}}">
                                     <img alt="{{name}} " src="{{image_url}}" height="100">
