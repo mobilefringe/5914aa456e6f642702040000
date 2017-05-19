@@ -87,7 +87,7 @@ function renderVendorScroll(container, template, collection){
     
     //var items_length = item_list.length;
     item_list
-    for (var i = 0; i < 2; i ++)
+    for (var i = 0; i < 3; i ++)
     {
         $.each( item_list_temp , function( key, val ) {
             item_list.push(val);
