@@ -106,6 +106,8 @@
         var promotions = getPromotionsList().sortBy(function(o){ return o.show_on_web_date});
         var mall_published_promos = [];
         var store_published_promos = [];
+        var stores = getStoresList();
+        renderVendorScroll('#scroller','#scroller_template', stores);
         $.each(promotions, function(key, val){
             if(val.promotionable_type == "Property"){
                 today = moment();
