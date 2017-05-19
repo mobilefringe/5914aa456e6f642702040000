@@ -44,6 +44,9 @@
             renderEvents("#events_container","#events_template",published_events);
             $('#no_events').hide();
         }
+        else {
+        
+        }
  
         show_content();
     } 
