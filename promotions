@@ -127,7 +127,7 @@
             renderPromotions("#store_promo_container","#store_promo_template", store_published_promos);
             $("#no_promos").hide();
         }
-        else if (store_published_promos.length <= 0  mall_published_promos.length > 0 ) {
+        else if (store_published_promos.length <= 0) {
             
             $("#store_promo_container").hide();
         }
