@@ -510,5 +510,5 @@ $.simplyScroll.fn.extend({
 		this.$clip[0]['scroll' + this.scrollPos] = this.resetPosition;
 	}
 });
-		  
+  
 })(jQuery,window);
