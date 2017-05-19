@@ -128,7 +128,8 @@
             $("#no_promos").hide();
         }
         else {
-            
+            $("#mall_promo_container").hide();
+            $("#mall_promo_container").hide();
         }
         
         show_content();
