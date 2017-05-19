@@ -70,7 +70,8 @@ function renderVendorScroll(container, template, collection){
     var template_html = $(template).html();
     Mustache.parse(template_html);   // optional, speeds up future uses
     var store_initial="";
-    $.each( collection , function( key, val ) {
+    for (vari = 0; i< 3 ; i++){
+        $.each( collection , function( key, val ) {
         if(val.show_logo === true){
             val.image_url = val.store_front_url_abs;
             if(val.image_url.indexOf('missing.png') > 0){
@@ -82,6 +83,8 @@ function renderVendorScroll(container, template, collection){
             item_list.push(val);
         }
     });
+    }
+    
     
     
     $.each( item_list , function( key, val ) {
