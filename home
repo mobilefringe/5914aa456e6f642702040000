@@ -65,7 +65,7 @@
                 
             </div>
         </div>
-            <ul id="scroller">
+            <ul id="scroller" class="simply-scroll-list" style="width: 3150px;">
                 <script id="scroller_template" type="x-tmpl-mustache/text">
                     <li>
                         <a href="/stores/{{slug}}">
