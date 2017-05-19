@@ -66,7 +66,7 @@
                     <script id="scroller_template" type="x-tmpl-mustache/text">
                         <li>
                             <a href="/stores/{{slug}}">
-                                <img alt="{{name}} " src="{{image_url}}" class="{{first_class}}" height="100">
+                                <img alt="{{name}} " src="{{image_url}}" height="100">
                             </a>
                         </li>
                     </script>
@@ -90,7 +90,11 @@
     	    console.log("toggle");
     	});
     });
-
+    (function($) {
+        $(function() { //on DOM ready 
+            $("#scroller").simplyScroll();
+        });    
+     })(jQuery); 
     
     function renderAll(){
         var banners = getBanners();
