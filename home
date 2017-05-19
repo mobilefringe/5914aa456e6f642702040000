@@ -62,11 +62,11 @@
         <div class="vendor_scroll_list">
             <ul id="scroller">
                 <script id="scroller_template" type="x-tmpl-mustache/text">
-                <li>
-                    <a href="/stores/soc-south-oakville-centre-boba-green">
-                        <img alt="BoBa Green " src="https://www.mallmaverick.com/system/stores/store_fronts/000/037/048/original/Untitled.jpg?1492631996" height="100">
-                    </a>
-                </li>
+                    <li>
+                        <a href="/stores/soc-south-oakville-centre-boba-green">
+                            <img alt="BoBa Green " src="https://www.mallmaverick.com/system/stores/store_fronts/000/037/048/original/Untitled.jpg?1492631996" height="100">
+                        </a>
+                    </li>
                 </script>
             </ul> 
         </div>
