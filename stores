@@ -100,10 +100,6 @@
                                                         <a href="/stores/{{slug}}">{{name}}</a> <br/>
                                                 
                                             </div>
-                                            <div class="col-xs-1 stores_row">
-                                                <span style="{{promotion_exist}}">
-                                                </span>
-                                            </div>
                                             <div class="col-xs-3  stores_row">
                                                 <span style="{{promotion_exist}}">
                                                     <img alt="Sale" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533300000/tag_sale.png" /> Sale!
