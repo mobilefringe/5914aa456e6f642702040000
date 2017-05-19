@@ -127,6 +127,9 @@
             renderPromotions("#store_promo_container","#store_promo_template", store_published_promos);
             $("#no_promos").hide();
         }
+        else {
+            
+        }
         
         show_content();
     } 
