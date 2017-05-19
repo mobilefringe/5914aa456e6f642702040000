@@ -84,7 +84,12 @@
     	    $("#menu_hours_container").toggle();
     	    console.log("toggle");
     	});
-    })
+    });
+    (function($) {
+        $(function() { //on DOM ready 
+            $("#scroller").simplyScroll();
+        });    
+     })(jQuery); 
     
     function renderAll(){
         var banners = getBanners();
