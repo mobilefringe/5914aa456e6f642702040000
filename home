@@ -60,6 +60,11 @@
 <div class="row-fluid">
     <div class="vendor_scroll trim_screen span12">
         <div class="vendor_scroll_list">
+        <div class="simply-scroll simply-scroll-container">
+            <div>
+                
+            </div>
+        </div>
             <ul id="scroller">
                 <script id="scroller_template" type="x-tmpl-mustache/text">
                     <li>
