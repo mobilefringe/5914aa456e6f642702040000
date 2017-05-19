@@ -92,7 +92,7 @@
         var today_hours = getTodaysHours();
         var hours = getPropertyHours();
         var stores = getStoresList();
-        renderVendorScroll('#scroller','#scroller_template', stores, "stores");
+        renderVendorScroll('#scroller','#scroller_template', stores);
         renderBanner('#banner_template','#home_banner',banners);
         renderFeatureItems('#feature_container', '#feature_template', feature_items);
         renderHomeHours('#homem_hours_container', '#homem_hours_template', today_hours);
