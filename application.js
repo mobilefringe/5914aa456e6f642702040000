@@ -65,7 +65,8 @@ function renderGeneral(container, template, collection){
     $(container).html(item_rendered.join(''));
 }
 function renderVendorScroll(container, template, collection){
-   var item_list = [];
+    var item_list_temp = [];
+    var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
     Mustache.parse(template_html);   // optional, speeds up future uses
@@ -80,7 +81,7 @@ function renderVendorScroll(container, template, collection){
             if(item_list.empty) {
                 val.first_class="first_image";
             }
-            item_list.push(val);
+            item_list_temp.push(val);
         }
     });
     
