@@ -81,7 +81,7 @@ function renderVendorScroll(container, template, collection){
     });
 
     $.each( item_list , function( key, val ) {
-        var repo_rendered = Mustache.render(banner_template_html,val);
+        var repo_rendered = Mustache.render(template_html,val);
         item_rendered.push(repo_rendered);
        
     });
