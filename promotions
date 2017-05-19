@@ -122,7 +122,7 @@
                 }     
             } 
         });
-        if(store_published_promos.length > 0) {
+        if(store_published_promos.length > 0 || mall_published_promos.length > 0 ) {
             renderPromotions('#promos_container', '#promos_template', published_promos);
             $("#no_promos").hide();
         }
