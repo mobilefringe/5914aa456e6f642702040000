@@ -72,7 +72,7 @@ function renderVendorScroll(container, template, collection){
     var store_initial="";
     $.each( collection , function( key, val ) {
         if(val.show_logo === true){
-            val.image_url = store_details.store_front_url_abs;
+            val.image_url = val.store_front_url_abs;
             if(val.image_url.indexOf('missing.png') > 0){
                 val.image_url  = "//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494532252000/logo_hopedale.png";
             }
