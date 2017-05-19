@@ -103,7 +103,7 @@
         var mall_published_promos = [];
         var store_published_promos = [];
         var stores = getStoresList();
-        renderVendorScroll('#croller','#promo_scroller_template', stores);
+        renderVendorScroll('#scroller','#promo_scroller_template', stores);
         $.each(promotions, function(key, val){
             if(val.promotionable_type == "Property"){
                 today = moment();
