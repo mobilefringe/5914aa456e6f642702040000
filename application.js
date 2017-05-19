@@ -64,7 +64,7 @@ function renderGeneral(container, template, collection){
     });
     $(container).html(item_rendered.join(''));
 }
-function renderVendorScrollcontainer, template, collection){
+function renderVendorScroll(container, template, collection){
     var item_list = [];
     var item_rendered = [];
     var banner_template_html = $(banner_template).html();
