@@ -1052,7 +1052,7 @@ ul.spaced li{
 }
 
 .hidden_now {
-    display:none !important;
+    display:none;
     
 }
 
