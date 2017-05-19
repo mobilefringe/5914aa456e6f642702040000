@@ -1088,10 +1088,7 @@ div.hour_div .hour_tr .hour_td a{
         padding-left:5px;
         color: black;
     }
-    .stores_row {
-        display:table-cell;
-    }
-   
+
     .hour_tr {
         display:table-row;
     }
