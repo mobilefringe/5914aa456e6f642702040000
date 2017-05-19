@@ -64,7 +64,7 @@
                 <script id="scroller_template" type="x-tmpl-mustache/text">
                     <li>
                         <a href="/stores/{{slug}}">
-                            <img alt="BoBa Green " src="https://www.mallmaverick.com/system/stores/store_fronts/000/037/048/original/Untitled.jpg?1492631996" height="100">
+                            <img alt="{{name}} " src="https://www.mallmaverick.com/system/stores/store_fronts/000/037/048/original/Untitled.jpg?1492631996" height="100">
                         </a>
                     </li>
                 </script>
