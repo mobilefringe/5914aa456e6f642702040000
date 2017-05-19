@@ -72,7 +72,7 @@ function renderVendorScroll(container, template, collection){
     var store_initial="";
     $.each( collection , function( key, val ) {
         if(val.show_logo === true){
-            val.new_store = "display:inline";
+            item_list.push(val);
         }
     });
 
