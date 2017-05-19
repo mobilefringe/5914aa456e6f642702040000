@@ -17,8 +17,9 @@
         </scirpt>
     </div>
     <div class="store_desc" id="no_events">
-                        Currently we have no Events, but check back soon!
-                        <hr class="promo_separator" />
+        <h3>
+            Currently we have no Events, but check back soon!
+        </h3>
     </div>
 </div>
 
