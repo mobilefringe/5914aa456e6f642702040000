@@ -92,11 +92,11 @@
         loadMallData(renderAll); 
     })
     
-    (function($) {
-        $(function() { //on DOM ready 
-            $("#scroller").simplyScroll();
-        });    
-     })(jQuery); 
+   
+    $(function() { //on DOM ready 
+        $("#scroller").simplyScroll();
+    });    
+    
      
     function renderAll(){
         var promotions = getPromotionsList().sortBy(function(o){ return o.show_on_web_date});
