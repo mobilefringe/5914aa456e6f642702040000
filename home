@@ -61,7 +61,7 @@
     <div class="vendor_scroll trim_screen span12">
         <div class="vendor_scroll_list">
         <div class="simply-scroll simply-scroll-container">
-            <div>
+            <div class="simply-scroll-clip">
                 
             </div>
         </div>
