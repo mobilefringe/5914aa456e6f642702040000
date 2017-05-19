@@ -1100,7 +1100,7 @@ div.hour_div .hour_tr .hour_td a{
     display: table-row;
 }
 /******** Vender Scroll *********/
-.photobanner, .photobanner2 {
+.simply-scroll-list, .photobanner2 {
     height: 233px;
     width: 3550px;
     margin-bottom: 5px;
