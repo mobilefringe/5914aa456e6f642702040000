@@ -59,7 +59,11 @@
                                             <div class="col-xs-7 store_row_name ">
                                                 <a href="/stores/{{slug}}">{{name}}</a>
                                             </div>
-                                            
+                                            <div class="col-xs-2 col stores_row">
+                                                <span style="{{new_store}}" class="new_store">
+                                                     
+                                                </span>
+                                            </div>
                                             <div class="col-xs-2 col stores_row">
                                                 <span style="{{new_store}}" class="new_store">
                                                     <img alt="New" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533104000/tag_new.png" /> 
