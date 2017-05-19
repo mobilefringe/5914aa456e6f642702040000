@@ -40,7 +40,7 @@
             <div class="store_desc" id="no_promotions">
                     Currently we have no Promotions, but check back soon!
                     <hr class="promo_separator" />
-                </div>
+            </div>
         </div>
         <!-- side bar -->
         <div class="col-md-4">
