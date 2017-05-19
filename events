@@ -45,7 +45,7 @@
             $('#no_events').hide();
         }
         else {
-        
+        $('#events_container').hide();
         }
  
         show_content();
