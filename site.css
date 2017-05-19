@@ -1122,7 +1122,7 @@ div.hour_div .hour_tr .hour_td a{
     transition: all 0.5s ease;
 }
  
-.photobanner img:hover {
+.simply-scroll-list img:hover {
     -webkit-transform: scale(1.2);
     -moz-transform: scale(1.2);
     -o-transform: scale(1.2);
