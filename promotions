@@ -42,13 +42,19 @@
         <div class="col-md-4">
             <div class="vendor_scroll">
                 <div class="vendor_scroll_list">
-                    <ul id="scroller">
-                        <li>
-                            <a href="/stores/hopedale-beer-store">
-                                <img alt="Store hopedale-beer-store" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494532252000/logo_hopedale.png" height="100">
-                            </a>
-                        </li>
-                    </ul>   
+                    <div class="simply-scroll simply-scroll-container">
+                        <div class="simply-scroll-clip">
+                            <ul id="scroller" class="simply-scroll-list" style="width: 3150px;">
+                                <script id="scroller_template" type="x-tmpl-mustache/text">
+                                    <li>
+                                        <a href="/stores/{{slug}}">
+                                            <img alt="{{name}} " src="{{image_url}}" height="100">
+                                        </a>
+                                    </li>
+                                </script>
+                            </ul> 
+                        </div>
+                    </div>    
                 </div>
             </div>    
             <div class="line_break">&nbsp;</div>
