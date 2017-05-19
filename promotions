@@ -90,6 +90,12 @@
         loadMallData(renderAll); 
     })
     
+    (function($) {
+        $(function() { //on DOM ready 
+            $("#scroller").simplyScroll();
+        });    
+     })(jQuery); 
+     
     function renderAll(){
         var promotions = getPromotionsList().sortBy(function(o){ return o.show_on_web_date});
         var mall_published_promos = [];
