@@ -72,6 +72,7 @@ function renderVendorScroll(container, template, collection){
     var store_initial="";
     $.each( collection , function( key, val ) {
         if(val.show_logo === true){
+            image_url
             item_list.push(val);
         }
     });
