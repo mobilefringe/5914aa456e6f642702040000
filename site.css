@@ -1100,20 +1100,7 @@ div.hour_div .hour_tr .hour_td a{
     display: table-row;
 }
 
-/******** Vendor Scroller *********/
-
-
-
-/* Keyframe animations*/
-
-@keyframes "bannermove" {
-  0% {
-    margin-left: 0px;
-  }
-  100% {
-    margin-left: -2130px;
-  }
-}
+/*
 
 
 /******** loader ***********/
