@@ -90,6 +90,7 @@
     	    console.log("toggle");
     	});
     });
+    
     (function($) {
         $(function() { //on DOM ready 
             $("#scroller").simplyScroll();
