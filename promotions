@@ -44,8 +44,8 @@
                 <div class="vendor_scroll_list">
                     <div class="simply-scroll simply-scroll-container">
                         <div class="simply-scroll-clip">
-                            <ul id="scroller" class="simply-scroll-list" style="width: 3150px;">
-                                <script id="scroller_template" type="x-tmpl-mustache/text">
+                            <ul id="promo_scroller" class="simply-scroll-list" style="width: 3150px;">
+                                <script id="promo_scroller_template" type="x-tmpl-mustache/text">
                                     <li>
                                         <a href="/stores/{{slug}}">
                                             <img alt="{{name}} " src="{{image_url}}" height="100">
