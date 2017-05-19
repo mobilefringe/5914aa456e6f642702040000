@@ -122,6 +122,10 @@
                 }     
             } 
         });
+        if(store_published_promos.length > 0) {
+            renderPromotions('#promos_container', '#promos_template', published_promos);
+            $("#no_promos").hide();
+        }
         renderPromotions("#mall_promo_container","#mall_promo_template", mall_published_promos);
         renderPromotions("#store_promo_container","#store_promo_template", store_published_promos);
         show_content();
