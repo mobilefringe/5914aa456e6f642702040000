@@ -91,7 +91,11 @@
     	});
     });
     
-    
+    (function($) {
+        $(function() { //on DOM ready 
+            $("#scroller").simplyScroll();
+        });    
+     })(jQuery); 
     
     function renderAll(){
         var banners = getBanners();
