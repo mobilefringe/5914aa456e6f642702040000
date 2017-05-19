@@ -81,7 +81,7 @@ function renderVendorScroll(container, template, collection){
         item_rendered.push(repo_rendered);
        
     });
-    $(home_banner).html(item_rendered.join(''));
+    $(container).html(item_rendered.join(''));
     
 }
 
