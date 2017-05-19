@@ -1099,6 +1099,7 @@ div.hour_div .hour_tr .hour_td a{
 .tab_row {
     display: table-row;
 }
-
+/******** Vender Scroll *********/
+overflow: hidden;
 /******** loader ***********/
 
