@@ -76,6 +76,9 @@ function renderVendorScroll(container, template, collection){
             if(val.image_url.indexOf('missing.png') > 0){
                 val.image_url  = "//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494532252000/logo_hopedale.png";
             }
+            if(item_list.empty) {
+                val.first_class="first";
+            }
             item_list.push(val);
         }
     });
