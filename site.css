@@ -1100,6 +1100,8 @@ div.hour_div .hour_tr .hour_td a{
         font-size: 11px;
     }
 }
+@media (max-width: 800px) {
+}
 .tab_row {
     display: table-row;
 }
