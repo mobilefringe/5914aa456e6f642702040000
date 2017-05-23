@@ -1096,11 +1096,12 @@ div.hour_div .hour_tr .hour_td a{
     .stores_row {
         font-size: 10px;
     }
+    
+}
+@media (max-width: 400px) {
     .store_row_name {
         font-size: 11px;
     }
-}
-@media (max-width: 800px) {
 }
 .tab_row {
     display: table-row;
