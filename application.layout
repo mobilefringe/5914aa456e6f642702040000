@@ -132,7 +132,8 @@
                                         <span class="caret pull-right"></span>    
                                     </button>
                                     
-                                    <div class="dropdown-menu bottom hour_dropdown hidden_now" style="top:30px;" id = "hours_container">                  
+                                    <div class="dropdown-menu bottom hour_dropdown hidden_now" style="top:30px;" >
+                                    <div id = "hours_container">
                                         <script id="hours_template" type="x-tmpl-mustache/text">
                                             {%raw%}
                                                 <div class="{{show_class}} row">
@@ -143,6 +144,7 @@
                                         		</div>
                                         	{%endraw%}
                                     	</script>
+                                    	</div>
                                     </div>
                                 </span>
                                 <!-- hours END --> 
