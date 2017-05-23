@@ -135,7 +135,7 @@
                                     
                                     <div id = "hours_container">
                                         <script id="hours_template" type="x-tmpl-mustache/text">
-                                            <div class="dropdown-menu bottom hour_dropdown hidden_now" style="top:30px;" >
+                                            <div class="dropdown-menu bottom hour_dropdown" style="top:30px;" >
                                             {%raw%}
                                                 <div class="{{show_class}} row">
                                                         <div class="col-sm-4" align="left" style="font-weight:bold;">
