@@ -35,7 +35,7 @@
                 <script id="menu_hours_template" type="x-tmpl-mustache/text">
                     <div class="{{show_class}}">
                         <div class="col-sm-4" align="left" style="font-weight:bold;"><p style="line-height: 0px;">{{day}}</p></div>
-                        <div class="col-sm-8" align="right"><p>{{h}}</p></div>
+                        <div class="col-sm-8" align="right"><p style="line-height: 0px;">{{h}}</p></div>
                     </div>
                 </script>
                 </div>
