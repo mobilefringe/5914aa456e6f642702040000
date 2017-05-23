@@ -1096,6 +1096,9 @@ div.hour_div .hour_tr .hour_td a{
     .stores_row {
         font-size: 10px;
     }
+    .store_row_name {
+        font-size: 14px;
+    }
     
 }
 @media (max-width: 400px) {
