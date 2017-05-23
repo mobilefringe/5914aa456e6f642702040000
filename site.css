@@ -1104,4 +1104,8 @@ div.hour_div .hour_tr .hour_td a{
     overflow: hidden;
 }
 /******** loader ***********/
-
+.custom_backdrop{
+    opacity:0.5;
+    background:#fff;
+    text-align:center;
+}
