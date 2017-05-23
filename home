@@ -78,12 +78,7 @@
     $(document).ready(function(e){
         init(e);
         loadMallData(renderAll); 
-        //Dropdown Hours
-	    $("#menu_hours_container").hide();
-    	$('.dropdown_btn').click(function(e){
-    	    $("#menu_hours_container").toggle();
-    	    console.log("toggle");
-    	});
+        
     });
     
     (function($) {
