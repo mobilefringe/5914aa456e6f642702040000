@@ -133,18 +133,18 @@
                                     </button>
                                     
                                     <div class="dropdown-menu bottom hour_dropdown hidden_now" style="top:30px;" >
-                                    <div id = "hours_container">
-                                        <script id="hours_template" type="x-tmpl-mustache/text">
-                                            {%raw%}
-                                                <div class="{{show_class}} row">
-                                                        <div class="col-sm-4" align="left" style="font-weight:bold;">
-                                                            <p>{{day}}</p>
-                                                        </div>
-                                                        <div class="col-sm-8" align="right"><p>{{h}}</p></div>
-                                        		</div>
-                                        	{%endraw%}
-                                    	</script>
-                                    	</div>
+                                        <div id = "hours_container">
+                                            <script id="hours_template" type="x-tmpl-mustache/text">
+                                                {%raw%}
+                                                    <div class="{{show_class}} row">
+                                                            <div class="col-sm-4" align="left" style="font-weight:bold;">
+                                                                <p>{{day}}</p>
+                                                            </div>
+                                                            <div class="col-sm-8" align="right"><p>{{h}}</p></div>
+                                            		</div>
+                                            	{%endraw%}
+                                        	</script>
+                                        </div>
                                     </div>
                                 </span>
                                 <!-- hours END --> 
