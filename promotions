@@ -57,7 +57,7 @@
                 </div>
             </div> 
             <div class="line_break">&nbsp;</div>
-            <ul class="thumbnails row-fluid  trim_screen">
+            <ul class="thumbnails row-fluid  trim_screen" id="promo_sidebar_container">
                 <li class="side_bar_li">
                     <a href='/stores'>
                         <div class="thumbnail">                         
