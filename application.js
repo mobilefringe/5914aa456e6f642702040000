@@ -316,7 +316,7 @@ function renderStoreDetails(container, template, collection, slug){
         else{
             val.facebook_show = "display:none";
         }
-        if(val.website)
+        if((val.website== null || val.website == ""))
         else 
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
