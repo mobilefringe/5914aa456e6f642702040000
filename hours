@@ -18,9 +18,7 @@
         
            
     <div  role="presentation"  class="hour_div row-fluid" id="disp_holiday_hour">
-    <h2 class="col-md-12">
-        Holiday Hours 
-    </h2>
+    
         <div id = "h_hours_page_container">                  
             <script id="h_hours_page_template" type="x-tmpl-mustache/text">
                 <div class="hour_tr">
