@@ -58,7 +58,7 @@
             </div> 
             <div class="line_break">&nbsp;</div>
             <ul class="thumbnails row-fluid  trim_screen" id="promo_sidebar_container">
-            <script id="promo_sidebar_template"
+            <script id="promo_sidebar_template" type="x-tmpl-mustache/text"></script>
                 <li class="side_bar_li">
                     <a href='/stores'>
                         <div class="thumbnail">                         
