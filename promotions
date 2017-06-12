@@ -71,19 +71,7 @@
                             </div>
                         </a>
                     </li>
-                        
-                    // <li class="side_bar_li">
-                    //     <a href='/hours'>
-                    //         <div class="thumbnail">                         
-                    //             <img alt="logo_hopedale" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494532252000/logo_hopedale.png" />                    <div class="promo_title">                        
-                    //                 <span class="feature_message">
-                    //                     <hr />
-                    //                         CENTER HOURS
-                    //                 </span>
-                    //             </div>
-                    //         </div>
-                    //     </a>
-                    // </li>
+
                 </script>
                 
             </ul>
