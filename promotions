@@ -62,7 +62,8 @@
                 <li class="side_bar_li">
                     <a href='{{url}}'>
                         <div class="thumbnail">                         
-                            <img alt="logo_hopedale" src="{{photo_url_abs" />                   <div class="promo_title">                        
+                            <img alt="logo_hopedale" src="{{photo_url_abs" />
+                            <div class="promo_title">                        
                                 <span class="feature_message">
                                     <hr />
                                         STORES
