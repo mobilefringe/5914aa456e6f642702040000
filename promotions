@@ -106,7 +106,7 @@
         var mall_published_promos = [];
         var store_published_promos = [];
         var stores = getStoresList();
-        var promotoion_sidebar = getRepoDetailsByName("Promotions Side Bar");
+        var promotoion_sidebar = getRepoDetailsByName("Promotions Side Bar").images;
         renderGeneral ("","",promotoion_sidebar);
         renderVendorScroll('#scroller','#scroller_template', stores);
         $.each(promotions, function(key, val){
