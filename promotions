@@ -58,7 +58,9 @@
             </div> 
             <div class="line_break">&nbsp;</div>
             <ul class="thumbnails row-fluid  trim_screen" id="promo_sidebar_container">
-            <script id="promo_sidebar_template" type="x-tmpl-mustache/text"></script>
+            <script id="promo_sidebar_template" type="x-tmpl-mustache/text">
+                
+            </script>
                 <li class="side_bar_li">
                     <a href='/stores'>
                         <div class="thumbnail">                         
@@ -108,7 +110,7 @@
         var store_published_promos = [];
         var stores = getStoresList();
         var promotoion_sidebar = getRepoDetailsByName("Promotions Side Bar").images;
-        renderGeneral ("","",promotoion_sidebar);
+        renderGeneral ("promo_sidebar_container","promo_sidebar_template",promotoion_sidebar);
         renderVendorScroll('#scroller','#scroller_template', stores);
         $.each(promotions, function(key, val){
             if(val.promotionable_type == "Property"){
