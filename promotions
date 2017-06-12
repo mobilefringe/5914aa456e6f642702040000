@@ -58,33 +58,33 @@
             </div> 
             <div class="line_break">&nbsp;</div>
             <ul class="thumbnails row-fluid  trim_screen" id="promo_sidebar_container">
-            <script id="promo_sidebar_template" type="x-tmpl-mustache/text">
-                <li class="side_bar_li">
-                    <a href='{{url}}'>
-                        <div class="thumbnail">                         
-                            <img alt="logo_hopedale" src="{{photo_url_abs" />
-                            <div class="promo_title">                        
-                                <span class="feature_message">
-                                    
-                                </span>
+                <script id="promo_sidebar_template" type="x-tmpl-mustache/text">
+                    <li class="side_bar_li">
+                        <a href='{{url}}'>
+                            <div class="thumbnail">                         
+                                <img alt="logo_hopedale" src="{{photo_url_abs" />
+                                <div class="promo_title">                        
+                                    <span class="feature_message">
+                                        
+                                    </span>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </li>
-                    
-                // <li class="side_bar_li">
-                //     <a href='/hours'>
-                //         <div class="thumbnail">                         
-                //             <img alt="logo_hopedale" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494532252000/logo_hopedale.png" />                    <div class="promo_title">                        
-                //                 <span class="feature_message">
-                //                     <hr />
-                //                         CENTER HOURS
-                //                 </span>
-                //             </div>
-                //         </div>
-                //     </a>
-                // </li>
-            </script>
+                        </a>
+                    </li>
+                        
+                    // <li class="side_bar_li">
+                    //     <a href='/hours'>
+                    //         <div class="thumbnail">                         
+                    //             <img alt="logo_hopedale" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494532252000/logo_hopedale.png" />                    <div class="promo_title">                        
+                    //                 <span class="feature_message">
+                    //                     <hr />
+                    //                         CENTER HOURS
+                    //                 </span>
+                    //             </div>
+                    //         </div>
+                    //     </a>
+                    // </li>
+                </script>
                 
             </ul>
         </div>
