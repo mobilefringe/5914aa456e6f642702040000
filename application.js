@@ -271,6 +271,7 @@ function renderStoreDetails(container, template, collection, slug){
     $.each( item_list , function( key, val ) {
         console.log(val.name,(val.store_front_url).indexOf('missing.png'),val.store_front_url);
         if ((val.store_front_url).indexOf('missing.png') > -1){
+            console.log("hello")
             val.alt_store_front_url = "//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494532252000/logo_hopedale.png";
         } else {
             val.alt_store_front_url = getImageURL(val.store_front_url); 
