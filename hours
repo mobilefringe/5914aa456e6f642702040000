@@ -16,7 +16,9 @@
     </div>
     <div class="line_break span12">&nbsp;</div>
         
-           
+   <h2 class="col-md-12">
+        Holiday Hours 
+    </h2>        
     <div  role="presentation"  class="hour_div row-fluid" id="disp_holiday_hour">
     
         <div id = "h_hours_page_container">                  
