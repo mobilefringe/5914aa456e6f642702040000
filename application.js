@@ -248,14 +248,13 @@ function renderStoreListCatetories(container, template, category_list,stores){
                 
                 store.header = category_name;
                 store.block = category.id;
-                if (store.promotions.length > 0){
+                if (store.promotions != null){
                     store.promotion_exist = "display:inline";
                     var store_promo = getPromotionsForIds(store.promotions).sortBy(function(o){ return o.start_date })[0];
                     if (store_promo != undefined){
                         store.promo_btn = "/promotions/" + store_promo.slug;
                     }
-                }
-                else{
+                } else {
                     store.promotion_exist = "display:none";
                 }
                 if(store.phone.length < 1){
