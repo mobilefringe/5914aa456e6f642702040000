@@ -1,0 +1,126 @@
+<div class="container-fluid trim_screen" style="padding-top:25px;">    
+    <div class="row-fluid ">   
+        <div class="col-md-8" width="100%">
+            <div id="store_promo_container" class="promotions_div">
+                <script id="store_promo_template" type="x-tmpl-mustache/text">
+                    <div class="row-fluid promotion_row " >            
+                        <div class="col-md-3 promotion_image promotion_row">
+                            <a href="/promotions/{{slug}}">
+                                <img alt="Promo - {{name}}" src="{{image_url}}" />                       
+                            </a>
+                        </div>
+                        <div class="col-md-9 promotion_row ">
+                            <div class="promotion_box promotion_info">
+                                <h3> {{store_name}} </h3>
+                                <h3><a href="/promotions/{{slug}}">{{ name }}</a></h3>        		                
+                    			{{description}}
+                                <a href="/promotions/{{slug}}" class="read_more">Read More</a>
+                            </div>
+                        </div>    
+                    </div>
+                </script>
+            </div>    
+            <div id="mall_promo_container">
+                <script id="mall_promo_template" type="x-tmpl-mustache/text">
+                    <div class="row-fluid" >            
+                        <div class="col-md-3">
+                            <a href="/promotions/{{slug}}">
+                                <img alt="Promo - {{promo.name}}" src="{{image_url}}" />                       
+                            </a>
+                        </div>
+                        <div class="col-md-9">
+                            <h3> {{store_name}} </h3>
+                            <h3><a href="/promotions/{{slug}}">{{name }}</a></h3>            	                
+                			{{ description }}
+                            <a href="/promotions/{{slug}}" class="read_more">Read More</a>
+                        </div>    
+                    </div>
+                </script>
+            </div>
+            <div class="store_desc" id="no_promotions">
+                <h3>Currently we have no Promotions, but check back soon!</h3> 
+            </div>
+        </div>
+        <!-- side bar -->
+        <div class="col-md-4">
+            <div class="vendor_scroll trim_screen span12">
+                <div class="vendor_scroll_list">
+                    <ul id="scroller" class="simply-scroll-list" style="width: 3150px;">
+                        <script id="scroller_template" type="x-tmpl-mustache/text">
+                            <li>
+                                <a href="/stores/{{slug}}">
+                                    <img alt="{{name}} " src="{{image_url}}" height="100">
+                                </a>
+                            </li>
+                        </script>
+                    </ul> 
+                </div>
+            </div> 
+            <div class="line_break">&nbsp;</div>
+            <ul class="thumbnails row-fluid  trim_screen" id="promo_sidebar_container">
+                <script id="promo_sidebar_template" type="x-tmpl-mustache/text">
+                    <li class="side_bar_li">
+                        <a href='{{url}}'>
+                            <div class="thumbnail">                         
+                                <img alt="logo_hopedale" src="{{photo_url_abs}}" />
+                              
+                            </div>
+                        </a>
+                    </li>
+                </script>
+            </ul>
+        </div>
+        <!-- side bar END -->
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        loadMallData(renderAll); 
+    })
+    
+   
+    $(function() { //on DOM ready 
+        $("#scroller").simplyScroll();
+    });    
+    
+     
+    function renderAll(){
+        var promotions = getPromotionsList().sortBy(function(o){ return o.show_on_web_date});
+        var mall_published_promos = [];
+        var store_published_promos = [];
+        var stores = getStoresList();
+        var promotoion_sidebar = getRepoDetailsByName("Promotions Side Bar").images;
+        renderGeneral ("#promo_sidebar_container","#promo_sidebar_template",promotoion_sidebar);
+        renderVendorScroll('#scroller','#scroller_template', stores);
+        $.each(promotions, function(key, val){
+            if(val.promotionable_type == "Property"){
+                today = moment();
+                webDate = moment(val.show_on_web_date)
+                if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone())) {
+                    mall_published_promos.push(val);
+                }
+            } else {
+                today = moment();
+                webDate = moment(val.show_on_web_date)
+                if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone())) {
+                    store_published_promos.push(val);
+                }     
+            } 
+        });
+        if(store_published_promos.length > 0 || mall_published_promos.length > 0 ) {
+            renderPromotions("#mall_promo_container","#mall_promo_template", mall_published_promos);
+            renderPromotions("#store_promo_container","#store_promo_template", store_published_promos);
+            $("#no_promotions").hide();
+        }
+       if (store_published_promos.length <= 0) {
+            
+            $("#store_promo_container").hide();
+        }
+        if (mall_published_promos.length <= 0 ) {
+             $("#mall_promo_container").hide();
+         }
+        show_content();
+    } 
+</script>
