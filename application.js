@@ -235,14 +235,11 @@ function renderStoreListCatetories(container, template, category_list,stores){
                 var store_category = store.categories;
                 var a = store_category.indexOf(category_id);
             }
-            
-            // var store_category = store.categories;
-            // var a = store.categories.indexOf(category_id);
-            
+
             if(a > -1){
                 if (count == 0){
                     store.show  = "display:block"; 
-                }else{
+                } else {
                     store.show  = "display:none"; 
                 }
                 
@@ -264,10 +261,8 @@ function renderStoreListCatetories(container, template, category_list,stores){
                 item_rendered.push(rendered);
                 count += 1;
             }
-            
         });
         category_index += 1;
-    
     });
     $(container).show();
     $(container).html(item_rendered.join(''));
