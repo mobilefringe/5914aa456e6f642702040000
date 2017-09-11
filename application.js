@@ -10,32 +10,31 @@ function renderBanner(banner_template,home_banner,banners){
         start = new Date (val.start_date);
        
         start.setDate(start.getDate());
-       if(val.url == "" || val.url === null){
-           val.css = "style=cursor:default;";
-           val.noLink = "return false";
-       }
-       if (start <= today){
-         if (val.end_date){
-             end = new Date (val.end_date);
-             end.setDate(end.getDate() + 1);
-             if (end >= today){
-               item_list.push(val);  
-             }
-             
-         } else {
-             item_list.push(val);
-         }
-       }
+        if(val.url == "" || val.url === null){
+            val.css = "style=cursor:default;";
+            val.noLink = "return false";
+        }
+        if (start <= today){
+            if (val.end_date){
+                end = new Date (val.end_date);
+                end.setDate(end.getDate() + 1);
+                if (end >= today){
+                    item_list.push(val);  
+                }
+            } else {
+                item_list.push(val);
+            }
+        }
     });
 
     $.each( item_list , function( key, val ) {
         var repo_rendered = Mustache.render(banner_template_html,val);
         item_rendered.push(repo_rendered);
-       
     });
-    $(home_banner).html(item_rendered.join(''));
     
+    $(home_banner).html(item_rendered.join(''));
 }
+
 function renderFeatureItems(container, template, collection){
     var item_list = [];
     var item_rendered = [];
@@ -64,6 +63,7 @@ function renderGeneral(container, template, collection){
     });
     $(container).html(item_rendered.join(''));
 }
+
 function renderVendorScroll(container, template, collection){
     var item_list_temp = [];
     var item_list = [];
