@@ -164,10 +164,10 @@ function renderStoreList(container, template, collection, type){
             
         }
         if(val.categories != null){
-            try{
+            try {
                 val.cat_list = val.categories.join(',');
-            }catch(err){
-                console.log(err)
+            } catch(err) {
+                console.log(err);
             }
         }
         
