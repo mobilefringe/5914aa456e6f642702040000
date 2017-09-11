@@ -2,9 +2,7 @@
     <h3>Address</h3>
     <div id="address_container">
         <script id="address_template" type="x-tmpl-mustache/text">
-            <h4> 
-                {{name}} 
-            </h4>
+            <h4>{{name}} </h4>
         	{{address1}}</br>
         	{{city}}, 
         	{{province}}</br>
@@ -26,7 +24,6 @@
     </div>
     <a name="contact"></a>
     <h1>Contact Us</h1>
-    
     <div class="hidden-phone">
         <div width="100%" role="presentation">
             <div width="50%" style='padding-right:12px; ' height='48px' class='col-md-6'>
@@ -67,12 +64,11 @@
     </div>
     <div class="line_break">&nbsp;</div>
 </div>
-
 <script>
     $(document).ready(function(e){
         init(e);
         loadMallData(renderAll); 
-    })
+    });
     
     function renderAll(){
         var prop_details = getPropertyDetails();
