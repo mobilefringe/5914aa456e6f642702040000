@@ -17,7 +17,7 @@
     
         <div id="disp_holiday_hour">
             <h2>Holiday Hours</h2>        
-            <div  role="presentation"  class="hour_div row-fluid" >
+            <div role="presentation"  class="hour_div row-fluid" >
                 <div id = "h_hours_page_container">                  
                     <script id="h_hours_page_template" type="x-tmpl-mustache/text">
                         <div class="hour_tr">
@@ -45,7 +45,7 @@
         
         var holiday_hours = getPropertyHolidayHours().sortBy(function(o){ return o.holiday_date });
         // if(hours.length > 7){
-            renderHours('#h_hours_page_container','#h_hours_page_template', holiday_hours,'holiday_hours');
+            renderHours('#h_hours_page_container','#h_hours_page_template', holiday_hours, 'holiday_hours');
         // } else {
             // $("#disp_holiday_hour").hide();
         // }
