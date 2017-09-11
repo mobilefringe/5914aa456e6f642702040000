@@ -1,0 +1,59 @@
+<div class="container-fluid trim_screen" style="padding-top:25px;">    
+    
+<div clas="col-md-12 row-fluid">
+    <h1>South Oakville Centre Hours</h1>
+    
+    <h2 >Regular Hours</h2>
+    <div role="presentation"  class="hour_div row-fluid ">
+        <div id = "hours_page_container" >                  
+            <script id="hours_page_template" type="x-tmpl-mustache/text">
+                <div class="hour_tr ">
+                    <div class="col-md-5 hour_td" align="left"><strong>{{day}}</strong></div>
+                    <div class="col-md-7 hour_td" align="left" >{{h}}</div>
+                </div>
+            </script>
+        </div>
+    </div>
+    <div class="line_break span12">&nbsp;</div>
+    
+    <div id="disp_holiday_hour">
+   <h2>
+        Holiday Hours 
+    </h2>        
+    <div  role="presentation"  class="hour_div row-fluid" >
+    
+        <div id = "h_hours_page_container">                  
+            <script id="h_hours_page_template" type="x-tmpl-mustache/text">
+                <div class="hour_tr">
+                    <div class="col-md-5 hour_td" align="left"><strong>{{holiday_name}}</strong></div>
+                    <div class="col-md-7 hour_td" align="left">{{h}}</div>
+                </div>
+            </script>
+        </div>
+    </div>
+    </div>
+</div>
+
+<div class="line_break span12">&nbsp;</div>
+<div class="line_break span12">&nbsp;</div>
+
+</div>
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        loadMallData(renderAll); 
+    })
+    
+    function renderAll(){
+        var hours = getPropertyHours();
+        renderHours('#hours_page_container','#hours_page_template',hours,'reg_hours');
+        if(hours.length > 7){
+            renderHours('#h_hours_page_container','#h_hours_page_template',hours,'holiday_hours');
+        } else {
+            $("#disp_holiday_hour").hide();
+        }
+        
+        show_content();
+    }
+</script>
