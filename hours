@@ -43,6 +43,7 @@
         renderHours('#hours_page_container','#hours_page_template', hours,'reg_hours');
         
         var holiday_hours = getPropertyHolidayHours().sortBy(function(o){ return o.holiday_date });
+        console.log(holiday_hours)
         if(holiday_hours != null){
             renderHours('#h_hours_page_container','#h_hours_page_template', holiday_hours, 'holiday_hours');
         } else {
