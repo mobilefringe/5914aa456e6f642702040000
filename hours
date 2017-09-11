@@ -45,7 +45,7 @@
         
         var holiday_hours = getPropertyHolidayHours().sortBy(function(o){ return o.holiday_date });
         // if(hours.length > 7){
-            renderHours('#h_hours_page_container','#h_hours_page_template',hours,'holiday_hours');
+            renderHours('#h_hours_page_container','#h_hours_page_template', holiday_hours,'holiday_hours');
         // } else {
             $("#disp_holiday_hour").hide();
         // }
