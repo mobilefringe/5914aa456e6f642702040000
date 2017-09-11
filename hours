@@ -46,13 +46,15 @@
     })
     
     function renderAll(){
-        var hours = getPropertyHours();
-        renderHours('#hours_page_container','#hours_page_template',hours,'reg_hours');
-        if(hours.length > 7){
+        var hours = getPropertyRegularHours();
+        renderHours('#hours_page_container','#hours_page_template', hours,'reg_hours');
+        
+        var holiday_hours = getPropertyHolidayHours().sortBy(function(o){ return o.holiday_date });
+        // if(hours.length > 7){
             renderHours('#h_hours_page_container','#h_hours_page_template',hours,'holiday_hours');
-        } else {
+        // } else {
             $("#disp_holiday_hour").hide();
-        }
+        // }
         
         show_content();
     }
