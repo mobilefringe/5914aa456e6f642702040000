@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta property="og:title" content="{{meta_title}}">
+        <meta property="og:description" content="{{meta_description}}">
+        <meta property="og:image" content="{{meta_image}}">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="{{meta_description}}">
+        <meta name="keywords" content="{{meta_keywords}}">
+        <meta name="author" content="">
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,initial-scale=1">
+        <title>{{meta_title}}</title>
+         
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            
+            ga('create', 'UA-40014802-42', 'auto');
+            ga('send', 'pageview');
+        </script>
+        
+        <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: //bootswatch.com/flatly/ -->
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+        
+        <!-- Custom Fonts -->
+        
+        
+        <!-- Custom CSS -->
+        <link href="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/flexslider.css" rel="stylesheet">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="../application.css" rel="stylesheet">
+        <link href="/site.css" rel="stylesheet">        
+        
+        <!-- js-->
+        <!-- jQuery Version 1.11.0 -->
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/jquery.flexslider.js"></script>
+        <script src="//codecloud.cdn.speedyrails.net/sites/5639075d6e6f647b9f020000/text/javascript/1446569669000/instafeed.min.js"></script>
+        <script src="//www.google.com/recaptcha/api.js"></script>
+        <script src="//codecloud.cdn.speedyrails.net/sites/579231876e6f6467cf000000/application/x-javascript/1468507772000/moment.min.js"></script>
+        <script src="//codecloud.cdn.speedyrails.net/sites/579231876e6f6467cf000000/application/x-javascript/1468507661000/moment-timezone-with-data.min.js"></script>
+        <script src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/text/javascript/1495735328000/jquery.simplyscroll.js"></script>
+        
+        <!--MallMaverick SDK-->
+        <script src="//mallmaverick.codecloudapp.com/mallmaverick_v4.js"></script>
+        <script src="//mallmaverick.codecloudapp.com/mustache_mallmaverick.js?v=0.3"></script>
+        
+        <script src="../application.js" type="text/javascript"></script>
+        <script src="../helpers.js" type="text/javascript"></script>
+        
+        <script>
+            setEndPoint('//soc.mallmaverick.com/api/v4/soc/all.json');
+        </script>
+    </head>
+
+    <body>
+        <header>
+            <!--Header -->
+            <div class="header">
+                <!-- iphone header -->
+                <div class="mobile_header visible-phone top_nav row-fluid" >        
+                    <li class="dropdown custom_dropdown">
+                        <button type="button" data-toggle="dropdown" class="pull-right menu_btn" style="background-color:none;padding:10px 0 0; border:none">
+                            <img alt="dropdown menu" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494532597000/btn_menu_red.png" />
+                        </button>
+                        <ul class="dropdown-menu bottom pull-right" style="width:100%;left:0%;margin-top:55px">                
+                            <div class="arrow" style="left:93%"></div>
+                            <div class="mobile_menu_header" style="margin-left:5px;margin-right:5px;">
+                                <a href='/stores' >Stores </a>
+                  			</div>
+                  			
+                			<div class="mobile_menu_header" style="margin-left:5px;margin-right:5px;">
+                                <a href='' >What's New </a>
+                  			</div>
+                					
+                			<div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
+                            	<a href='/new_stores'>New Stores</a>
+                  			</div>
+                					
+                			<div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
+                            	<a href='/promotions'>Promotions</a>
+                  			</div>
+                					
+                			<div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
+                            	<a href='/events'>Events</a>
+                  			</div>
+                					
+                		 	<div class="mobile_menu_header" style="margin-left:5px;margin-right:5px;">
+                                <a href='' >About Us </a>
+                  			</div>
+                					
+                			<div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
+                                <a href='/hours'>Hours</a>
+                  			</div>
+                					
+                			<div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
+                                <a href='/about'>Directions</a>
+                  			</div>
+                					
+                		    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
+                                <a href='/about#contact'>Contact Us</a>
+                  			</div>
+                					
+                			<div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
+                            	<a href='http://www.callowayreit.com/Home-Page'>Smart REIT</a>
+                  			</div>
+                		</ul>
+                    </li>
+                    <a id="mobile_logo" href="/">
+                        <img alt="Logo" src= "//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494532252000/logo_hopedale.png" />
+                    </a>
+                </div>
+                <!-- iphone header END -->
+                
+                <!-- Home page header -->
+                <div class="top_nav hidden-phone custom_dropdown full_header" id="home_header">
+                    <div class="container-fluid trim_screen">              
+                        <div class="row-fluid" id="site_nav">      
+                            <a id="centre_logo" href="/">
+                                <img alt="Site Logo" src= "//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494532252000/logo_hopedale.png" />
+                            </a>
+                            <div class="social_hours hidden-phone">
+                                <!-- hours --> 
+                                <span style="position:relative">
+                                    <button class="btn dropdown_btn" data-toggle="dropdown">
+                                        <img alt="Menu" class="pull-left" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494531473000/icon_hours.png" />
+                                        Today 
+                                        <span id="home_hours_container">
+                                            <script id="home_hours_template" type="x-tmpl-mustache/text">
+                                                {%raw%}{{h}}{%endraw%}
+                                            </script>
+                                        </span>
+                                        <span class="caret pull-right"></span>    
+                                    </button>
+                                    
+                                    <div class="dropdown-menu bottom hour_dropdown" style="top:30px;" >
+                                        <div id = "hours_container">
+                                            <script id="hours_template" type="x-tmpl-mustache/text">
+                                                {%raw%}
+                                                    <div class="{{show_class}} row">
+                                                            <div class="col-sm-4" align="left" style="font-weight:bold;">
+                                                                <p>{{day}}</p>
+                                                            </div>
+                                                            <div class="col-sm-8" align="right"><p>{{h}}</p></div>
+                                            		</div>
+                                            	{%endraw%}
+                                        	</script>
+                                    	</div>
+                                    </div>
+                                </span>
+                                <!-- hours END --> 
+                            </div>
+                            <ul class="nav_menu">
+                                <li class="dropdown span2">                        
+                                    <a href="/stores" class="btn-nav">Stores</a>
+                                </li>
+                                
+                                <li class="dropdown span2">
+                                    <a class="btn-nav" data-toggle="dropdown">What's New</a>                         
+                                        
+                                    <ul class="dropdown-menu bottom" style="left:-60%">
+                                        <div class="arrow" style=""></div>
+                                        <li>
+                                            <a href='/new_stores' target='_self'>
+                                                <span>New Stores</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href='/promotions' target='_self'>
+                                                <span>Promotions</span>
+                                            </a>
+                                        </li>
+                                         <li>
+                                            <a href='/events' target='_self'>
+                                                <span>Events</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>  
+                                <li class="dropdown span2">
+                                    <a class="btn-nav" data-toggle="dropdown">About Us</a>                         
+                                    <ul class="dropdown-menu bottom" style="left:-50%">
+                                        <div class="arrow" style=""></div>
+                                        <li>
+                                            <a href='/hours' target='_self'>
+                                                <span>Hours</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href='/about' target='_self'>
+                                                <span>Directions</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href='/about#contact' target='_self'>
+                                                <span>Contact Us</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href='http://www.callowayreit.com/Home-Page' target='_blank'>
+                                                <span>Smart REIT</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>  
+                            </ul>
+                        </div>  
+            		</div>  
+            	</div>
+            </div>    
+        </header>
+        <section id="content">
+            <!--Pages that use this file as a layout will have their content replaced in the 'yield'-->
+            {{yield}}
+        </section>
+        <footer>
+            <div class="line_break">&nbsp;</div>
+            <!--Bottom Nav Dynamic-->
+            <div class="bottom_nav hidden-phone">
+            	<div class="container-fluid trim_screen">
+            		<div class="row-fluid" align="left">
+            			 <div class="span3">
+                            <table role='presentation'>
+                                <tr>
+            						<td align="left" class="bottom_nav_header">
+                                        <a href="/stores">Stores</a>                                
+                                    </td>
+            					</tr>
+            				</table>
+            			</div>					
+                        			            
+                        <div class="span3">
+                            <table role='presentation'>
+                                <tr>
+            						<td align="left" class="bottom_nav_header">
+                                        What's New
+                                    </td>
+            					</tr>
+            					<tr>
+                					<td align="left" class="bottom_nav_list">
+                					    <a href='/new_stores' target='_self'>New Stores</a>
+                					</td>
+            					</tr>
+            					<tr>
+            						<td align="left" class="bottom_nav_list">
+            							<a href='/promotions' target='_self'>Promotions</a>
+            						</td>
+            					</tr>
+            					<tr>
+            						<td align="left" class="bottom_nav_list">
+            							<a href='/events' target='_self'>Events</a>
+            						</td>
+            					</tr>
+            				</table>
+            			</div>					
+                        			            
+                        <div class="span3">
+                            <table role='presentation'>
+                                <tr>
+            						<td align="left" class="bottom_nav_header">
+                                        About Us
+                                    </td>
+            					</tr>
+            					<tr>
+            						<td align="left" class="bottom_nav_list">
+            							<a href='/hours' target='_self'>Hours</a>
+            						</td>
+            					</tr>
+            					<tr>
+            						<td align="left" class="bottom_nav_list">
+            							<a href='/about' target='_self'>Directions</a>
+            						</td>
+            					</tr>
+            					<tr>
+            						<td align="left" class="bottom_nav_list">
+            							<a href='/about#contact' target='_self'>Contact Us</a>
+            						</td>
+            					</tr>
+            					<tr>
+            						<td align="left" class="bottom_nav_list">
+            							<a href='http://www.callowayreit.com/Home-Page' target='_blank'>Smart REIT</a>
+            						</td>
+            					</tr>
+            				</table>
+            			</div>					
+                    </div>
+            	</div>
+            </div>
+            <!--Footer -->
+            <div class="footer">
+            	<div class="container-fluid trim_screen">
+            		<div class="row-fluid">
+            		  	<div class="span12">
+                            <p class="footer_text">
+                                Hopedale Mall,  All rights reserved &copy; 2017 | Powered by <a href="http://www.mobilefringe.com/">Mobile Fringe</a> 
+                            </p>              
+                        </div>				
+            		</div>
+            	</div>
+            </div>
+        </footer>
+    </body>
+</html>
