@@ -47,7 +47,7 @@
         // if(hours.length > 7){
             renderHours('#h_hours_page_container','#h_hours_page_template', holiday_hours,'holiday_hours');
         // } else {
-            $("#disp_holiday_hour").hide();
+            // $("#disp_holiday_hour").hide();
         // }
         
         show_content();
