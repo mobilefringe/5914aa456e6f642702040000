@@ -27,14 +27,9 @@
     <div class="hidden-phone">
         <div width="100%" role="presentation">
             <div width="50%" style='padding-right:12px; ' height='48px' class='col-md-6'>
-                <div id="property_phone_container">
-                    <script id="property_phone_template" type="x-tmpl-mustache/text">
-                        <button class="btn-prime">
-                            <img alt="Icon_phone" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533467000/icon_phone-858ac781839093c66ff29e5658a7d9ad.png" style="height:20px;width20px;padding-right:15px;padding-top:2px;padding-left:0px" />
-                            <span>{{phone}}</span>
-                        </button>
-                    </script>
-                </div>
+                <button class="btn-prime">
+                    <img alt="Icon_phone" src="//codecloud.cdn.speedyrails.net/sites/5914aa456e6f642702040000/image/png/1494533467000/icon_phone-858ac781839093c66ff29e5658a7d9ad.png" style="height:20px;width20px;padding-right:15px;padding-top:2px;padding-left:0px" />
+                </button>
             </div>
             <div width="50%" style='padding-right:12px; ' height='48px' class='col-md-6'>
                 <button class="btn-prime" onClick="window.location.href='mailto:?subject=South Oakville Centre'">
@@ -77,10 +72,8 @@
     
     function renderAll(){
         var prop_details = getPropertyDetails();
-        console.log(prop_details)
         renderPropertyDetails('#address_container','#address_template',prop_details);
         renderPropertyDetails('#contact_us_container','#contact_us_template',prop_details);
-        renderPropertyDetails("#property_phone_container", "#property_phone_template", prop_details)
         var slug = "soc-contact-us";
         prefix = get_prefix();
         var pages_json = prefix + "/pages/" + slug + ".json"
