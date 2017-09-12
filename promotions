@@ -90,8 +90,8 @@
         var store_published_promos = [];
         var stores = getStoresList();
         console.log(stores)
-        // var promotoion_sidebar = getRepoDetailsByName("Promotions Side Bar").images;
-        // renderGeneral ("#promo_sidebar_container","#promo_sidebar_template",promotoion_sidebar);
+        var promotoion_sidebar = getRepoDetailsByName("Promotions Side Bar").images;
+        renderGeneral ("#promo_sidebar_container","#promo_sidebar_template",promotoion_sidebar);
         renderVendorScroll('#scroller','#scroller_template', stores);
         $.each(promotions, function(key, val){
             if(val.promotionable_type == "Property"){
