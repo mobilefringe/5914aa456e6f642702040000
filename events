@@ -16,7 +16,7 @@
             <div class="line_break">&nbsp;</div>
         </scirpt>
     </div>
-    <div class="store_desc" id="no_events">
+    <div class="store_desc hidden_now" id="no_events">
         <h3>
             Currently we have no Events, but check back soon!
         </h3>
@@ -42,9 +42,9 @@
         });
         if(published_events.length > 0) {
             renderEvents("#events_container","#events_template",published_events);
-            $('#no_events').hide();
-        } else {
             $('#events_container').hide();
+        } else {
+            $('#no_events').show();
         }
  
         show_content();
