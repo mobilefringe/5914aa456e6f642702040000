@@ -20,6 +20,7 @@ function init(e){
 	
 	var today_hours = getTodaysHours();
     var hours = getPropertyRegularHours();
+    console.log(hours)
     renderHomeHours('#homem_hours_container', '#homem_hours_template', today_hours);
     renderHomeDropdownHours('#hours_container', '#hours_template', hours, 'reg_hours');
 }
