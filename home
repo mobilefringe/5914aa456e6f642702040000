@@ -80,14 +80,13 @@
     $(document).ready(function(e){
         init(e);
         loadMallData(renderAll); 
-        
     });
     
     (function($) {
         $(function() { //on DOM ready 
             $("#scroller").simplyScroll();
         });    
-     })(jQuery); 
+    })(jQuery); 
     
     function renderAll(){
         var banners = getBanners();
