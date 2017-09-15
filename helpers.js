@@ -22,7 +22,7 @@ function init(e){
     var hours = getPropertyRegularHours();
     console.log(hours)
     renderHomeHours('#homem_hours_container', '#homem_hours_template', today_hours);
-    renderHomeDropdownHours('#hours_container', '#hours_template', hours, 'reg_hours');
+    renderHomeDropdownHours('#hours_container', '#hours_template', hours);
 }
 
 function show_content(){
