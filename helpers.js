@@ -33,7 +33,7 @@ function show_content(){
         $('.panel-collapse').removeClass('in')
     }
     var today_hours = getTodaysHours();
-    var hours = getPropertyHours();
+    var hours = getPropertyRegularHours();
     renderHomeHours('#home_hours_container', '#home_hours_template', today_hours);
     renderHomeDropdownHours('#hours_container', '#hours_template', hours, 'reg_hours');
 }
