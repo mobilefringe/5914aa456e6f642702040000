@@ -42,7 +42,7 @@
         });
         if(published_events.length > 0) {
             renderEvents("#events_container","#events_template",published_events);
-            $('#events_container').hide();
+            $('#events_container').show();
         } else {
             $('#no_events').show();
         }
