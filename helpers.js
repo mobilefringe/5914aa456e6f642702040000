@@ -17,6 +17,11 @@ function init(e){
 	$('.accordion_header').click(function(e){
         $(this).find('i').toggleClass('fa-caret-down fa-caret-up');
 	});
+	
+	var today_hours = getTodaysHours();
+    var hours = getPropertyRegularHours();
+    renderHomeHours('#homem_hours_container', '#homem_hours_template', today_hours);
+    renderHomeDropdownHours('#menu_hours_container', '#menu_hours_template', hours, 'reg_hours');
 }
 
 function show_content(){
