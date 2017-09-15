@@ -144,7 +144,7 @@
                                         <div id="hours_container">
                                             <script id="hours_template" type="x-tmpl-mustache/text">
                                                 {%raw%}
-                                                <div class=" row">
+                                                <div class="{{show_class}} row">
                                                     <div class="col-sm-4" align="left" style="font-weight:bold;">
                                                         <p>{{day}}</p>
                                                     </div>
