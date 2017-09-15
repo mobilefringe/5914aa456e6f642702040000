@@ -741,7 +741,7 @@ function renderHomeDropdownHours(container, template, collection){
     var today_hours = getTodaysHours().day_of_week;
     var template_html = $(template).html();
     Mustache.parse(template_html);   // optional, speeds up future uses
-    if (type == "reg_hours") {
+    // if (type == "reg_hours") {
         $.each( collection , function( key, val ) {
             if (!val.store_id && val.is_holiday == false) {
                 switch(val.day_of_week) {
@@ -785,7 +785,7 @@ function renderHomeDropdownHours(container, template, collection){
         });
         collection = [];
         collection = item_list;
-    }
+    // }
     
     $.each( collection , function( key, val ) {
         var rendered = Mustache.render(template_html,val);
