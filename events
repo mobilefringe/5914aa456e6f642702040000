@@ -44,7 +44,7 @@
             renderEvents("#events_container","#events_template",published_events);
             $('#events_container').hide();
         } else {
-            $('#no_events').show();
+            // $('#no_events').show();
         }
  
         show_content();
