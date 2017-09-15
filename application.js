@@ -742,7 +742,7 @@ function renderHomeDropdownHours(container, template, collection, type){
     var template_html = $(template).html();
     
     Mustache.parse(template_html);   // optional, speeds up future uses
-    if (type == "reg_hours") {
+    // if (type == "reg_hours") {
         $.each( collection , function( key, val ) {
             if (!val.store_id && val.is_holiday == false) {
                 switch(val.day_of_week) {
@@ -778,8 +778,7 @@ function renderHomeDropdownHours(container, template, collection, type){
                 
                 if(val.day_of_week == today_hours) {
                     val.show_class= 'drop-down-row-today';
-                }
-                else {
+                } else {
                     val.show_class = 'drop-down-row';
                 }
                 item_list.push(val);
@@ -787,7 +786,7 @@ function renderHomeDropdownHours(container, template, collection, type){
         });
         collection = [];
         collection = item_list;
-    }
+    // }
     
     $.each( collection , function( key, val ) {
         var rendered = Mustache.render(template_html,val);
