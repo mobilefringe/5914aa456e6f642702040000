@@ -91,7 +91,7 @@
         var stores = getStoresList();
         var promotion_sidebar = getRepoDetailsByName("Promotions Side Bar").images;
         console.log(promotion_sidebar)
-        renderGeneral ("#promo_sidebar_container","#promo_sidebar_template",promotoion_sidebar);
+        renderGeneral ("#promo_sidebar_container","#promo_sidebar_template", promotion_sidebar);
         renderVendorScroll('#scroller','#scroller_template', stores);
         $.each(promotions, function(key, val){
             if(val.promotionable_type == "Property"){
