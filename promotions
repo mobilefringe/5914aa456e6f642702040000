@@ -88,11 +88,6 @@
         var promotions = getPromotionsList().sortBy(function(o){ return o.show_on_web_date});
         var mall_published_promos = [];
         var store_published_promos = [];
-        var stores = getStoresList();
-        var promotion_sidebar = getRepoDetailsByName("Promotions Side Bar").images;
-        console.log(promotion_sidebar)
-        renderGeneral ("#promo_sidebar_container","#promo_sidebar_template", promotion_sidebar);
-        renderVendorScroll('#scroller','#scroller_template', stores);
         $.each(promotions, function(key, val){
             if(val.promotionable_type == "Property"){
                 today = moment();
@@ -121,6 +116,11 @@
         if (mall_published_promos.length <= 0 ) {
             $("#mall_promo_container").hide();
         }
+        
+        var stores = getStoresList();
+        renderVendorScroll('#scroller','#scroller_template', stores);
+        var promotion_sidebar = getRepoDetailsByName("Promotions Side Bar").images;
+        renderGeneral ("#promo_sidebar_container","#promo_sidebar_template", promotion_sidebar);
         
         show_content();
     } 
