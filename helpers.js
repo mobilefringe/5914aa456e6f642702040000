@@ -17,12 +17,6 @@ function init(e){
 	$('.accordion_header').click(function(e){
         $(this).find('i').toggleClass('fa-caret-down fa-caret-up');
 	});
-	
-// 	var today_hours = getTodaysHours();
-//     var hours = getPropertyRegularHours();
-//     console.log(hours)
-//     renderHomeHours('#homem_hours_container', '#homem_hours_template', today_hours);
-//     renderHomeDropdownHours('#hours_container', '#hours_template', hours);
 }
 
 function show_content(){
@@ -33,8 +27,8 @@ function show_content(){
         $('.panel-collapse').removeClass('in')
     }
     var today_hours = getTodaysHours();
-    var hours = getPropertyRegularHours();
     renderHomeHours('#home_hours_container', '#home_hours_template', today_hours);
+    var hours = getPropertyRegularHours();
     renderHomeDropdownHours('#hours_container', '#hours_template', hours, 'reg_hours');
 }
 
