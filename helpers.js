@@ -18,11 +18,11 @@ function init(e){
         $(this).find('i').toggleClass('fa-caret-down fa-caret-up');
 	});
 	
-	var today_hours = getTodaysHours();
-    var hours = getPropertyRegularHours();
-    console.log(hours)
-    renderHomeHours('#homem_hours_container', '#homem_hours_template', today_hours);
-    renderHomeDropdownHours('#hours_container', '#hours_template', hours);
+// 	var today_hours = getTodaysHours();
+//     var hours = getPropertyRegularHours();
+//     console.log(hours)
+//     renderHomeHours('#homem_hours_container', '#homem_hours_template', today_hours);
+//     renderHomeDropdownHours('#hours_container', '#hours_template', hours);
 }
 
 function show_content(){
