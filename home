@@ -80,25 +80,29 @@
     $(document).ready(function(e){
         init(e);
         loadMallData(renderAll); 
+        
     });
     
     (function($) {
         $(function() { //on DOM ready 
             $("#scroller").simplyScroll();
         });    
-    })(jQuery); 
+     })(jQuery); 
     
     function renderAll(){
+        var banners = getBanners();
+        var feature_items = getFeatureList();
+        var today_hours = getTodaysHours();
+        var hours = getPropertyRegularHours();
         var stores = getStoresList();
         renderVendorScroll('#scroller','#scroller_template', stores);
-        var banners = getBanners();
-        renderBanner('#banner_template','#home_banner', banners);
-        var feature_items = getFeatureList();
+        renderBanner('#banner_template','#home_banner',banners);
         renderFeatureItems('#feature_container', '#feature_template', feature_items);
-     
+        renderHomeHours('#homem_hours_container', '#homem_hours_template', today_hours);
+        renderHomeDropdownHours('#menu_hours_container', '#menu_hours_template', hours, 'reg_hours');
         show_content();
         $('.flexslider').flexslider({
-            animation: "slide",
+                animation: "slide",
         });
         $('.flex-next').html("");
     }
