@@ -89,12 +89,11 @@
     })(jQuery); 
     
     function renderAll(){
-        var banners = getBanners();
-        var feature_items = getFeatureList();
-        
         var stores = getStoresList();
         renderVendorScroll('#scroller','#scroller_template', stores);
-        renderBanner('#banner_template','#home_banner',banners);
+        var banners = getBanners();
+        renderBanner('#banner_template','#home_banner', banners);
+        var feature_items = getFeatureList();
         renderFeatureItems('#feature_container', '#feature_template', feature_items);
      
         show_content();
