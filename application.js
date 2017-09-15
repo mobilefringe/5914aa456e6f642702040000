@@ -740,7 +740,7 @@ function renderHomeDropdownHours(container, template, collection){
     var item_rendered = [];
     var today_hours = getTodaysHours().day_of_week;
     var template_html = $(template).html();
-    
+    console.log(collection)
     Mustache.parse(template_html);   // optional, speeds up future uses
     // if (type == "reg_hours") {
         $.each( collection , function( key, val ) {
