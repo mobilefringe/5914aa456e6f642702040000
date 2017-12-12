@@ -17,6 +17,10 @@ function init(e){
 	$('.accordion_header').click(function(e){
         $(this).find('i').toggleClass('fa-caret-down fa-caret-up');
 	});
+	
+	//dynamically changing copyright year
+var current_year = moment().year();
+$("#current_year").text(current_year);
 }
 
 function show_content(){
